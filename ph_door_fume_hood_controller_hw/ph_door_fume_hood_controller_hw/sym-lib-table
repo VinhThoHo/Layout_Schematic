@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name master-node-rescue)(type Legacy)(uri ${KIPRJMOD}/master-node-rescue.lib)(options "")(descr ""))
+  (lib (name stm32_st7920_lcd_hw-rescue)(type Legacy)(uri ${KIPRJMOD}/stm32_st7920_lcd_hw-rescue.lib)(options "")(descr ""))
+  (lib (name stm32_oled_soldering_hw-rescue)(type Legacy)(uri ${KIPRJMOD}/stm32_oled_soldering_hw-rescue.lib)(options "")(descr ""))
+  (lib (name ph_door_fume_hood_controller_hw-rescue)(type Legacy)(uri ${KIPRJMOD}/ph_door_fume_hood_controller_hw-rescue.lib)(options "")(descr ""))
+)

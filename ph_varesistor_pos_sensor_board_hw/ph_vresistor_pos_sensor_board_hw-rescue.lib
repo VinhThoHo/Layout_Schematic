@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TL431-nhantt-kicad-lib
+#
+DEF TL431-nhantt-kicad-lib D 0 40 N N 1 F N
+F0 "D" 100 0 50 V V C CNN
+F1 "TL431-nhantt-kicad-lib" -100 0 50 V V C CNN
+F2 "nhantt-kicad-lib:TO-92_Molded_Wide" 0 -100 50 V I C CNN
+F3 "" 100 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -75 25 N
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 -50 0 50 N
+P 2 0 1 0 50 50 75 75 N
+P 4 0 1 8 -50 -50 50 -50 0 50 -50 -50 F
+X R 1 -200 0 200 R 50 50 1 1 I
+X A 2 0 -150 100 U 50 50 1 1 P
+X K 3 0 150 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

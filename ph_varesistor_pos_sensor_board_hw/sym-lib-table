@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ph_vresistor_pos_sensor_board_hw-rescue)(type Legacy)(uri ${KIPRJMOD}/ph_vresistor_pos_sensor_board_hw-rescue.lib)(options "")(descr ""))
+)
