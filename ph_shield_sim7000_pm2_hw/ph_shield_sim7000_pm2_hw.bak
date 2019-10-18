@@ -1440,42 +1440,6 @@ F 3 "" H 8075 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8075 4350 8300 4350
-$Comp
-L ph_shield_sim7000_pm2_hw-rescue:+3V3-PH_LIB #PWR0162
-U 1 1 5E27379F
-P 1050 5625
-F 0 "#PWR0162" H 1050 5475 50  0001 C CNN
-F 1 "+3V3" H 1065 5798 50  0000 C CNN
-F 2 "" H 1050 5625 50  0001 C CNN
-F 3 "" H 1050 5625 50  0001 C CNN
-	1    1050 5625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 5625 1050 5675
-Wire Wire Line
-	1050 5675 900  5675
-$Comp
-L ph_shield_sim7000_pm2_hw-rescue:GND-PH_LIB #PWR0163
-U 1 1 5E28A4B9
-P 1000 5775
-F 0 "#PWR0163" H 1000 5525 50  0001 C CNN
-F 1 "GND" H 1005 5610 39  0000 C CNN
-F 2 "" H 1000 5775 50  0001 C CNN
-F 3 "" H 1000 5775 50  0001 C CNN
-	1    1000 5775
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1000 5775 900  5775
-Wire Wire Line
-	900  5875 1325 5875
-Wire Wire Line
-	900  5975 1325 5975
-Text Label 1325 5975 2    50   ~ 0
-3V3_TX
-Text Label 1325 5875 2    50   ~ 0
-3V3_RX
 Text Label 2050 5700 2    50   ~ 0
 3V3_RTS
 Wire Wire Line
@@ -1492,10 +1456,6 @@ Text Label 2050 6000 2    50   ~ 0
 3V3_DCD
 Wire Wire Line
 	1700 6000 2050 6000
-Wire Wire Line
-	900  6075 1325 6075
-Text Label 1325 6075 2    50   ~ 0
-3V3_RI
 Wire Wire Line
 	5775 1000 5775 1075
 Wire Wire Line
@@ -1580,8 +1540,8 @@ U 1 1 5E5B75D2
 P 6075 650
 F 0 "AE1" H 6215 691 50  0000 L CNN
 F 1 "Antenna_Shield" H 6215 600 50  0000 L CNN
-F 2 "" H 6075 750 50  0001 C CNN
-F 3 "~" H 6075 750 50  0001 C CNN
+F 2 "VinhTho_Lib:Anten_GSM_IPEX" H 6075 750 50  0001 C CNN
+F 3 "https://hshop.vn/products/dau-noi-ipex-2" H 6075 750 50  0001 C CNN
 	1    6075 650 
 	1    0    0    -1  
 $EndComp
@@ -1591,7 +1551,7 @@ U 1 1 5E4A2143
 P 7075 875
 F 0 "AE2" H 7215 916 50  0000 L CNN
 F 1 "Antenna_Shield" H 7215 825 50  0000 L CNN
-F 2 "" H 7075 975 50  0001 C CNN
+F 2 "VinhTho_Lib:Anten_GPS" H 7075 975 50  0001 C CNN
 F 3 "~" H 7075 975 50  0001 C CNN
 	1    7075 875 
 	1    0    0    -1  
@@ -1602,8 +1562,8 @@ U 1 1 5E569EF6
 P 7800 1625
 F 0 "AE3" H 7880 1616 50  0000 L CNN
 F 1 "Antenna" H 7880 1525 50  0000 L CNN
-F 2 "" H 7800 1625 50  0001 C CNN
-F 3 "~" H 7800 1625 50  0001 C CNN
+F 2 "VinhTho_Lib:Anten_GSM_IPEX" H 7800 1625 50  0001 C CNN
+F 3 "https://hshop.vn/products/dau-noi-ipex-2" H 7800 1625 50  0001 C CNN
 	1    7800 1625
 	1    0    0    -1  
 $EndComp
@@ -1624,7 +1584,7 @@ U 1 1 5DAA97DB
 P 7325 2100
 F 0 "L2" H 7378 2146 50  0000 L CNN
 F 1 "L" H 7378 2055 50  0000 L CNN
-F 2 "" H 7325 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7325 2100 50  0001 C CNN
 F 3 "~" H 7325 2100 50  0001 C CNN
 	1    7325 2100
 	1    0    0    -1  
@@ -1635,7 +1595,7 @@ U 1 1 5E489033
 P 8825 1550
 F 0 "AE4" H 8965 1591 50  0000 L CNN
 F 1 "Antenna_Shield" H 8965 1500 50  0000 L CNN
-F 2 "" H 8825 1650 50  0001 C CNN
+F 2 "VinhTho_Lib:Anten_GPS" H 8825 1650 50  0001 C CNN
 F 3 "~" H 8825 1650 50  0001 C CNN
 	1    8825 1550
 	1    0    0    -1  
@@ -1650,17 +1610,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 1025 50  0
 F 3 "https://thegioiic.com/products/fbmh2012hm800-t-ferrite-bead-80-ohm-0805" H 5350 1025 50  0001 C CNN
 	1    5400 1025
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 5E2D104D
-P 700 5875
-F 0 "J2" H 620 6292 50  0000 C CNN
-F 1 "Conn_01x05" H 620 6201 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 700 5875 50  0001 C CNN
-F 3 "~" H 700 5875 50  0001 C CNN
-	1    700  5875
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J3
@@ -1702,7 +1651,7 @@ P 6200 6300
 F 0 "D9" V 6154 6379 50  0000 L CNN
 F 1 "ESD" V 6245 6379 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6200 6300 50  0001 C CNN
-F 3 "~" H 6200 6300 50  0001 C CNN
+F 3 "https://banlinhkien.com/psd12c-sod323-diode-tvs-k-p6646405.html" H 6200 6300 50  0001 C CNN
 	1    6200 6300
 	1    0    0    -1  
 $EndComp
@@ -1713,7 +1662,7 @@ P 6200 6525
 F 0 "D10" V 6154 6604 50  0000 L CNN
 F 1 "ESD" V 6245 6604 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6200 6525 50  0001 C CNN
-F 3 "~" H 6200 6525 50  0001 C CNN
+F 3 "https://banlinhkien.com/psd12c-sod323-diode-tvs-k-p6646405.html" H 6200 6525 50  0001 C CNN
 	1    6200 6525
 	1    0    0    -1  
 $EndComp
@@ -1735,7 +1684,7 @@ P 5400 6575
 F 0 "D8" V 5354 6654 50  0000 L CNN
 F 1 "ESD" V 5445 6654 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5400 6575 50  0001 C CNN
-F 3 "~" H 5400 6575 50  0001 C CNN
+F 3 "https://banlinhkien.com/psd12c-sod323-diode-tvs-k-p6646405.html" H 5400 6575 50  0001 C CNN
 	1    5400 6575
 	-1   0    0    1   
 $EndComp
@@ -1751,23 +1700,12 @@ F 3 "~" H 1375 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C4
-U 1 1 5DF25B26
-P 2300 3725
-F 0 "C4" H 2415 3771 50  0000 L CNN
-F 1 "100nF" H 2415 3680 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2338 3575 50  0001 C CNN
-F 3 "~" H 2300 3725 50  0001 C CNN
-	1    2300 3725
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 5DE5F091
 P 1100 4700
 F 0 "R1" V 893 4700 50  0000 C CNN
 F 1 "47k" V 984 4700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1030 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1030 4700 50  0001 C CNN
 F 3 "~" H 1100 4700 50  0001 C CNN
 	1    1100 4700
 	0    1    1    0   
@@ -1778,7 +1716,7 @@ U 1 1 5DE4DEB7
 P 2325 4700
 F 0 "R2" V 2118 4700 50  0000 C CNN
 F 1 "47k" V 2209 4700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2255 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2255 4700 50  0001 C CNN
 F 3 "~" H 2325 4700 50  0001 C CNN
 	1    2325 4700
 	0    1    1    0   
@@ -1801,7 +1739,7 @@ P 3950 5075
 F 0 "D6" V 3904 5154 50  0000 L CNN
 F 1 "ESD" V 3995 5154 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3950 5075 50  0001 C CNN
-F 3 "~" H 3950 5075 50  0001 C CNN
+F 3 "https://banlinhkien.com/psd12c-sod323-diode-tvs-k-p6646405.html" H 3950 5075 50  0001 C CNN
 	1    3950 5075
 	0    1    1    0   
 $EndComp
@@ -1823,7 +1761,7 @@ P 3850 3550
 F 0 "D5" V 3804 3629 50  0000 L CNN
 F 1 "ESD" V 3895 3629 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3850 3550 50  0001 C CNN
-F 3 "~" H 3850 3550 50  0001 C CNN
+F 3 "https://banlinhkien.com/psd12c-sod323-diode-tvs-k-p6646405.html" H 3850 3550 50  0001 C CNN
 	1    3850 3550
 	0    1    1    0   
 $EndComp
@@ -1877,7 +1815,7 @@ U 1 1 5DB0C7BC
 P 7450 5600
 F 0 "R16" V 7657 5600 50  0000 C CNN
 F 1 "2.2k" V 7566 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7380 5600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7380 5600 50  0001 C CNN
 F 3 "~" H 7450 5600 50  0001 C CNN
 	1    7450 5600
 	1    0    0    -1  
@@ -1888,7 +1826,7 @@ U 1 1 5DB00654
 P 7600 5600
 F 0 "R18" V 7807 5600 50  0000 C CNN
 F 1 "2.2k" V 7716 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 5600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 5600 50  0001 C CNN
 F 3 "~" H 7600 5600 50  0001 C CNN
 	1    7600 5600
 	1    0    0    -1  
@@ -1916,23 +1854,12 @@ F 3 "~" H 9575 2025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
-U 1 1 5DD88E08
-P 9325 2025
-F 0 "C16" H 9440 2071 50  0000 L CNN
-F 1 "100nF" H 9440 1980 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9363 1875 50  0001 C CNN
-F 3 "~" H 9325 2025 50  0001 C CNN
-	1    9325 2025
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R4
 U 1 1 5DCC0685
 P 2850 5050
 F 0 "R4" V 2643 5050 50  0000 C CNN
 F 1 "2.2k" V 2734 5050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2780 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2780 5050 50  0001 C CNN
 F 3 "~" H 2850 5050 50  0001 C CNN
 	1    2850 5050
 	0    1    1    0   
@@ -1943,7 +1870,7 @@ U 1 1 5DCC011D
 P 3200 5275
 F 0 "R6" V 2993 5275 50  0000 C CNN
 F 1 "4.7k" V 3084 5275 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3130 5275 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 5275 50  0001 C CNN
 F 3 "~" H 3200 5275 50  0001 C CNN
 	1    3200 5275
 	0    1    1    0   
@@ -1955,7 +1882,7 @@ P 3300 5050
 F 0 "Q2" H 3491 5096 50  0000 L CNN
 F 1 "C1815" H 3491 5005 50  0000 L CNN
 F 2 "nhantt-kicad-lib:SOT-23" H 3500 4975 50  0001 L CIN
-F 3 "" H 3300 5050 50  0000 L CNN
+F 3 "https://thegioiic.com/products/2sc1815-hf" H 3300 5050 50  0001 L CNN
 	1    3300 5050
 	1    0    0    -1  
 $EndComp
@@ -1965,7 +1892,7 @@ U 1 1 5DC8E7E3
 P 3150 3750
 F 0 "R5" V 3250 3750 50  0000 C CNN
 F 1 "47k" V 3150 3760 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3080 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3080 3750 50  0001 C CNN
 F 3 "~" H 3150 3750 50  0001 C CNN
 	1    3150 3750
 	0    1    1    0   
@@ -1976,7 +1903,7 @@ U 1 1 5DC7F463
 P 2775 3525
 F 0 "R3" V 2982 3525 50  0000 C CNN
 F 1 "4.7k" V 2891 3525 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2705 3525 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2705 3525 50  0001 C CNN
 F 3 "~" H 2775 3525 50  0001 C CNN
 	1    2775 3525
 	0    -1   -1   0   
@@ -1988,7 +1915,7 @@ P 3250 3525
 F 0 "Q1" H 3400 3620 50  0000 L CNN
 F 1 "C1815" H 2990 3400 50  0000 L CNN
 F 2 "nhantt-kicad-lib:SOT-23" H 3450 3450 50  0001 L CIN
-F 3 "" H 3250 3525 50  0000 L CNN
+F 3 "https://thegioiic.com/products/2sc1815-hf" H 3250 3525 50  0001 L CNN
 	1    3250 3525
 	1    0    0    -1  
 $EndComp
@@ -2009,7 +1936,7 @@ U 1 1 5DBD8FB4
 P 8850 5175
 F 0 "R24" V 8845 4995 50  0000 C CNN
 F 1 "22R" V 8845 5175 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8780 5175 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8780 5175 50  0001 C CNN
 F 3 "~" H 8850 5175 50  0001 C CNN
 	1    8850 5175
 	0    -1   -1   0   
@@ -2020,7 +1947,7 @@ U 1 1 5DBD35C5
 P 8850 4875
 F 0 "R23" V 8845 4705 50  0000 C CNN
 F 1 "22R" V 8845 4875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8780 4875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8780 4875 50  0001 C CNN
 F 3 "~" H 8850 4875 50  0001 C CNN
 	1    8850 4875
 	0    -1   -1   0   
@@ -2031,7 +1958,7 @@ U 1 1 5DBCD933
 P 8850 4775
 F 0 "R22" V 8845 4605 50  0000 C CNN
 F 1 "22R" V 8845 4775 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8780 4775 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8780 4775 50  0001 C CNN
 F 3 "~" H 8850 4775 50  0001 C CNN
 	1    8850 4775
 	0    -1   -1   0   
@@ -2053,7 +1980,7 @@ U 1 1 5DB80957
 P 9750 4975
 F 0 "J7" H 10379 5075 50  0000 L CNN
 F 1 "SIM_Card" H 10379 4984 50  0000 L CNN
-F 2 "" H 9750 5325 50  0000 C CNN
+F 2 "VinhTho_Lib:socket_sim_6p" H 9750 5325 50  0001 C CNN
 F 3 "" H 9700 4975 50  0000 C CNN
 	1    9750 4975
 	1    0    0    -1  
@@ -2086,7 +2013,7 @@ U 1 1 5DB04ABF
 P 3975 2025
 F 0 "R7" V 4182 2025 50  0000 C CNN
 F 1 "220R" V 4091 2025 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3905 2025 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3905 2025 50  0001 C CNN
 F 3 "~" H 3975 2025 50  0001 C CNN
 	1    3975 2025
 	0    1    1    0   
@@ -2108,7 +2035,7 @@ U 1 1 5DAEFBD1
 P 4550 2475
 F 0 "R8" H 4620 2521 50  0000 L CNN
 F 1 "4.7k" H 4620 2430 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4480 2475 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 2475 50  0001 C CNN
 F 3 "~" H 4550 2475 50  0001 C CNN
 	1    4550 2475
 	1    0    0    -1  
@@ -2120,7 +2047,7 @@ P 4300 2300
 F 0 "Q3" H 4491 2346 50  0000 L CNN
 F 1 "C1815" H 4491 2255 50  0000 L CNN
 F 2 "nhantt-kicad-lib:SOT-23" H 4500 2225 50  0001 L CIN
-F 3 "" H 4300 2300 50  0000 L CNN
+F 3 "https://thegioiic.com/products/2sc1815-hf" H 4300 2300 50  0001 L CNN
 	1    4300 2300
 	-1   0    0    -1  
 $EndComp
@@ -2130,7 +2057,7 @@ U 1 1 5DAECF57
 P 5100 2300
 F 0 "R12" V 5307 2300 50  0000 C CNN
 F 1 "2.2k" V 5216 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5030 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5030 2300 50  0001 C CNN
 F 3 "~" H 5100 2300 50  0001 C CNN
 	1    5100 2300
 	0    -1   -1   0   
@@ -2141,7 +2068,7 @@ U 1 1 5DAC2A13
 P 8425 2500
 F 0 "R21" V 8632 2500 50  0000 C CNN
 F 1 "220R" V 8541 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8355 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8355 2500 50  0001 C CNN
 F 3 "~" H 8425 2500 50  0001 C CNN
 	1    8425 2500
 	0    -1   -1   0   
@@ -2153,7 +2080,7 @@ P 8100 2725
 F 0 "Q4" H 8291 2771 50  0000 L CNN
 F 1 "C1815" H 8291 2680 50  0000 L CNN
 F 2 "nhantt-kicad-lib:SOT-23" H 8300 2650 50  0001 L CIN
-F 3 "" H 8100 2725 50  0000 L CNN
+F 3 "https://thegioiic.com/products/2sc1815-hf" H 8100 2725 50  0001 L CNN
 	1    8100 2725
 	1    0    0    -1  
 $EndComp
@@ -2163,7 +2090,7 @@ U 1 1 5DAC068B
 P 7850 2925
 F 0 "R19" H 7920 2971 50  0000 L CNN
 F 1 "4.7k" H 7920 2880 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7780 2925 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 2925 50  0001 C CNN
 F 3 "~" H 7850 2925 50  0001 C CNN
 	1    7850 2925
 	1    0    0    -1  
@@ -2174,7 +2101,7 @@ U 1 1 5DABE0B3
 P 7600 2725
 F 0 "R17" V 7807 2725 50  0000 C CNN
 F 1 "2.2k" V 7716 2725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 2725 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 2725 50  0001 C CNN
 F 3 "~" H 7600 2725 50  0001 C CNN
 	1    7600 2725
 	0    -1   -1   0   
@@ -2207,7 +2134,7 @@ U 1 1 5DAB4CDF
 P 7900 925
 F 0 "R20" H 7970 971 50  0000 L CNN
 F 1 "10R" V 7900 860 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7830 925 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7830 925 50  0001 C CNN
 F 3 "~" H 7900 925 50  0001 C CNN
 	1    7900 925 
 	1    0    0    -1  
@@ -2218,7 +2145,7 @@ U 1 1 5DAAC8D5
 P 7800 2100
 F 0 "L3" H 7853 2146 50  0000 L CNN
 F 1 "L" H 7853 2055 50  0000 L CNN
-F 2 "" H 7800 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 2100 50  0001 C CNN
 F 3 "~" H 7800 2100 50  0001 C CNN
 	1    7800 2100
 	1    0    0    -1  
@@ -2227,8 +2154,8 @@ $Comp
 L Device:C C14
 U 1 1 5DAAC883
 P 8025 1925
-F 0 "C14" V 7773 1925 50  0000 C CNN
-F 1 "33p" V 7864 1925 50  0000 C CNN
+F 0 "C14" V 7940 2050 50  0000 C CNN
+F 1 "33pF" V 8130 2070 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8063 1775 50  0001 C CNN
 F 3 "~" H 8025 1925 50  0001 C CNN
 	1    8025 1925
@@ -2271,8 +2198,8 @@ $Comp
 L Device:R R15
 U 1 1 5DA9D513
 P 6775 1150
-F 0 "R15" V 6982 1150 50  0000 C CNN
-F 1 "R" V 6891 1150 50  0000 C CNN
+F 0 "R15" V 6865 1145 50  0000 C CNN
+F 1 "0R" V 6775 1155 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6705 1150 50  0001 C CNN
 F 3 "~" H 6775 1150 50  0001 C CNN
 	1    6775 1150
@@ -2282,8 +2209,8 @@ $Comp
 L Device:R R14
 U 1 1 5DA9BF97
 P 6300 1150
-F 0 "R14" V 6507 1150 50  0000 C CNN
-F 1 "R" V 6416 1150 50  0000 C CNN
+F 0 "R14" V 6390 1090 50  0000 C CNN
+F 1 "0R" V 6300 1150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 1150 50  0001 C CNN
 F 3 "~" H 6300 1150 50  0001 C CNN
 	1    6300 1150
@@ -2306,7 +2233,7 @@ U 1 1 5DA90629
 P 5100 1250
 F 0 "R11" H 5030 1204 50  0000 R CNN
 F 1 "1k" H 5030 1295 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5030 1250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5030 1250 50  0001 C CNN
 F 3 "~" H 5100 1250 50  0001 C CNN
 	1    5100 1250
 	-1   0    0    1   
@@ -2328,7 +2255,7 @@ U 1 1 5DA8DA9C
 P 4625 1575
 F 0 "R10" H 4555 1529 50  0000 R CNN
 F 1 "1k" H 4555 1620 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4555 1575 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4555 1575 50  0001 C CNN
 F 3 "~" H 4625 1575 50  0001 C CNN
 	1    4625 1575
 	-1   0    0    1   
@@ -2339,7 +2266,7 @@ U 1 1 5DA8D6BC
 P 4625 1225
 F 0 "R9" H 4555 1179 50  0000 R CNN
 F 1 "2.2k" H 4555 1270 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4555 1225 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4555 1225 50  0001 C CNN
 F 3 "~" H 4625 1225 50  0001 C CNN
 	1    4625 1225
 	-1   0    0    1   
@@ -2394,8 +2321,8 @@ U 1 1 5DA8ADDF
 P 2850 975
 F 0 "U2" H 2850 1433 50  0000 C CNN
 F 1 "LM2596S-ADJ" H 2850 1342 50  0000 C CNN
-F 2 "TO-263-5" H 2850 1251 50  0000 C CIN
-F 3 "" H 2850 975 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 2850 1251 50  0001 C CIN
+F 3 "https://thegioiic.com/products/lm2596s-adj-nopb" H 2850 975 50  0001 C CNN
 	1    2850 975 
 	1    0    0    -1  
 $EndComp
@@ -2487,4 +2414,85 @@ F 3 "https://thegioiic.com/products/fbmh2012hm800-t-ferrite-bead-80-ohm-0805" H 
 	1    10625 1775
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:C C4
+U 1 1 5DF25B26
+P 2300 3725
+F 0 "C4" H 2415 3771 50  0000 L CNN
+F 1 "100nF" H 2415 3680 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2338 3575 50  0001 C CNN
+F 3 "~" H 2300 3725 50  0001 C CNN
+	1    2300 3725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5DD88E08
+P 9325 2025
+F 0 "C16" H 9440 2071 50  0000 L CNN
+F 1 "100nF" H 9440 1980 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9363 1875 50  0001 C CNN
+F 3 "~" H 9325 2025 50  0001 C CNN
+	1    9325 2025
+	1    0    0    -1  
+$EndComp
+Text Label 1325 6075 2    50   ~ 0
+3V3_RI
+Wire Wire Line
+	900  6075 1325 6075
+Text Label 1325 5875 2    50   ~ 0
+3V3_RX
+Text Label 1325 5975 2    50   ~ 0
+3V3_TX
+Wire Wire Line
+	900  5975 1325 5975
+Wire Wire Line
+	900  5875 1325 5875
+Wire Wire Line
+	1000 5775 900  5775
+$Comp
+L ph_shield_sim7000_pm2_hw-rescue:GND-PH_LIB #PWR0163
+U 1 1 5E28A4B9
+P 1000 5775
+F 0 "#PWR0163" H 1000 5525 50  0001 C CNN
+F 1 "GND" H 1005 5610 39  0000 C CNN
+F 2 "" H 1000 5775 50  0001 C CNN
+F 3 "" H 1000 5775 50  0001 C CNN
+	1    1000 5775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 5675 900  5675
+Wire Wire Line
+	1050 5625 1050 5675
+$Comp
+L ph_shield_sim7000_pm2_hw-rescue:+3V3-PH_LIB #PWR0162
+U 1 1 5E27379F
+P 1050 5625
+F 0 "#PWR0162" H 1050 5475 50  0001 C CNN
+F 1 "+3V3" H 1065 5798 50  0000 C CNN
+F 2 "" H 1050 5625 50  0001 C CNN
+F 3 "" H 1050 5625 50  0001 C CNN
+	1    1050 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5DC7FDF3
+P 700 5975
+F 0 "J2" H 618 6492 50  0000 C CNN
+F 1 "Conn_01x07" H 618 6401 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 700 5975 50  0001 C CNN
+F 3 "~" H 700 5975 50  0001 C CNN
+	1    700  5975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	900  6175 1325 6175
+Wire Wire Line
+	900  6275 1325 6275
+Text Label 1325 6175 0    50   ~ 0
+PWR
+Text Label 1325 6275 0    50   ~ 0
+RST
 $EndSCHEMATC
