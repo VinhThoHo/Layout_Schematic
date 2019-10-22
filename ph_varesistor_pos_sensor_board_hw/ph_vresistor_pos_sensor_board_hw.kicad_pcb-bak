@@ -139,7 +139,7 @@
   )
 
   (module PH_Footprint:logo (layer F.Cu) (tedit 0) (tstamp 5DAECC8C)
-    (at 92.456 90.424)
+    (at 92.456 91.186)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -304,7 +304,7 @@
   )
 
   (module PH_Footprint:logo (layer B.Cu) (tedit 0) (tstamp 5DAECC68)
-    (at 92.456 90.424 180)
+    (at 92.456 91.186 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )

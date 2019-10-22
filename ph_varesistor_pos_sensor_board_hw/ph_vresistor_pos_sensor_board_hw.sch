@@ -15,45 +15,45 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J2
 U 1 1 5DA3FE07
 P 1875 3275
-F 0 "J?" H 1795 2950 50  0000 C CNN
+F 0 "J2" H 1795 2950 50  0000 C CNN
 F 1 "Varesistor" H 1795 3041 50  0000 C CNN
-F 2 "" H 1875 3275 50  0001 C CNN
-F 3 "~" H 1875 3275 50  0001 C CNN
+F 2 "VinhTho_Lib:Varesistor Bourns" H 1875 3275 50  0001 C CNN
+F 3 "https://thegioiic.com/products/3590s-103-bien-tro-10k-2w-5" H 1875 3275 50  0001 C CNN
 	1    1875 3275
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV1
 U 1 1 5DA3FF1D
 P 2400 2875
-F 0 "RV?" H 2330 2921 50  0000 R CNN
+F 0 "RV1" H 2330 2921 50  0000 R CNN
 F 1 "R_POT" H 2330 2830 50  0000 R CNN
-F 2 "" H 2400 2875 50  0001 C CNN
+F 2 "VinhTho_Lib:VR1" H 2400 2875 50  0001 C CNN
 F 3 "~" H 2400 2875 50  0001 C CNN
 	1    2400 2875
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV2
 U 1 1 5DA3FF47
 P 2400 3625
-F 0 "RV?" H 2330 3671 50  0000 R CNN
+F 0 "RV2" H 2330 3671 50  0000 R CNN
 F 1 "R_POT" H 2330 3580 50  0000 R CNN
-F 2 "" H 2400 3625 50  0001 C CNN
+F 2 "VinhTho_Lib:VR1" H 2400 3625 50  0001 C CNN
 F 3 "~" H 2400 3625 50  0001 C CNN
 	1    2400 3625
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5DA400A1
 P 2600 3275
-F 0 "R?" V 2393 3275 50  0000 C CNN
+F 0 "R3" V 2393 3275 50  0000 C CNN
 F 1 "4.8k" V 2484 3275 50  0000 C CNN
-F 2 "" V 2530 3275 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 3275 50  0001 C CNN
 F 3 "~" H 2600 3275 50  0001 C CNN
 	1    2600 3275
 	0    1    1    0   
@@ -61,56 +61,56 @@ $EndComp
 Wire Wire Line
 	2450 3275 2075 3275
 $Comp
-L Regulator_Linear:LM317_TO3 U?
+L Regulator_Linear:LM317_TO3 U1
 U 1 1 5DA401F0
 P 3925 2500
-F 0 "U?" V 3879 2605 50  0000 L CNN
+F 0 "U1" V 3879 2605 50  0000 L CNN
 F 1 "LM317_TO3" V 3970 2605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-3" H 3925 2700 50  0001 C CIN
+F 2 "VinhTho_Lib:TO-252-2" H 3925 2700 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 3925 2500 50  0001 C CNN
 	1    3925 2500
 	0    1    1    0   
 $EndComp
 $Comp
-L ph_vresistor_pos_sensor_board_hw-rescue:TL431-nhantt-kicad-lib D?
+L ph_vresistor_pos_sensor_board_hw-rescue:TL431-nhantt-kicad-lib D3
 U 1 1 5DA402D0
 P 3700 3400
-F 0 "D?" H 3803 3354 50  0000 L CNN
+F 0 "D3" H 3803 3354 50  0000 L CNN
 F 1 "TL431" H 3803 3445 50  0000 L CNN
-F 2 "nhantt-kicad-lib:TO-92_Molded_Wide" V 3700 3300 50  0001 C CNN
+F 2 "VinhTho_Lib:TO-92_Molded_Wide" V 3700 3300 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Zener_diode" V 3800 3400 50  0001 C CNN
 	1    3700 3400
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5DA403B4
 P 4775 3000
-F 0 "J?" H 4855 2992 50  0000 L CNN
+F 0 "J1" H 4855 2992 50  0000 L CNN
 F 1 "Conn_01x02" H 4855 2901 50  0000 L CNN
-F 2 "" H 4775 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4775 3000 50  0001 C CNN
 F 3 "~" H 4775 3000 50  0001 C CNN
 	1    4775 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C1
 U 1 1 5DA40421
 P 2850 3000
-F 0 "C?" H 2965 3046 50  0000 L CNN
+F 0 "C1" H 2965 3046 50  0000 L CNN
 F 1 "1uF" H 2965 2955 50  0000 L CNN
-F 2 "" H 2850 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 3000 50  0001 C CNN
 F 3 "~" H 2850 3000 50  0001 C CNN
 	1    2850 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C2
 U 1 1 5DA40498
 P 2850 3500
-F 0 "C?" H 2965 3546 50  0000 L CNN
+F 0 "C2" H 2965 3546 50  0000 L CNN
 F 1 "1uF" H 2965 3455 50  0000 L CNN
-F 2 "" H 2850 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 3500 50  0001 C CNN
 F 3 "~" H 2850 3500 50  0001 C CNN
 	1    2850 3500
 	1    0    0    -1  
@@ -123,23 +123,23 @@ Connection ~ 2850 3275
 Wire Wire Line
 	2850 3275 2850 3350
 $Comp
-L Device:D_ALT D?
+L Device:D_ALT D1
 U 1 1 5DA405AF
 P 3200 2825
-F 0 "D?" V 3154 2904 50  0000 L CNN
+F 0 "D1" V 3154 2904 50  0000 L CNN
 F 1 "1N4148" V 3245 2904 50  0000 L CNN
-F 2 "" H 3200 2825 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3200 2825 50  0001 C CNN
 F 3 "~" H 3200 2825 50  0001 C CNN
 	1    3200 2825
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5DA40612
 P 3675 2850
-F 0 "R?" V 3468 2850 50  0000 C CNN
+F 0 "R1" V 3468 2850 50  0000 C CNN
 F 1 "390R" V 3559 2850 50  0000 C CNN
-F 2 "" V 3605 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3605 2850 50  0001 C CNN
 F 3 "~" H 3675 2850 50  0001 C CNN
 	1    3675 2850
 	0    1    1    0   
@@ -169,26 +169,15 @@ Wire Wire Line
 Connection ~ 2850 2500
 Wire Wire Line
 	2850 2500 3200 2500
-$Comp
-L power:GND #PWR?
-U 1 1 5DA40C9F
-P 3200 3025
-F 0 "#PWR?" H 3200 2775 50  0001 C CNN
-F 1 "GND" H 3205 2852 50  0000 C CNN
-F 2 "" H 3200 3025 50  0001 C CNN
-F 3 "" H 3200 3025 50  0001 C CNN
-	1    3200 3025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 3025 3200 2975
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5DA41278
 P 3700 3775
-F 0 "C?" H 3815 3821 50  0000 L CNN
+F 0 "C3" H 3815 3821 50  0000 L CNN
 F 1 "10nF" H 3815 3730 50  0000 L CNN
-F 2 "" H 3738 3625 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 3625 50  0001 C CNN
 F 3 "~" H 3700 3775 50  0001 C CNN
 	1    3700 3775
 	1    0    0    -1  
@@ -205,7 +194,7 @@ Wire Wire Line
 	2850 3650 2850 4000
 Connection ~ 2850 4000
 Wire Wire Line
-	2850 4000 3700 4000
+	2850 4000 3250 4000
 Wire Wire Line
 	3500 3400 3175 3400
 Wire Wire Line
@@ -213,12 +202,12 @@ Wire Wire Line
 Wire Wire Line
 	3175 3275 2850 3275
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5DA41F27
 P 3900 3200
-F 0 "R?" V 3693 3200 50  0000 C CNN
+F 0 "R2" V 3693 3200 50  0000 C CNN
 F 1 "180R" V 3784 3200 50  0000 C CNN
-F 2 "" V 3830 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 3200 50  0001 C CNN
 F 3 "~" H 3900 3200 50  0001 C CNN
 	1    3900 3200
 	0    1    1    0   
@@ -235,12 +224,12 @@ Wire Wire Line
 	4100 3200 4050 3200
 Connection ~ 3700 4000
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 5DA4286A
 P 4375 3000
-F 0 "D?" H 4366 3216 50  0000 C CNN
+F 0 "D2" H 4366 3216 50  0000 C CNN
 F 1 "LED" H 4366 3125 50  0000 C CNN
-F 2 "" H 4375 3000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4375 3000 50  0001 C CNN
 F 3 "~" H 4375 3000 50  0001 C CNN
 	1    4375 3000
 	1    0    0    -1  
@@ -278,4 +267,31 @@ Wire Wire Line
 	2200 3625 2200 3375
 Wire Wire Line
 	2200 3375 2075 3375
+$Comp
+L power:GND #PWR0101
+U 1 1 5DB00BEA
+P 3200 3025
+F 0 "#PWR0101" H 3200 2775 50  0001 C CNN
+F 1 "GND" H 3205 2852 50  0000 C CNN
+F 2 "" H 3200 3025 50  0001 C CNN
+F 3 "" H 3200 3025 50  0001 C CNN
+	1    3200 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DB03F88
+P 3250 4055
+F 0 "#PWR0102" H 3250 3805 50  0001 C CNN
+F 1 "GND" H 3255 3882 50  0000 C CNN
+F 2 "" H 3250 4055 50  0001 C CNN
+F 3 "" H 3250 4055 50  0001 C CNN
+	1    3250 4055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4055 3250 4000
+Connection ~ 3250 4000
+Wire Wire Line
+	3250 4000 3700 4000
 $EndSCHEMATC
