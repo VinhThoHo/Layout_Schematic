@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\projects\2019\phuonghai\Layout_Schematic_Design\ph_varesistor_pos_sensor_board_hw\ph_vresistor_pos_sensor_board_hw.sch)
-    (date "22/10/2019 16:18:51")
+    (date "23/10/2019 10:13:36")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -52,7 +52,7 @@
       (tstamp 5DA401F0))
     (comp (ref D3)
       (value TL431)
-      (footprint VinhTho_Lib:TO-92_Molded_Wide)
+      (footprint VinhTho_Lib:SOT-23)
       (datasheet https://en.wikipedia.org/wiki/Zener_diode)
       (libsource (lib ph_vresistor_pos_sensor_board_hw-rescue) (part TL431-nhantt-kicad-lib) (description ""))
       (sheetpath (names /) (tstamps /))

@@ -77,8 +77,8 @@ U 1 1 5DA402D0
 P 3700 3400
 F 0 "D3" H 3803 3354 50  0000 L CNN
 F 1 "TL431" H 3803 3445 50  0000 L CNN
-F 2 "VinhTho_Lib:TO-92_Molded_Wide" V 3700 3300 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/Zener_diode" V 3800 3400 50  0001 C CNN
+F 2 "VinhTho_Lib:SOT-23" V 3700 3300 50  0001 C CNN
+F 3 "https://banlinhkien.com/tl431-sot23-p6648720.html" V 3800 3400 50  0001 C CNN
 	1    3700 3400
 	1    0    0    1   
 $EndComp

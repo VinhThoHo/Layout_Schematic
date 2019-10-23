@@ -20,8 +20,8 @@ U 1 1 5DA3FE07
 P 1875 3275
 F 0 "J2" H 1795 2950 50  0000 C CNN
 F 1 "Varesistor" H 1795 3041 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1875 3275 50  0001 C CNN
-F 3 "~" H 1875 3275 50  0001 C CNN
+F 2 "VinhTho_Lib:Varesistor Bourns" H 1875 3275 50  0001 C CNN
+F 3 "https://thegioiic.com/products/3590s-103-bien-tro-10k-2w-5" H 1875 3275 50  0001 C CNN
 	1    1875 3275
 	-1   0    0    1   
 $EndComp

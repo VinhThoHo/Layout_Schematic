@@ -1,855 +1,1982 @@
-190292063465606
-Package_TO_SOT_SMD
-Analog_KS-4
-Analog Devices KS-4, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sc70ks/ks_4.pdf
-Analog Devices KS-4 (like EIAJ SC-82)
+443660203466041
+VinhTho_Lib
+2-pol
+
+
+0
+2
+2
+VinhTho_Lib
+4Pin-3.81mm
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
 4
 4
-Package_TO_SOT_SMD
-ATPAK-2
-ATPAK SMD package, http://www.onsemi.com/pub/Collateral/ENA2192-D.PDF
-ATPAK 
+VinhTho_Lib
+4056E_LiIon_loader
+
+
 0
-7
+6
+6
+VinhTho_Lib
+4056E_LiIon_loader_prot
+
+
+0
+6
+6
+VinhTho_Lib
+4056E_LiIon_loader_SMT
+
+
+0
+6
+6
+VinhTho_Lib
+16850_cell_casket
+
+
+0
+2
+2
+VinhTho_Lib
+AC-DC-5V-700mA
+
+
+0
+5
+5
+VinhTho_Lib
+AI7688H-M
+
+
+0
+65
+65
+VinhTho_Lib
+Anten_GPS
+
+
+0
+5
+2
+VinhTho_Lib
+Anten_GSM_IPEX
+
+
+0
 3
-Package_TO_SOT_SMD
-Diodes_SOT-553
-Diodes SOT-553, https://www.diodes.com/assets/Package-Files/SOT553.pdf
-SOT-553
+2
+VinhTho_Lib
+APM4953
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
-5
-5
-Package_TO_SOT_SMD
-HVSOF5
-HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf
-HVSOF5
+8
+8
+VinhTho_Lib
+BARREL_JACK
+DC Barrel Jack
+Power Jack
 0
+3
+3
+VinhTho_Lib
+bluetooth-HC-05
+TSSOP32: plastic thin shrink small outline package; 32 leads; body width 6.1 mm; lead pitch 0.65 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot487-1_po.pdf)
+SSOP 0.65
+0
+34
+34
+VinhTho_Lib
+BT3V3
+
+
+0
+4
+3
+VinhTho_Lib
+BT3V3-none-hole
+
+
+0
+2
+2
+VinhTho_Lib
+Button-6mm-smd
+Light Touch Switch
+
+0
+4
+2
+VinhTho_Lib
+button-pcb-10mm
+
+
+0
+2
+2
+VinhTho_Lib
+Button_SW_2PIN
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+SPST button tactile switch
+0
+2
+2
+VinhTho_Lib
+button_TS-6601V-6
+
+
+0
+4
+3
+VinhTho_Lib
+C10807_Driver
+
+
+0
+8
+5
+VinhTho_Lib
+CAPAE_6.3x7.7-M
+EEE-FK1C221P(SizeD8)
+220µF 16V Aluminum Capacitors Radial, Can - SMD 2000 Hrs @ 105°C
+0
+2
+2
+VinhTho_Lib
+CAPC0603x018M
+Capacitor SMD 0603, hand soldering
+capacitor 0603
+0
+2
+2
+VinhTho_Lib
+CAPC0805X024M
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+VinhTho_Lib
+CONN_PWR_JACK_25
+
+
+0
+3
+3
+VinhTho_Lib
+Conn_uSDcard
+
+
+0
+13
 9
-5
-Package_TO_SOT_SMD
-HVSOF6
-HVSOF6, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof6_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/audio_video/video_amplifier/bh76106hfv-e.pdf
-HVSOF6
+VinhTho_Lib
+CP_Axial_L29.0mm_D16.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=29*16mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 29mm diameter 16mm Electrolytic Capacitor
 0
-7
-7
-Package_TO_SOT_SMD
-Infineon_PG-HDSOP-10-1
-Infineon PG-HDSOP-10-1 (DDPAK), 20.96x6.5x2.3mm, slug up (https://www.infineon.com/cms/en/product/packages/PG-HDSOP/PG-HDSOP-10-1/)
-hdsop 10 ddpak
+2
+2
+VinhTho_Lib
+CP_Elec_6.3x7.7
+SMT capacitor, aluminium electrolytic, 6.3x7.7
+
 0
-10
-10
-Package_TO_SOT_SMD
-Infineon_PG-HSOF-8-1
-Infineon HSOF-8-1 power mosfet http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-1/
-mosfet hsof
+2
+2
+VinhTho_Lib
+CP_Elec_8x10
+SMT capacitor, aluminium electrolytic, 8x10
+
 0
-54
+2
+2
+VinhTho_Lib
+CP_Elec_8x10.5
+SMT capacitor, aluminium electrolytic, 8x10.5
+
+0
+2
+2
+VinhTho_Lib
+CP_Elec_10x10.5
+SMT capacitor, aluminium electrolytic, 10x10.5
+
+0
+2
+2
+VinhTho_Lib
+Crystal_HC49-4H_Vertical
+Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49-4H
+0
+2
+2
+VinhTho_Lib
+Crystal_Round_Horizontal_2mm
+Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 2mm,
+Crystal Quarz Rundgehaeuse round horizontal liegend Uhrenquarz Diam. 2mm
+0
+2
+2
+VinhTho_Lib
+Crystal_Round_Horizontal_3mm
+Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 3mm,
+Crystal Quarz Rundgehaeuse round horizontal liegend Uhrenquarz Diam. 3mm
+0
 3
-Package_TO_SOT_SMD
-Infineon_PG-HSOF-8-1_ThermalVias
-HSOF-8-1 power mosfet http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-1/
-mosfet hsof thermal vias
-0
-57
 3
-Package_TO_SOT_SMD
-Infineon_PG-TO-220-7Lead_TabPin8
-Infineon PG-TO-220-7, Tab as Pin 8, see e.g. https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
-Infineon PG-TO-220-7
+VinhTho_Lib
+Crystal_Round_Horizontal_3mm_smd
+Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 3mm,
+Crystal Quarz Rundgehaeuse round horizontal liegend Uhrenquarz Diam. 3mm
+0
+3
+3
+VinhTho_Lib
+Crystal_SMD_HC49-SD
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+VinhTho_Lib
+Cx56-12
+4x7-segments, 14 mm, Kingbright CA56-12 and CC56-12 displays
+7-segments display
 0
 12
+12
+VinhTho_Lib
+C_Rect_L9.0mm_W3.4mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.4mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 3.4mm Capacitor
+0
+2
+2
+VinhTho_Lib
+DB107S
+
+
+0
+4
+4
+VinhTho_Lib
+DHT11
+
+
+0
+4
+4
+VinhTho_Lib
+DIOC_0603X018
+Diode SMD in 0603 package
+smd diode
+0
+2
+2
+VinhTho_Lib
+Diodes_PSOP-8
+8-Lead Plastic PSOP, Exposed Die Pad (see https://www.diodes.com/assets/Datasheets/AP2204.pdf)
+SSOP 0.50 exposed pad
+0
 8
-Package_TO_SOT_SMD
-LFPAK33
-LFPAK33 SOT-1210 https://assets.nexperia.com/documents/outline-drawing/SOT1210.pdf
-LFPAK33 SOT-1210
+8
+VinhTho_Lib
+Diode_Bridge_18.5x5.5
+Single phase bridge rectifier case 18.5x5.5
+Diode Bridge
 0
-21
-5
-Package_TO_SOT_SMD
-LFPAK56
-LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
-LFPAK56 SOT-669 Power-SO8
+4
+4
+VinhTho_Lib
+DIP-18_W7.62mm_Socket_LongPads
+18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
 0
-19
-5
-Package_TO_SOT_SMD
-LFPAK56_ThermalVias-1
-LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
-LFPAK56 SOT669 Thermal Vias 0.4mm Power-SO8
+18
+18
+VinhTho_Lib
+DO-214AA
+
+
 0
-63
-5
-Package_TO_SOT_SMD
-LFPAK56_ThermalVias-2
-LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
-LFPAK56 SOT669 Thermical Vias Power-SO8
+2
+2
+VinhTho_Lib
+do214aa-g
+DO214AA
+
 0
-30
-5
-Package_TO_SOT_SMD
-OnSemi_ECH8
-On Semiconductor ECH8, https://www.onsemi.com/pub/Collateral/318BF.PDF
-ECH8 SOT28-FL SOT-28-FL
+2
+2
+VinhTho_Lib
+Domino-3.81-2pin
+
+
+0
+2
+2
+VinhTho_Lib
+Domino-3.81-4pin
+
+
+0
+4
+4
+VinhTho_Lib
+Domino-5.08mm_2pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
+0
+2
+2
+VinhTho_Lib
+Domino-5.08mm_3pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
+0
+3
+3
+VinhTho_Lib
+Domino-5.08mm_4pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
+0
+4
+4
+VinhTho_Lib
+D_SMA_Standard
+Diode SMA
+Diode SMA
+0
+2
+2
+VinhTho_Lib
+D_SMB_Handsoldering
+Diode SMB Handsoldering
+Diode SMB Handsoldering
+0
+2
+2
+VinhTho_Lib
+D_SMB_Standard
+Diode SMB Standard
+Diode SMB Standard
+0
+2
+2
+VinhTho_Lib
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+VinhTho_Lib
+D_SOD-323F
+SOD-323
+SOD-323
+0
+2
+2
+VinhTho_Lib
+EFROMFLASH_8MBit
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 8
 8
-Package_TO_SOT_SMD
-PowerMacro_M234_NoHole
-TO-50-4 Power Macro Package Style M234
-TO-50-4 Power Macro Package Style M234
+VinhTho_Lib
+EI28-core
+
+
 0
-4
-4
-Package_TO_SOT_SMD
-PowerMacro_M234_WithHole
-TO-50-4 Power Macro Package Style M234
-TO-50-4 Power Macro Package Style M234
+10
+10
+VinhTho_Lib
+ESP-01
+Module, ESP-8266, ESP-01, 8 pin
+Module ESP-8266 ESP8266
 0
-4
-4
-Package_TO_SOT_SMD
-PQFN_8x8
-Low profile 8x8mm PQFN package e.g. https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
-pqfn vdfn mosfet
+8
+8
+VinhTho_Lib
+ESP-03
+Module, ESP-8266, ESP-03, 14 pad, SMD
+Module ESP-8266 ESP8266
+0
+14
+14
+VinhTho_Lib
+ESP-06
+
+
+0
+20
+20
+VinhTho_Lib
+ESP-07v2
+Module, ESP-8266, ESP-07v2, 16 pad, SMD
+Module ESP-8266 ESP8266
 0
 16
-3
-Package_TO_SOT_SMD
-Rohm_HRP7
-Rohm HRP7 SMD package, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hrp7_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd621x-e.pdf
-Rohm HRP7 SMD
+16
+VinhTho_Lib
+ESP-12
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
 0
-69
+16
+16
+VinhTho_Lib
+ESP-12E_SMD
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+VinhTho_Lib
+ESP-32S
+
+
+0
+39
+39
+VinhTho_Lib
+ESP-201
+Module, ESP-8266, ESP-201, 26 pin, through hole, 0.1 inch
+Module ESP-8266 ESP8266
+0
+26
+26
+VinhTho_Lib
+ESP-UNO-SH
+
+
+0
+32
+32
+VinhTho_Lib
+ESP-WROOM-32
+
+
+0
+55
+38
+VinhTho_Lib
+ESP32
+
+
+0
+49
+49
+VinhTho_Lib
+ESP32-WROOM
+
+
+0
+39
+39
+VinhTho_Lib
+esp32-wrover
+
+
+0
+38
+38
+VinhTho_Lib
+esp32-wrover-32S
+
+
+0
+48
+38
+VinhTho_Lib
+ESP3212
+
+
+0
+31
+31
+VinhTho_Lib
+FB0805x034M
+FerritBead SMD 0805, hand soldering
+FerritBead 0805
+0
+2
+2
+VinhTho_Lib
+FR232RQ
+QFN-32 PACKAGE (5MM X 5MM)
+QFN-32 PACKAGE (5MM X 5MM)
+0
+32
+32
+VinhTho_Lib
+Fuseholder5x20_horiz_open_inline_Type-I
+Fuseholder, 5x20, open, horizontal, Type-I, Inline,
+Fuseholder, 5x20, open, horizontal, Type-I, Inline, Sicherungshalter, offen,
+0
+4
+2
+VinhTho_Lib
+Fuseholder5x20_horiz_open_lateral_Type-II
+Fuseholder, 5x20, open, horizontal, Type-II, lateral,
+Fuseholder, 5x20, open, horizontal, Type-II, lateral, Sicherungshalter, offen,
+0
+4
+2
+VinhTho_Lib
+Fuseholder5x20_horiz_SemiClosed_Casing10x25mm
+Fuseholder, 5x20, Semi closed, horizontal, Casing 10x25mm,
+Fuseholder 5x20 Semi closed horizontal Casing 10x25mm Sicherungshalter halbgeschlossen 
+0
+2
+2
+VinhTho_Lib
+Fuse_SMD1812
+Fuse, 2920 chip size
+Fuse SMD2920
+0
+2
+2
+VinhTho_Lib
+Fuse_SMD2920
+Fuse, 2920 chip size
+Fuse SMD2920
+0
+2
+2
+VinhTho_Lib
+HDRV3W64_1X3_762X254X1154
+
+
+0
+3
+3
+VinhTho_Lib
+HDRV4W64_1X4_1016X254X1154
+
+
+0
+4
+4
+VinhTho_Lib
+HDRV8W64_1X8_2032X254X1154
+
+
+0
+8
+8
+VinhTho_Lib
+HDRV10W64P254_2X5_1270X254X115P
+
+
+0
+10
+10
+VinhTho_Lib
+HDRV10W64_1X10_2540X254X1154
+
+
+0
+10
+10
+VinhTho_Lib
+HDRV12W64_1X12_3048X254X1154
+
+
+0
+12
+12
+VinhTho_Lib
+HDRV14W64_1X14_3556X254X1154
+
+
+0
+14
+14
+VinhTho_Lib
+HDRV16W64_1X16_4046X254X1154
+
+
+0
+16
+16
+VinhTho_Lib
+HDRV40W64P254_2X20_2540X254X115P
+
+
+0
+40
+40
+VinhTho_Lib
+Header-2pin-2.54-white
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+2
+2
+VinhTho_Lib
+Header-3pin-2.54
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+VinhTho_Lib
+Header-4pin-2.54
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+VinhTho_Lib
+Header-4pin-2.54W
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+VinhTho_Lib
+Header-5pin-2.54
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+VinhTho_Lib
+Header-6pin-2.54
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+6
+6
+VinhTho_Lib
+Header-6pin-2.54-white
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+6
+6
+VinhTho_Lib
+Hole-8mm
+
+
+0
+1
+1
+VinhTho_Lib
+HR911102A
+
+HR911102A
+0
+16
+16
+VinhTho_Lib
+HR911105A
+
+HR911102A
+0
+16
+16
+VinhTho_Lib
+HS0038A2
+
+
+0
+3
+3
+VinhTho_Lib
+IDC_Header_Angled_16pins
+16 pins through hole IDC header
+IDC header socket VASCH
+0
+16
+16
+VinhTho_Lib
+IDC_Header_Straight_16pins
+16 pins through hole IDC header
+IDC header socket VASCH
+0
+16
+16
+VinhTho_Lib
+INDC5050X24M
+Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-5050, 5.0mmx5.0mm, Most
+inductor taiyo-yuden md smd
+0
+2
+2
+VinhTho_Lib
+INDC5050X24N
+Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-5050, 5.0mmx5.0mm, Nomal
+inductor taiyo-yuden md smd
+0
+2
+2
+VinhTho_Lib
+Inductor_5.2x5.8x4.5
+Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-80xx, 8.0mmx8.0mm
+inductor taiyo-yuden nr smd
+0
+2
+2
+VinhTho_Lib
+Inductor_5A
+
+
+0
+2
+2
+VinhTho_Lib
+JACK_DC
+DC Barrel Jack
+Power Jack
+0
+3
+3
+VinhTho_Lib
+JUMP
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm
+0
+2
+2
+VinhTho_Lib
+jump-supply
+
+
+0
+2
+2
+VinhTho_Lib
+KYX-1107BS
+
+
+0
+20
+20
+VinhTho_Lib
+LED-7SEG-50x70
+
+
+0
+10
+10
+VinhTho_Lib
+LED-7SEG-23101BX
+
+
+0
+10
+10
+VinhTho_Lib
+led3528
+
+
+0
+2
+2
+VinhTho_Lib
+LED_0805x024M
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+VinhTho_Lib
+LED_0805_RGB
+LED 0805 smd package
+LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+4
+4
+VinhTho_Lib
+LED_0805_RGB-bot
+LED 0805 smd package
+LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+5
+5
+VinhTho_Lib
+LED_PLCC_3528
+http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
+LED
+0
+2
+2
+VinhTho_Lib
+logo
+
+
+0
+0
+0
+VinhTho_Lib
+logo2
+
+
+0
+0
+0
+VinhTho_Lib
+logo3
+
+
+0
+0
+0
+VinhTho_Lib
+LOGO_OSHW_FSilk_10mm
+
+
+0
+0
+0
+VinhTho_Lib
+Logo_silk_CC-BY-NC-SA_10x3.6mm
+CC BY-NC-SA logo, 10x3.6mm
+
+0
+0
+0
+VinhTho_Lib
+LOGO_STATIC_150
+
+
+0
+0
+0
+VinhTho_Lib
+LOGO_STATIC_250
+
+
+0
+0
+0
+VinhTho_Lib
+LoraRFM98-smd
+Through hole straight pin header, 1x08, 2.00mm pitch, single row
+Through hole pin header THT 1x08 2.00mm single row
+0
+16
+16
+VinhTho_Lib
+LoraRFM98-thruhole
+Through hole straight pin header, 1x08, 2.00mm pitch, single row
+Through hole pin header THT 1x08 2.00mm single row
+0
+16
+16
+VinhTho_Lib
+LQFP-32_7x7mm_Pitch0.8mm
+LQFP32: plastic low profile quad flat package; 32 leads; body 7 x 7 x 1.4 mm (see NXP sot358-1_po.pdf and sot358-1_fr.pdf)
+QFP 0.8
+0
+32
+32
+VinhTho_Lib
+LQFP-48_7x7mm_Pitch0.5mm
+48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+VinhTho_Lib
+LQFP-64_10x10mm_Pitch0.5mm
+64 LEAD LQFP 10x10mm (see MICREL LQFP10x10-64LD-PL-1.pdf)
+QFP 0.5
+0
+64
+64
+VinhTho_Lib
+LQFP-100_14x14mm_Pitch0.5mm
+LQFP100: plastic low profile quad flat package; 100 leads; body 14 x 14 x 1.4 mm (see NXP sot407-1_po.pdf and sot407-1_fr.pdf)
+QFP 0.5
+0
+100
+100
+VinhTho_Lib
+L_
+SELF- WE-PD-XXL
+
+0
+2
+2
+VinhTho_Lib
+marking
+
+
+0
+1
+0
+VinhTho_Lib
+matrix-1088AS-32x32
+http://www.world-semi.com/en/Driver/Lighting/WS2811/WS212B/WS2822S/, http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/HB/Data-Sheets/CLX6AFKB.pdf
+LED RGB PLCC-6
+0
+16
+16
+VinhTho_Lib
+matrix-1588AUR-38x38
+
+
+0
+18
+18
+VinhTho_Lib
+matrix_8x8_1088AS_32x32mm
+http://www.world-semi.com/en/Driver/Lighting/WS2811/WS212B/WS2822S/, http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/HB/Data-Sheets/CLX6AFKB.pdf
+LED RGB PLCC-6
+0
+16
+16
+VinhTho_Lib
+MicroSD_Push-Push-A
+
+
+0
+15
+12
+VinhTho_Lib
+Module-MP1584
+
+
+0
+8
+8
+VinhTho_Lib
+Module-RF-433Mhz
+
+
+0
+8
+8
+VinhTho_Lib
+MOLEX_0731000114
+SMA Connector Receptacle, Female Socket 50 Ohm Through Hole, Right Angle Solder
+
+0
+5
+5
+VinhTho_Lib
+MORSUN_485
+
+
+0
 7
-Package_TO_SOT_SMD
-SC-59
-SC-59, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg
-SC-59
+7
+VinhTho_Lib
+Mounting_hole_2.8mm
+
+
+0
+1
+1
+VinhTho_Lib
+Mounting_hole_3.3mm
+
+
+0
+0
+0
+VinhTho_Lib
+MP1584_buck_module
+
+
+0
+8
+4
+VinhTho_Lib
+MQ-05
+
+
+0
+6
+6
+VinhTho_Lib
+MT3608_module
+
+
+0
+4
+4
+VinhTho_Lib
+MT3608_module_SMT
+
+
+0
+7
+4
+VinhTho_Lib
+Myrra_44271
+
+
+0
+6
+6
+VinhTho_Lib
+N95_battery_connector
+
+
 0
 3
 3
-Package_TO_SOT_SMD
-SC-59_Handsoldering
-SC-59, hand-soldering varaint, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg
-SC-59 hand-soldering
+VinhTho_Lib
+NEON_LAMP
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+VinhTho_Lib
+NodeMCU1.0(12-E)
+
+
+0
+30
+30
+VinhTho_Lib
+NRF24L01
+
+
+0
+8
+8
+VinhTho_Lib
+nRF24L01-Mini
+
+
+0
+8
+8
+VinhTho_Lib
+OLED
+
+
+0
+0
+0
+VinhTho_Lib
+Optocoupler_SMD
+Optocoupler, SMD,  Single Channel, Hand Soldering, like KPC357, LTV35x, PC357
+Optocoupler Single Channel KPC357 LTV35x PC357
+0
+4
+4
+VinhTho_Lib
+Optocoupler_SMD_
+Optocoupler, SMD,  Single Channel, Hand Soldering, like KPC357, LTV35x, PC357
+Optocoupler Single Channel KPC357 LTV35x PC357
+0
+4
+4
+VinhTho_Lib
+PAD-Circle
+
+
+0
+1
+1
+VinhTho_Lib
+pad_2pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
+0
+2
+2
+VinhTho_Lib
+PAD_Rec
+
+
+0
+1
+1
+VinhTho_Lib
+PIN-12V
+
+
+0
+2
+2
+VinhTho_Lib
+Pin2_Header_SMD_Pitch2.54mm
+Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x03 2.54mm single row
+0
+2
+2
+VinhTho_Lib
+PinSocket_1x12_P2.54mm
+Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x12 2.54mm single row
+0
+12
+12
+VinhTho_Lib
+Pin_Header_Angled_1x02_Pitch2.54mm
+Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x02 2.54mm single row
+0
+2
+2
+VinhTho_Lib
+Pin_Header_Angled_1x02_Pitch2.54mm_mirro
+Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x02 2.54mm single row
+0
+2
+2
+VinhTho_Lib
+Pin_Header_SMD-Female_Pitch2.54mm
+Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x03 2.54mm single row
 0
 3
 3
-Package_TO_SOT_SMD
-SC-70-8
-SC70-8
-SC70-8
+VinhTho_Lib
+Pin_Header_SMD_Pitch2.54mm
+Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x03 2.54mm single row
+0
+3
+3
+VinhTho_Lib
+Pin_Header_Straight_1x04_Pitch2.54mm
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+VinhTho_Lib
+Pin_Header_Straight_1x08_Pitch2.54mm
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
 0
 8
 8
-Package_TO_SOT_SMD
-SC-70-8_Handsoldering
-SC70-8, Handsoldering
-SC70-8 Handsoldering
+VinhTho_Lib
+Pin_Header_Straight_1x10_Pitch2.54mm
+Through hole straight pin header, 1x10, 2.54mm pitch, single row
+Through hole pin header THT 1x10 2.54mm single row
+0
+10
+10
+VinhTho_Lib
+Pin_Header_Straight_1x14_Pitch2.00mm
+Through hole straight pin header, 1x14, 2.00mm pitch, single row
+Through hole pin header THT 1x14 2.00mm single row
+0
+14
+14
+VinhTho_Lib
+Pin_Header_Straight_2x04_Pitch2.00mm
+Through hole straight pin header, 2x04, 2.00mm pitch, double rows
+Through hole pin header THT 2x04 2.00mm double row
 0
 8
 8
-Package_TO_SOT_SMD
-SC-82AA
-SC-82AA
-SC-82AA
+VinhTho_Lib
+Pin_Header_Straight_2x08_Pitch2.00mm
+Through hole straight pin header, 2x08, 2.00mm pitch, double rows
+Through hole pin header THT 2x08 2.00mm double row
+0
+16
+16
+VinhTho_Lib
+Pin_Header_Straight_2x10_Pitch2.00mm
+Through hole straight pin header, 2x10, 2.00mm pitch, double rows
+Through hole pin header THT 2x10 2.00mm double row
+0
+20
+20
+VinhTho_Lib
+Pulse_Transformer_EI28
+Trafo, Printtrafo, CHK, EI30, 2VA, 1x Sec,
+Trafo Printtrafo CHK EI30 2VA 1x Sec 
+0
+10
+10
+VinhTho_Lib
+QFN-32-1EP_5x5mm_Pitch0.5mm
+UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)
+QFN 0.5
+0
+36
+33
+VinhTho_Lib
+RELAY-HK4100
+
+
+0
+6
+5
+VinhTho_Lib
+Relay-SMI-24VDC-SL-1C
+
+
+0
+5
+5
+VinhTho_Lib
+Relay-SMI-24VDC-SL-2C
+
+
+0
+8
+8
+VinhTho_Lib
+Relay_SRD-SONGLE
+relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+relay Sanyu SRD form C
+0
+5
+5
+VinhTho_Lib
+RESC0603x018M
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+VinhTho_Lib
+RESC0805x024M
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+VinhTho_Lib
+RF433-H5V3M
+
+
+0
+6
+6
+VinhTho_Lib
+RF433-H34A
+
+
 0
 4
 4
-Package_TO_SOT_SMD
-SC-82AA_Handsoldering
-SC-82AA
-SC-82AA
+VinhTho_Lib
+RF_RX_LearnCode
+
+
+0
+8
+8
+VinhTho_Lib
+RF_YKTR-5S
+
+
 0
 4
 4
-Package_TO_SOT_SMD
-SC-82AB
-SC-82AB
-SC-82AB
+VinhTho_Lib
+RJ45_8
+
+RJ45
 0
-4
-4
-Package_TO_SOT_SMD
-SC-82AB_Handsoldering
-SC-82AB
-SC-82AB
+12
+10
+VinhTho_Lib
+R_2W
+Resistor, Axial_DIN0617 series, Axial, Vertical, pin pitch=5.08mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf
+Resistor Axial_DIN0617 series Axial Vertical pin pitch 5.08mm 2W length 17mm diameter 6mm
 0
-4
-4
-Package_TO_SOT_SMD
+2
+2
+VinhTho_Lib
+R_0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+VinhTho_Lib
+R_Shunt_10mR
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm
+0
+2
+2
+VinhTho_Lib
+SHT20
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+7
+7
+VinhTho_Lib
+SI-4463-UART
+
+
+0
+5
+5
+VinhTho_Lib
+SI4463-SPI
+
+
+0
+12
+12
+VinhTho_Lib
+SI4463-SPI-SMD
+
+
+0
+14
+14
+VinhTho_Lib
+SI4463-SPI-SMD-type2
+
+
+0
+16
+14
+VinhTho_Lib
+SIM5320E
+
+
+0
+81
+80
+VinhTho_Lib
+SIP3_11.6x8.5mm
+RECOM,R78EXX,https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+SIP3 Regulator Module
+0
+3
+3
+VinhTho_Lib
+SLA-24VDC-SL-C
+
+
+0
+6
+6
+VinhTho_Lib
+SM5852
+
+
+0
+8
+8
+VinhTho_Lib
+SMD_BUZZER_9633
+
+
+0
+2
+2
+VinhTho_Lib
+socket_sim_6p
+
+
+0
+10
+7
+VinhTho_Lib
+SOD-80
+
+
+0
+2
+2
+VinhTho_Lib
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+VinhTho_Lib
+SOIC-16W_5.3x10.2mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SO) - Wide, 5.3 mm Body (http://www.ti.com/lit/ml/msop002a/msop002a.pdf)
+SOIC 1.27
+0
+16
+16
+VinhTho_Lib
+SOIC-18W_7.5x11.6mm_Pitch1.27mm
+18-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+18
+18
+VinhTho_Lib
+SOIC-20W_7.5x12.8mm_Pitch1.27mm
+20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+20
+20
+VinhTho_Lib
+SOIC127P600x155-8-M
+SO-8
+SO-8
+0
+8
+8
+VinhTho_Lib
+SOP127P600x155-8-M
+SO-8
+SO-8
+0
+8
+8
+VinhTho_Lib
 SOT-23
 SOT-23, Standard
 SOT-23
 0
 3
 3
-Package_TO_SOT_SMD
+VinhTho_Lib
 SOT-23-5
-5-pin SOT23 package
-SOT-23-5
+
+
 0
 5
 5
-Package_TO_SOT_SMD
+VinhTho_Lib
 SOT-23-5_HandSoldering
 5-pin SOT23 package
 SOT-23-5 hand-soldering
 0
 5
 5
-Package_TO_SOT_SMD
+VinhTho_Lib
 SOT-23-6
-6-pin SOT-23 package
-SOT-23-6
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
 0
 6
 6
-Package_TO_SOT_SMD
+VinhTho_Lib
 SOT-23-6_Handsoldering
 6-pin SOT-23 package, Handsoldering
 SOT-23-6 Handsoldering
 0
 6
 6
-Package_TO_SOT_SMD
-SOT-23-8
-8-pin SOT-23 package, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
-SOT-23-8
-0
-8
-8
-Package_TO_SOT_SMD
-SOT-23-8_Handsoldering
-8-pin SOT-23 package, Handsoldering, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
-SOT-23-8 Handsoldering
-0
-8
-8
-Package_TO_SOT_SMD
+VinhTho_Lib
 SOT-23W
 SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
 SOT-23W
 0
 3
 3
-Package_TO_SOT_SMD
-SOT-23W_Handsoldering
-SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
-SOT-23W for handsoldering
-0
-3
-3
-Package_TO_SOT_SMD
-SOT-23_Handsoldering
+VinhTho_Lib
+SOT-23_standar
 SOT-23, Handsoldering
 SOT-23
 0
 3
 3
-Package_TO_SOT_SMD
-SOT-89-3
-SOT-89-3
-SOT-89-3
-0
-6
-3
-Package_TO_SOT_SMD
-SOT-89-3_Handsoldering
-SOT-89-3 Handsoldering
-SOT-89-3 Handsoldering
-0
-5
-3
-Package_TO_SOT_SMD
-SOT-89-5
-SOT-89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT-89-5 Housing 
-0
-9
-5
-Package_TO_SOT_SMD
-SOT-89-5_Handsoldering
-SOT89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT89-5 Housing 
-0
-9
-5
-Package_TO_SOT_SMD
-SOT-143
-SOT-143
-SOT-143
-0
-4
-4
-Package_TO_SOT_SMD
-SOT-143R_Reverse
-SOT-143R Reverse
-SOT-143R Reverse
-0
-4
-4
-Package_TO_SOT_SMD
-SOT-143R_Reverse_Handsoldering
-SOT-143R Reverse Handsoldering
-SOT-143 Reverse Handsoldering
-0
-4
-4
-Package_TO_SOT_SMD
-SOT-143_Handsoldering
-SOT-143 Handsoldering
-SOT-143 Handsoldering
-0
-4
-4
-Package_TO_SOT_SMD
+VinhTho_Lib
 SOT-223
 module CMS SOT223 4 pins
 CMS SOT
 0
 4
 4
-Package_TO_SOT_SMD
-SOT-223-3_TabPin2
-module CMS SOT223 4 pins
-CMS SOT
+VinhTho_Lib
+SOT23-3-IRLML6401-M
+
+
+0
+3
+3
+VinhTho_Lib
+SOT23-3-MMBT3904-M
+
+
+0
+3
+3
+VinhTho_Lib
+SSOP-24_3.9x8.7mm_Pitch0.635mm
+SSOP24: plastic shrink small outline package; 24 leads; body width 3.9 mm; lead pitch 0.635; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot556-1_po.pdf)
+SSOP 0.635
+0
+24
+24
+VinhTho_Lib
+ST7920
+STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+AG12864E Graphics Display 128x64 Ampire
+0
+24
+20
+VinhTho_Lib
+SW
+
+
+0
+2
+2
+VinhTho_Lib
+SW-8-3-state
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+10
+10
+VinhTho_Lib
+SW-T1107A(6x3,8x2,5MM)
+
+
+0
+2
+2
+VinhTho_Lib
+SW_8mm
+
+
+0
+2
+2
+VinhTho_Lib
+SW_10mm
+
+
+0
+2
+2
+VinhTho_Lib
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
 0
 4
-3
-Package_TO_SOT_SMD
-SOT-223-5
-module CMS SOT223 5 pins, http://ww1.microchip.com/downloads/en/DeviceDoc/51751a.pdf
-CMS SOT
+2
+VinhTho_Lib
+SW_PUSH_SMALL
+
+
 0
-5
-5
-Package_TO_SOT_SMD
-SOT-223-6
-module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf
-CMS SOT
+4
+2
+VinhTho_Lib
+SW_SPST_EVPBF
+Light Touch Switch
+
+0
+4
+2
+VinhTho_Lib
+SW_SPST_FSMSM
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+SPST button tactile switch
+0
+2
+2
+VinhTho_Lib
+SW_TS-6262
+Light Touch Switch
+
+0
+4
+2
+VinhTho_Lib
+Tact_Switch_TS6X3.6
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+SPST button tactile switch
+0
+2
+2
+VinhTho_Lib
+Terminal-2P-9.5mm
+
+
+0
+2
+2
+VinhTho_Lib
+Terminal-3.81-2pin
+
+
+0
+2
+2
+VinhTho_Lib
+Terminal-3.81-4pin
+
+
+0
+4
+4
+VinhTho_Lib
+Terminal-3.81-6pin
+
+
 0
 6
 6
-Package_TO_SOT_SMD
-SOT-223-6_TabPin3
-module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf
-CMS SOT
-0
-6
-5
-Package_TO_SOT_SMD
-SOT-223-8
-module CMS SOT223 8 pins, https://www.diodes.com/assets/Datasheets/ZXSBMR16PT8.pdf
-CMS SOT
+VinhTho_Lib
+Terminal-3.81-8pin
+
+
 0
 8
 8
-Package_TO_SOT_SMD
-SOT-323_SC-70
-SOT-323, SC-70
-SOT-323 SC-70
+VinhTho_Lib
+Terminal-3.81-10pin
+
+
 0
-3
-3
-Package_TO_SOT_SMD
-SOT-323_SC-70_Handsoldering
-SOT-323, SC-70 Handsoldering
-SOT-323 SC-70 Handsoldering
+10
+10
+VinhTho_Lib
+Terminal2-7.62
+
+
 0
-3
-3
-Package_TO_SOT_SMD
-SOT-343_SC-70-4
-SOT-343, SC-70-4
-SOT-343 SC-70-4
-0
-4
-4
-Package_TO_SOT_SMD
-SOT-343_SC-70-4_Handsoldering
-SOT-343, SC-70-4, Handsoldering
-SOT-343 SC-70-4 Handsoldering
+2
+2
+VinhTho_Lib
+Terminal4-7.62
+
+
 0
 4
 4
-Package_TO_SOT_SMD
-SOT-353_SC-70-5
-SOT-353, SC-70-5
-SOT-353 SC-70-5
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-3.81mm_2pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
-5
-5
-Package_TO_SOT_SMD
-SOT-353_SC-70-5_Handsoldering
-SOT-353, SC-70-5, Handsoldering
-SOT-353 SC-70-5 Handsoldering
+2
+2
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-3.81mm_4pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
-5
-5
-Package_TO_SOT_SMD
-SOT-363_SC-70-6
-SOT-363, SC-70-6
-SOT-363 SC-70-6
-0
-6
-6
-Package_TO_SOT_SMD
-SOT-363_SC-70-6_Handsoldering
-SOT-363, SC-70-6, Handsoldering
-SOT-363 SC-70-6 Handsoldering
-0
-6
-6
-Package_TO_SOT_SMD
-SOT-383F
-8-pin SOT-383F, http://www.mouser.com/ds/2/80/CPDVR085V0C-HF-RevB-10783.pdf
-SOT-383F
-0
-9
-9
-Package_TO_SOT_SMD
-SOT-383FL
-8-pin SOT-383FL package, http://www.onsemi.com/pub_link/Collateral/ENA2267-D.PDF
-SOT-383FL
+4
+4
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-3.81mm_8pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
 8
 8
-Package_TO_SOT_SMD
-SOT-416
-SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf
-SOT-416
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-5.08mm_2pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
+0
+2
+2
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-5.08mm_3pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
 3
 3
-Package_TO_SOT_SMD
-SOT-543
-SOT-543 4 lead surface package
-SOT-543 SC-107A EMD4
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-5.08mm_4pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
 4
 4
-Package_TO_SOT_SMD
-SOT-553
-SOT553
-SOT-553
-0
-5
-5
-Package_TO_SOT_SMD
-SOT-563
-SOT563
-SOT-563
-0
-6
-6
-Package_TO_SOT_SMD
-SOT-665
-SOT665
-SOT-665
-0
-5
-5
-Package_TO_SOT_SMD
-SOT-666
-SOT666
-SOT-666
-0
-6
-6
-Package_TO_SOT_SMD
-SOT-723
-http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV
-sot 723
-0
-3
-3
-Package_TO_SOT_SMD
-SOT-883
-SOT-883, https://assets.nexperia.com/documents/outline-drawing/SOT883.pdf
-SOT-883
-0
-3
-3
-Package_TO_SOT_SMD
-SOT-886
-SOT-886
-SOT-886
-0
-6
-6
-Package_TO_SOT_SMD
-SOT-963
-SOT 963 6 pins package 1x0.8mm pitch 0.35mm
-SOT 963 6 pins package 1x0.8mm pitch 0.35mm
-0
-6
-6
-Package_TO_SOT_SMD
-SOT-1123
-SOT-1123 small outline transistor (see http://www.onsemi.com/pub/Collateral/NST3906F3-D.PDF)
-SOT-1123 transistor
-0
-3
-3
-Package_TO_SOT_SMD
-SOT-1333-1
-SOT-1333-1 
-SOT-1333-1 
-0
-9
-9
-Package_TO_SOT_SMD
-SOT-1334-1
-SOT-1334-1
-SOT-1334-1
-0
-14
-14
-Package_TO_SOT_SMD
-SuperSOT-3
-3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf
-SuperSOT-3 SSOT-3
-0
-3
-3
-Package_TO_SOT_SMD
-SuperSOT-6
-6-pin SuperSOT package http://www.mouser.com/ds/2/149/FMB5551-889214.pdf
-SuperSOT-6 SSOT-6
-0
-6
-6
-Package_TO_SOT_SMD
-SuperSOT-8
-8-pin SuperSOT package, http://www.icbank.com/icbank_data/semi_package/ssot8_dim.pdf
-SuperSOT-8 SSOT-8
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-5.08mm_8pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
 8
 8
-Package_TO_SOT_SMD
-TDSON-8-1
-Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
-tdson 
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-5.08mm_13pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
 0
 13
-5
-Package_TO_SOT_SMD
-TDSON-8-1_HandSoldering
-Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
-tdson 
-0
 13
-5
-Package_TO_SOT_SMD
-Texas_DRT-3
-Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
-DRT-3 1x0.8mm Pitch 0.7mm
+VinhTho_Lib
+TerminalBlock_Pheonix_PT-5.08mm_16pol
+2-way 3.5mm pitch terminal block, Phoenix PT series
+
+0
+16
+16
+VinhTho_Lib
+TerminalBlock_WAGO-236_2Stift_R5mm_2pol
+WAGO-Series 236, 2Stift, 4pol, RM 5mm,
+WAGO-Series 236, 2Stift, 4pol, RM 5mm, Anreibare Leiterplattenklemme
+0
+4
+2
+VinhTho_Lib
+TerminalBlock_WAGO-236_2Stift_R5mm_4pol
+WAGO-Series 236, 2Stift, 4pol, RM 5mm,
+WAGO-Series 236, 2Stift, 4pol, RM 5mm, Anreibare Leiterplattenklemme
+0
+8
+4
+VinhTho_Lib
+TerminalBlock_WAGO-236_2Stift_R5mm_10pol
+WAGO-Series 236, 2Stift, 4pol, RM 5mm,
+WAGO-Series 236, 2Stift, 4pol, RM 5mm, Anreibare Leiterplattenklemme
+0
+20
+10
+VinhTho_Lib
+Terminal_Block_2Pin_3.81_Straight_Screw
+
+
+0
+2
+2
+VinhTho_Lib
+Terminal_Block_3Pin_3.81_Straight_Screw
+
+
 0
 3
 3
-Package_TO_SOT_SMD
-Texas_R-PDSO-G6
-R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf
-R-PDSO-G6 SC-70-6
-0
-6
-6
-Package_TO_SOT_SMD
-TO-50-3_LongPad-NoHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-Package_TO_SOT_SMD
-TO-50-3_LongPad-WithHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-Package_TO_SOT_SMD
-TO-50-3_ShortPad-NoHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-Package_TO_SOT_SMD
-TO-50-3_ShortPad-WithHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-Package_TO_SOT_SMD
-TO-50-4_LongPad-NoHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
+VinhTho_Lib
+Terminal_Block_4Pin_3.81_Straight_Screw
+
+
 0
 4
 4
-Package_TO_SOT_SMD
-TO-50-4_LongPad-WithHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
+VinhTho_Lib
+Terminal_Block_10Pin_3.81_Straight_Screw
+
+
 0
-4
-4
-Package_TO_SOT_SMD
-TO-50-4_ShortPad-NoHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
+10
+10
+VinhTho_Lib
+TESTPAD_40-ROUND
+
+
 0
-4
-4
-Package_TO_SOT_SMD
-TO-50-4_ShortPad-WithHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
+1
+1
+VinhTho_Lib
+TFC-WPAPR-08
+OFFSET X-> -0.950MM
+OFFSET X-> -0.950MM
 0
+15
+15
+VinhTho_Lib
+TNY268
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+7
 4
-4
-Package_TO_SOT_SMD
+VinhTho_Lib
+TO-92_Molded_Wide
+TO-92 leads molded, wide, drill 0.8mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+VinhTho_Lib
 TO-252-2
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
-DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+TO-252-2
+TO-252-2 Rectifier
 0
-7
+28
 3
-Package_TO_SOT_SMD
-TO-252-2_TabPin1
-TO-252-2, tab to pin 1 https://www.wolfspeed.com/media/downloads/87/CSD01060.pdf
-TO-252-2 diode
+VinhTho_Lib
+TO-263-2Lead
+D2PAK / TO-263 3-lead smd package
+D2PAK D2PAK-3 TO-263AB TO-263
 0
-7
+3
+3
+VinhTho_Lib
+TO-263-3Lead
+D2PAK / TO-263 3-lead smd package
+D2PAK D2PAK-3 TO-263AB TO-263
+0
+4
+3
+VinhTho_Lib
+Touch_Circle
+
+
+0
+3
 2
-Package_TO_SOT_SMD
-TO-252-3_TabPin2
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
-DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+VinhTho_Lib
+Touch_square
+
+
 0
-8
 3
-Package_TO_SOT_SMD
-TO-252-3_TabPin4
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
-DPAK TO-252 DPAK-3 TO-252-3 SOT-428
-0
-8
-4
-Package_TO_SOT_SMD
-TO-252-4
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
-DPAK TO-252 DPAK-5 TO-252-5
-0
-9
-5
-Package_TO_SOT_SMD
-TO-252-5_TabPin3
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
-DPAK TO-252 DPAK-5 TO-252-5
-0
-10
-5
-Package_TO_SOT_SMD
-TO-252-5_TabPin6
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
-DPAK TO-252 DPAK-5 TO-252-5
-0
-10
-6
-Package_TO_SOT_SMD
-TO-263-2
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
-0
-7
-3
-Package_TO_SOT_SMD
-TO-263-2_TabPin1
-TO-263 / D2PAK / DDPAK SMD package, tab to pin 1, https://www.wolfspeed.com/media/downloads/137/C3D06060G.pdf
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404 diode
-0
-7
 2
-Package_TO_SOT_SMD
-TO-263-3_TabPin2
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+VinhTho_Lib
+Transformer_Breve_TEZ-30x25
+http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+TEZ PCB Transformer
 0
-8
-3
-Package_TO_SOT_SMD
-TO-263-3_TabPin4
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
-0
-8
-4
-Package_TO_SOT_SMD
-TO-263-4
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
-D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
-0
-9
 5
-Package_TO_SOT_SMD
-TO-263-5_TabPin3
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
-D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
-0
-10
 5
-Package_TO_SOT_SMD
-TO-263-5_TabPin6
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
-D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
-0
-10
-6
-Package_TO_SOT_SMD
-TO-263-6
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
-D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
-0
-11
-7
-Package_TO_SOT_SMD
-TO-263-7_TabPin4
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
-D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
-0
-12
-7
-Package_TO_SOT_SMD
-TO-263-7_TabPin8
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
-D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
-0
-12
-8
-Package_TO_SOT_SMD
-TO-263-9_TabPin5
-TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
-D2PAK DDPAK TO-263 D2PAK-9 TO-263-9
-0
-14
-9
-Package_TO_SOT_SMD
-TO-263-9_TabPin10
-TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
-D2PAK DDPAK TO-263 D2PAK-9 TO-263-9
-0
-14
-10
-Package_TO_SOT_SMD
-TO-268-2
-TO-268/D3PAK SMD package, http://www.icbank.com/icbank_data/semi_package/to268aa_dim.pdf
-D3PAK TO-268 D3PAK-3 TO-268-3
-0
-7
-3
-Package_TO_SOT_SMD
-TO-269AA
-SMD package TO-269AA (e.g. diode bridge), see http://www.vishay.com/docs/88854/padlayouts.pdf
-TO-269AA MBS diode bridge
-0
-4
-4
-Package_TO_SOT_SMD
-TO-277A
-Thermal enhanced ultra thin SMD package; 3 leads; body: 5.8 x 4.3 x 0.78 mm
-TO-277A SOT-1289
-0
-12
-3
-Package_TO_SOT_SMD
-TO-277B
-TO-227B https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/DST2050S.pdf
-TO-277B
-0
-9
-3
-Package_TO_SOT_SMD
+VinhTho_Lib
 TSOT-23
 3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf
 TSOT-23
 0
 3
 3
-Package_TO_SOT_SMD
-TSOT-23-5
-5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
-TSOT-23-5
+VinhTho_Lib
+TSSOP-20_4.4x6.5mm_Pitch0.65mm
+20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
 0
-5
-5
-Package_TO_SOT_SMD
-TSOT-23-5_HandSoldering
-5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
-TSOT-23-5 Hand-soldering
-0
-5
-5
-Package_TO_SOT_SMD
-TSOT-23-6
-6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
-TSOT-23-6 MK06A TSOT-6
-0
-6
-6
-Package_TO_SOT_SMD
-TSOT-23-6_HandSoldering
-6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
-TSOT-23-6 MK06A TSOT-6 Hand-soldering
-0
-6
-6
-Package_TO_SOT_SMD
-TSOT-23-8
-8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
-TSOT-23-8
-0
-8
-8
-Package_TO_SOT_SMD
-TSOT-23-8_HandSoldering
-8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
-TSOT-23-8 Hand-soldering
-0
-8
-8
-Package_TO_SOT_SMD
-TSOT-23_HandSoldering
-5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
-TSOT-23 Hand-soldering
+20
+20
+VinhTho_Lib
+TSSOP1738
+RECOM,R78EXX,https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+SIP3 Regulator Module
 0
 3
 3
-Package_TO_SOT_SMD
-Vishay_PowerPAK_SC70-6L_Dual
-Vishay PowerPAK SC70 dual transistor package http://www.vishay.com/docs/70487/70487.pdf
-powerpak sc70 sc-70 dual
+VinhTho_Lib
+TSSOP1838
+RECOM,R78EXX,https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+SIP3 Regulator Module
+0
+3
+3
+VinhTho_Lib
+USB-MICRO-5P-4H-F
+
+
+0
+11
+7
+VinhTho_Lib
+USB_A_H_PTH
+
+
+0
+6
+5
+VinhTho_Lib
+USB_A_VERTICAL_PTH
+
+
 0
 8
+5
+VinhTho_Lib
+USB_Micro-B
+Micro USB Type B Receptacle
+USB USB_B USB_micro USB_OTG
+0
+9
 6
-Package_TO_SOT_SMD
-Vishay_PowerPAK_SC70-6L_Single
-Vishay PowerPAK SC70 single transistor package http://www.vishay.com/docs/70486/70486.pdf
-powerpak sc70 sc-70
+VinhTho_Lib
+USB_Micro-B-1
+Micro USB Type B Receptacle
+USB USB_B USB_micro USB_OTG
 0
-10
+9
+6
+VinhTho_Lib
+USB_Micro-B_DGK609-4048-1-ND
+Micro USB Type B Receptacle
+USB USB_B USB_micro USB_OTG
+0
+11
+6
+VinhTho_Lib
+Varesistor Bourns
+
+
+0
 3
-Package_TO_SOT_SMD
-VSOF5
-VSOF5
-VSOF5
+3
+VinhTho_Lib
+VIA
+
+
 0
-5
-5
+1
+1
+VinhTho_Lib
+Via_0309mm
+
+
+0
+1
+1
+VinhTho_Lib
+Via_1018mm
+
+
+0
+1
+1
+VinhTho_Lib
+Vit-3mm
+
+
+0
+1
+1
+VinhTho_Lib
+Vit-4mm
+
+
+0
+1
+1
+VinhTho_Lib
+VR-3362P
+
+
+0
+3
+3
+VinhTho_Lib
+VR1
+
+varistor SIOV
+0
+3
+3
+VinhTho_Lib
+WSOF6I
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+VinhTho_Lib
+XL6009_module
+
+
+0
+4
+4
+VinhTho_Lib
+XL6009_module_SMT
+
+
+0
+7
+4
