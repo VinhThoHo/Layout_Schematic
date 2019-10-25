@@ -37,17 +37,6 @@ F 3 "" H 5550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L master-node-rescue:C C10
-U 1 1 595ADDFC
-P 5550 2400
-F 0 "C10" H 5575 2500 50  0000 L CNN
-F 1 "100nF" H 5575 2300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5588 2250 50  0001 C CNN
-F 3 "" H 5550 2400 50  0001 C CNN
-	1    5550 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L master-node-rescue:+3V3 #PWR063
 U 1 1 595B16DC
 P 4150 2625
@@ -1544,7 +1533,7 @@ F 1 "Q_NMOS_GDS" H 11455 3430 50  0000 L CNN
 F 2 "VinhTho_Lib:TO-252-2" H 11450 3575 50  0001 C CNN
 F 3 "https://banlinhkien.com/30n06-fqd30n06-to252-mosfet-nch-22a-60v-p12118703.html" H 11250 3475 50  0001 C CNN
 	1    11250 3475
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	11050 3475 11000 3475
@@ -2338,17 +2327,6 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 8425 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L ph_door_fume_hood_controller_hw-rescue:+24V-PH_LIB #PWR0153
-U 1 1 5ED636E7
-P 1500 7925
-F 0 "#PWR0153" H 1500 7775 50  0001 C CNN
-F 1 "+24V" H 1515 8090 39  0000 C CNN
-F 2 "" H 1500 7925 50  0001 C CNN
-F 3 "" H 1500 7925 50  0001 C CNN
-	1    1500 7925
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Zener_ALT D20
 U 1 1 5ED63ED3
 P 1500 8100
@@ -2434,17 +2412,6 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 9525 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L ph_door_fume_hood_controller_hw-rescue:+24V-PH_LIB #PWR0175
-U 1 1 5EEE7342
-P 1500 9025
-F 0 "#PWR0175" H 1500 8875 50  0001 C CNN
-F 1 "+24V" H 1515 9190 39  0000 C CNN
-F 2 "" H 1500 9025 50  0001 C CNN
-F 3 "" H 1500 9025 50  0001 C CNN
-	1    1500 9025
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Zener_ALT D28
 U 1 1 5EEE7348
 P 1500 9200
@@ -2520,28 +2487,6 @@ Wire Wire Line
 Connection ~ 2575 9425
 Wire Wire Line
 	2575 9425 2850 9425
-$Comp
-L Isolator:PC817 U23
-U 1 1 5EF16235
-P 2200 10625
-F 0 "U23" H 2200 10950 50  0000 C CNN
-F 1 "PC817" H 2200 10859 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2000 10425 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 10625 50  0001 L CNN
-	1    2200 10625
-	1    0    0    -1  
-$EndComp
-$Comp
-L ph_door_fume_hood_controller_hw-rescue:+24V-PH_LIB #PWR0198
-U 1 1 5EF1623B
-P 1500 10125
-F 0 "#PWR0198" H 1500 9975 50  0001 C CNN
-F 1 "+24V" H 1515 10290 39  0000 C CNN
-F 2 "" H 1500 10125 50  0001 C CNN
-F 3 "" H 1500 10125 50  0001 C CNN
-	1    1500 10125
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Zener_ALT D32
 U 1 1 5EF16241
@@ -3619,7 +3564,7 @@ U 1 1 60AED796
 P 800 2575
 F 0 "J4" H 720 2892 50  0000 C CNN
 F 1 "Conn_01x03" H 720 2801 50  0000 C CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-3P" H 800 2575 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 800 2575 50  0001 C CNN
 F 3 "~" H 800 2575 50  0001 C CNN
 	1    800  2575
 	-1   0    0    -1  
@@ -3937,7 +3882,7 @@ U 1 1 6107640B
 P 725 8425
 F 0 "J10" H 645 8742 50  0000 C CNN
 F 1 "Conn_01x03" H 645 8651 50  0000 C CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-3P" H 725 8425 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_3P" H 725 8425 50  0001 C CNN
 F 3 "~" H 725 8425 50  0001 C CNN
 	1    725  8425
 	-1   0    0    -1  
@@ -3956,7 +3901,7 @@ U 1 1 611F803E
 P 725 9525
 F 0 "J14" H 645 9842 50  0000 C CNN
 F 1 "Conn_01x03" H 645 9751 50  0000 C CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-3P" H 725 9525 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_3P" H 725 9525 50  0001 C CNN
 F 3 "~" H 725 9525 50  0001 C CNN
 	1    725  9525
 	-1   0    0    -1  
@@ -3975,7 +3920,7 @@ U 1 1 613BC418
 P 725 10625
 F 0 "J15" H 645 10942 50  0000 C CNN
 F 1 "Conn_01x03" H 645 10851 50  0000 C CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-3P" H 725 10625 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_3P" H 725 10625 50  0001 C CNN
 F 3 "~" H 725 10625 50  0001 C CNN
 	1    725  10625
 	-1   0    0    -1  
@@ -4622,7 +4567,7 @@ U 1 1 6238B910
 P 775 1150
 F 0 "J1" H 695 1467 50  0000 C CNN
 F 1 "Conn_01x03" H 695 1376 50  0000 C CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-3P" H 775 1150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 775 1150 50  0001 C CNN
 F 3 "~" H 775 1150 50  0001 C CNN
 	1    775  1150
 	-1   0    0    -1  
@@ -4745,17 +4690,6 @@ Wire Wire Line
 Connection ~ 1100 1050
 Wire Wire Line
 	1100 700  1100 750 
-$Comp
-L ph_door_fume_hood_controller_hw-rescue:+24V-PH_LIB #PWR04
-U 1 1 5DEE7A26
-P 1375 700
-F 0 "#PWR04" H 1375 550 50  0001 C CNN
-F 1 "+24V" H 1390 865 39  0000 C CNN
-F 2 "" H 1375 700 50  0001 C CNN
-F 3 "" H 1375 700 50  0001 C CNN
-	1    1375 700 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 3525 6475 3525
 $Comp
@@ -6305,7 +6239,7 @@ U 1 1 62CB146B
 P 7225 3925
 F 0 "J5" H 7305 3967 50  0000 L CNN
 F 1 "Conn_01x03" H 7305 3876 50  0000 L CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-3P" H 7225 3925 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7225 3925 50  0001 C CNN
 F 3 "~" H 7225 3925 50  0001 C CNN
 	1    7225 3925
 	1    0    0    -1  
@@ -6842,17 +6776,6 @@ F 3 "" H 14525 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0134
-U 1 1 5E2D94A6
-P 15450 7000
-F 0 "#PWR0134" H 15450 6850 50  0001 C CNN
-F 1 "+24V" H 15465 7173 50  0000 C CNN
-F 2 "" H 15450 7000 50  0001 C CNN
-F 3 "" H 15450 7000 50  0001 C CNN
-	1    15450 7000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+24V #PWR0171
 U 1 1 5E2FE88F
 P 12075 8700
@@ -6996,10 +6919,10 @@ F 3 "" H 3675 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
+L power:+24V #PWR0153
 U 1 1 5E724D4F
 P 1050 8225
-F 0 "#PWR?" H 1050 8075 50  0001 C CNN
+F 0 "#PWR0153" H 1050 8075 50  0001 C CNN
 F 1 "+24V" H 1065 8398 50  0000 C CNN
 F 2 "" H 1050 8225 50  0001 C CNN
 F 3 "" H 1050 8225 50  0001 C CNN
@@ -7007,10 +6930,10 @@ F 3 "" H 1050 8225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
+L power:+24V #PWR0159
 U 1 1 5E725FB4
 P 1050 9325
-F 0 "#PWR?" H 1050 9175 50  0001 C CNN
+F 0 "#PWR0159" H 1050 9175 50  0001 C CNN
 F 1 "+24V" H 1065 9498 50  0000 C CNN
 F 2 "" H 1050 9325 50  0001 C CNN
 F 3 "" H 1050 9325 50  0001 C CNN
@@ -7018,14 +6941,91 @@ F 3 "" H 1050 9325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
+L power:+24V #PWR0175
 U 1 1 5E7283B8
 P 1050 10425
-F 0 "#PWR?" H 1050 10275 50  0001 C CNN
+F 0 "#PWR0175" H 1050 10275 50  0001 C CNN
 F 1 "+24V" H 1065 10598 50  0000 C CNN
 F 2 "" H 1050 10425 50  0001 C CNN
 F 3 "" H 1050 10425 50  0001 C CNN
 	1    1050 10425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U23
+U 1 1 5EF16235
+P 2200 10625
+F 0 "U23" H 2200 10950 50  0000 C CNN
+F 1 "PC817" H 2200 10859 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 2000 10425 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 10625 50  0001 L CNN
+	1    2200 10625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0182
+U 1 1 5DBF911F
+P 1500 7925
+F 0 "#PWR0182" H 1500 7775 50  0001 C CNN
+F 1 "+24V" H 1515 8098 50  0000 C CNN
+F 2 "" H 1500 7925 50  0001 C CNN
+F 3 "" H 1500 7925 50  0001 C CNN
+	1    1500 7925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0198
+U 1 1 5DBF9B7E
+P 1500 9025
+F 0 "#PWR0198" H 1500 8875 50  0001 C CNN
+F 1 "+24V" H 1515 9198 50  0000 C CNN
+F 2 "" H 1500 9025 50  0001 C CNN
+F 3 "" H 1500 9025 50  0001 C CNN
+	1    1500 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0199
+U 1 1 5DBFBF1F
+P 1500 10125
+F 0 "#PWR0199" H 1500 9975 50  0001 C CNN
+F 1 "+24V" H 1515 10298 50  0000 C CNN
+F 2 "" H 1500 10125 50  0001 C CNN
+F 3 "" H 1500 10125 50  0001 C CNN
+	1    1500 10125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0213
+U 1 1 5DC75FC2
+P 1375 700
+F 0 "#PWR0213" H 1375 550 50  0001 C CNN
+F 1 "+24V" H 1390 873 50  0000 C CNN
+F 2 "" H 1375 700 50  0001 C CNN
+F 3 "" H 1375 700 50  0001 C CNN
+	1    1375 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-node-rescue:C C10
+U 1 1 595ADDFC
+P 5550 2400
+F 0 "C10" H 5575 2500 50  0000 L CNN
+F 1 "100nF" H 5575 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5588 2250 50  0001 C CNN
+F 3 "" H 5550 2400 50  0001 C CNN
+	1    5550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0134
+U 1 1 5DFD5347
+P 15450 7000
+F 0 "#PWR0134" H 15450 6850 50  0001 C CNN
+F 1 "+24V" H 15465 7173 50  0000 C CNN
+F 2 "" H 15450 7000 50  0001 C CNN
+F 3 "" H 15450 7000 50  0001 C CNN
+	1    15450 7000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

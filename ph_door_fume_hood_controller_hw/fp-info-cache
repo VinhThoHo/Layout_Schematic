@@ -1,4 +1,4 @@
-451519565381689
+454663540032844
 VinhTho_Lib
 2-pol
 
@@ -1770,6 +1770,20 @@ WAGO-Series 236, 2Stift, 4pol, RM 5mm, Anreibare Leiterplattenklemme
 0
 20
 10
+VinhTho_Lib
+TerminalBlock_WAGO_2.54mm_3P
+
+
+0
+6
+3
+VinhTho_Lib
+TerminalBlock_WAGO_2.54mm_6P
+
+
+0
+12
+6
 VinhTho_Lib
 Terminal_Block_2Pin_3.81_Straight_Screw
 
