@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ph_shield_sim7000_pm2_hw-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -920,7 +920,7 @@ Wire Wire Line
 Wire Wire Line
 	7325 2300 7325 2250
 Wire Wire Line
-	7800 1825 7800 1925
+	7800 1635 7800 1925
 Wire Wire Line
 	8375 1175 8375 1925
 Wire Wire Line
@@ -947,17 +947,6 @@ F 1 "Antenna_Shield" H 7215 825 50  0000 L CNN
 F 2 "VinhTho_Lib:Anten_GPS" H 7075 975 50  0001 C CNN
 F 3 "~" H 7075 975 50  0001 C CNN
 	1    7075 875 
-	1    0    0    -1  
-$EndComp
-$Comp
-L ph_shield_sim7000_pm2_hw-rescue:Antenna-Device AE3
-U 1 1 5E569EF6
-P 7800 1625
-F 0 "AE3" H 7880 1616 50  0000 L CNN
-F 1 "Antenna" H 7880 1525 50  0000 L CNN
-F 2 "VinhTho_Lib:Anten_GSM_IPEX" H 7800 1625 50  0001 C CNN
-F 3 "https://hshop.vn/products/dau-noi-ipex-2" H 7800 1625 50  0001 C CNN
-	1    7800 1625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2509,4 +2498,28 @@ F 3 "" H 3350 3775 50  0001 C CNN
 	1    3350 3775
 	1    0    0    -1  
 $EndComp
+$Comp
+L ph_shield_sim7000_pm2_hw-rescue:Antenna_Shield-Device AE3
+U 1 1 5DBD87BF
+P 7800 1435
+F 0 "AE3" H 7940 1476 50  0000 L CNN
+F 1 "Antenna_Shield" H 7940 1385 50  0000 L CNN
+F 2 "VinhTho_Lib:Anten_GSM_IPEX" H 7800 1535 50  0001 C CNN
+F 3 "https://hshop.vn/products/dau-noi-ipex-2" H 7800 1535 50  0001 C CNN
+	1    7800 1435
+	1    0    0    -1  
+$EndComp
+$Comp
+L ph_shield_sim7000_pm2_hw-rescue:GND-power #PWR?
+U 1 1 5DBDA6CD
+P 7900 1665
+F 0 "#PWR?" H 7900 1415 50  0001 C CNN
+F 1 "GND" H 7905 1492 50  0000 C CNN
+F 2 "" H 7900 1665 50  0001 C CNN
+F 3 "" H 7900 1665 50  0001 C CNN
+	1    7900 1665
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1635 7900 1665
 $EndSCHEMATC

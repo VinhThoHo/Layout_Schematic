@@ -85,8 +85,8 @@ L master-node-rescue:CP1 C41
 U 1 1 595B7609
 P 12175 6975
 F 0 "C41" H 12200 7075 50  0000 L CNN
-F 1 "47uF" H 12200 6875 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 12175 6975 50  0001 C CNN
+F 1 "100uF/10V" H 11965 6860 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder" H 12175 6975 50  0001 C CNN
 F 3 "" H 12175 6975 50  0001 C CNN
 	1    12175 6975
 	-1   0    0    -1  
@@ -1438,7 +1438,7 @@ U 1 1 5E0AA38C
 P 12125 3325
 F 0 "RV1" H 12055 3363 39  0000 R CNN
 F 1 "20k" H 12055 3288 39  0000 R CNN
-F 2 "VinhTho_Lib:VR1" H 12125 3325 50  0001 C CNN
+F 2 "VinhTho_Lib:VR-3362P" H 12125 3325 50  0001 C CNN
 F 3 "https://thegioiic.com/products/3296w-203-bien-tro-20k-ohm-tinh-chinh-top" H 12125 3325 50  0001 C CNN
 	1    12125 3325
 	1    0    0    -1  
@@ -1523,17 +1523,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11280 3075 50  
 F 3 "" H 11350 3075 50  0001 C CNN
 	1    11350 3075
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q3
-U 1 1 5E16464E
-P 11250 3475
-F 0 "Q3" H 11455 3521 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 11455 3430 50  0000 L CNN
-F 2 "VinhTho_Lib:TO-252-2" H 11450 3575 50  0001 C CNN
-F 3 "https://banlinhkien.com/30n06-fqd30n06-to252-mosfet-nch-22a-60v-p12118703.html" H 11250 3475 50  0001 C CNN
-	1    11250 3475
-	1    0    0    1   
 $EndComp
 Wire Wire Line
 	11050 3475 11000 3475
@@ -2099,7 +2088,7 @@ U 1 1 5EA22B52
 P 8925 1950
 F 0 "U4" H 8925 2275 50  0000 C CNN
 F 1 "PC817" H 8925 2184 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 8725 1750 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 8725 1750 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8925 1950 50  0001 L CNN
 	1    8925 1950
 	1    0    0    -1  
@@ -2176,7 +2165,7 @@ U 1 1 5EB04A53
 P 8950 2800
 F 0 "U6" H 8950 3125 50  0000 C CNN
 F 1 "PC817" H 8950 3034 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 8750 2600 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 8750 2600 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8950 2800 50  0001 L CNN
 	1    8950 2800
 	1    0    0    -1  
@@ -2253,7 +2242,7 @@ U 1 1 5EBF3FD7
 P 15325 2300
 F 0 "J2" H 15405 2292 50  0000 L CNN
 F 1 "Conn_01x04" H 15405 2201 50  0000 L CNN
-F 2 "VinhTho_Lib:Domino-5.08mm_4pol" H 15325 2300 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO-236_2Stift_R5mm_4pol" H 15325 2300 50  0001 C CNN
 F 3 "~" H 15325 2300 50  0001 C CNN
 	1    15325 2300
 	1    0    0    -1  
@@ -2303,7 +2292,7 @@ U 1 1 5ECE4348
 P 15125 4975
 F 0 "F1" V 14928 4975 50  0000 C CNN
 F 1 "Fuse" V 15019 4975 50  0000 C CNN
-F 2 "VinhTho_Lib:Fuse_SMD1812" V 15055 4975 50  0001 C CNN
+F 2 "VinhTho_Lib:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 15055 4975 50  0001 C CNN
 F 3 "~" H 15125 4975 50  0001 C CNN
 	1    15125 4975
 	0    1    1    0   
@@ -2321,7 +2310,7 @@ U 1 1 5ED63448
 P 2200 8425
 F 0 "U17" H 2200 8750 50  0000 C CNN
 F 1 "PC817" H 2200 8659 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2000 8225 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 2000 8225 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 8425 50  0001 L CNN
 	1    2200 8425
 	1    0    0    -1  
@@ -2406,7 +2395,7 @@ U 1 1 5EEE733C
 P 2200 9525
 F 0 "U20" H 2200 9850 50  0000 C CNN
 F 1 "PC817" H 2200 9759 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2000 9325 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 2000 9325 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 9525 50  0001 L CNN
 	1    2200 9525
 	1    0    0    -1  
@@ -2880,8 +2869,8 @@ L master-node-rescue:CP1 C32
 U 1 1 5F1B8AD6
 P 14525 5225
 F 0 "C32" H 14550 5325 50  0000 L CNN
-F 1 "220uF/50V" H 14360 5125 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 14525 5225 50  0001 C CNN
+F 1 "470uF/50V" H 14360 5125 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x14.3" H 14525 5225 50  0001 C CNN
 F 3 "" H 14525 5225 50  0001 C CNN
 	1    14525 5225
 	-1   0    0    -1  
@@ -2966,17 +2955,6 @@ Wire Wire Line
 Connection ~ 14025 4975
 Wire Wire Line
 	14025 4975 13625 4975
-$Comp
-L power:GNDPWR #PWR0100
-U 1 1 5F38EAC7
-P 13125 5425
-F 0 "#PWR0100" H 13125 5225 50  0001 C CNN
-F 1 "GNDPWR" H 13130 5271 50  0000 C CNN
-F 2 "" H 13125 5375 50  0001 C CNN
-F 3 "" H 13125 5375 50  0001 C CNN
-	1    13125 5425
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	13125 5425 13125 5375
 $Comp
@@ -2985,7 +2963,7 @@ U 1 1 5F3C3D7D
 P 12225 4975
 F 0 "L2" V 12450 4975 50  0000 C CNN
 F 1 "180uH/5A" V 12359 4975 50  0000 C CNN
-F 2 "VinhTho_Lib:L181-5A" H 12225 4975 50  0001 C CNN
+F 2 "VinhTho_Lib:Inductor_5A" H 12225 4975 50  0001 C CNN
 F 3 "~" H 12225 4975 50  0001 C CNN
 	1    12225 4975
 	0    -1   -1   0   
@@ -2998,7 +2976,7 @@ U 1 1 5F3F98A6
 P 11925 5175
 F 0 "C27" H 11950 5275 50  0000 L CNN
 F 1 "330uF/25V" H 11950 5075 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 11925 5175 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 11925 5175 50  0001 C CNN
 F 3 "" H 11925 5175 50  0001 C CNN
 	1    11925 5175
 	-1   0    0    -1  
@@ -3182,8 +3160,8 @@ L master-node-rescue:C C30
 U 1 1 5F6D2C18
 P 11300 5200
 F 0 "C30" H 11325 5300 50  0000 L CNN
-F 1 "10uF" H 11325 5100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11338 5050 50  0001 C CNN
+F 1 "10uF/25V" H 11140 5095 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 11338 5050 50  0001 C CNN
 F 3 "" H 11300 5200 50  0001 C CNN
 	1    11300 5200
 	-1   0    0    -1  
@@ -3210,8 +3188,8 @@ L master-node-rescue:CP1 C34
 U 1 1 5F747DBC
 P 9950 5275
 F 0 "C34" H 9975 5375 50  0000 L CNN
-F 1 "100uF/16V" H 9975 5175 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 9950 5275 50  0001 C CNN
+F 1 "100uF/16V" H 9745 5165 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 9950 5275 50  0001 C CNN
 F 3 "" H 9950 5275 50  0001 C CNN
 	1    9950 5275
 	-1   0    0    -1  
@@ -3335,8 +3313,8 @@ L master-node-rescue:CP1 C44
 U 1 1 5F977705
 P 15850 7275
 F 0 "C44" H 15875 7375 50  0000 L CNN
-F 1 "330uF/25V" H 15635 7170 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 15850 7275 50  0001 C CNN
+F 1 "100uF/50V" H 15635 7170 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" H 15850 7275 50  0001 C CNN
 F 3 "" H 15850 7275 50  0001 C CNN
 	1    15850 7275
 	-1   0    0    -1  
@@ -3408,8 +3386,8 @@ L master-node-rescue:CP1 C39
 U 1 1 5FB30CD9
 P 13925 6925
 F 0 "C39" H 13950 7025 50  0000 L CNN
-F 1 "330uF/25V" H 13950 6825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 13925 6925 50  0001 C CNN
+F 1 "100uF/25V" H 13715 6820 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-20_Kemet-V_Pad2.25x2.55mm_HandSolder" H 13925 6925 50  0001 C CNN
 F 3 "" H 13925 6925 50  0001 C CNN
 	1    13925 6925
 	-1   0    0    -1  
@@ -3617,7 +3595,7 @@ U 1 1 60E7A419
 P 4900 8350
 F 0 "U16" H 4900 8675 50  0000 C CNN
 F 1 "PC817" H 4900 8584 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 4700 8150 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 4700 8150 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 8350 50  0001 L CNN
 	1    4900 8350
 	1    0    0    -1  
@@ -3706,7 +3684,7 @@ U 1 1 60E7A44F
 P 4900 9450
 F 0 "U19" H 4900 9775 50  0000 C CNN
 F 1 "PC817" H 4900 9684 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 4700 9250 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 4700 9250 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 9450 50  0001 L CNN
 	1    4900 9450
 	1    0    0    -1  
@@ -3795,7 +3773,7 @@ U 1 1 60E7A485
 P 4900 10550
 F 0 "U22" H 4900 10875 50  0000 C CNN
 F 1 "PC817" H 4900 10784 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 4700 10350 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 4700 10350 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 10550 50  0001 L CNN
 	1    4900 10550
 	1    0    0    -1  
@@ -4132,7 +4110,7 @@ U 1 1 6177686E
 P 4900 7250
 F 0 "U14" H 4900 7575 50  0000 C CNN
 F 1 "PC817" H 4900 7484 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 4700 7050 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 4700 7050 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 7250 50  0001 L CNN
 	1    4900 7250
 	1    0    0    -1  
@@ -4307,7 +4285,7 @@ U 1 1 6192E0AA
 P 3400 8850
 F 0 "J12" H 3320 9267 50  0000 C CNN
 F 1 "Conn_01x06" H 3320 9176 50  0000 C CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-6P" H 3400 8850 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_6P" H 3400 8850 50  0001 C CNN
 F 3 "~" H 3400 8850 50  0001 C CNN
 	1    3400 8850
 	-1   0    0    -1  
@@ -4595,7 +4573,7 @@ U 1 1 625814D1
 P 15550 8525
 F 0 "J11" H 15630 8517 50  0000 L CNN
 F 1 "Conn_01x02" H 15630 8426 50  0000 L CNN
-F 2 "VinhTho_Lib:TerminalBlock_WAGO-236_2Stift_R5mm_2pol" H 15550 8525 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_2P" H 15550 8525 50  0001 C CNN
 F 3 "~" H 15550 8525 50  0001 C CNN
 	1    15550 8525
 	1    0    0    -1  
@@ -4877,7 +4855,7 @@ U 1 1 5ECB78AD
 P 7175 5500
 F 0 "U10" H 7175 5825 50  0000 C CNN
 F 1 "PC817" H 7175 5734 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 6975 5300 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 6975 5300 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7175 5500 50  0001 L CNN
 	1    7175 5500
 	1    0    0    -1  
@@ -5074,7 +5052,7 @@ U 1 1 5EF4FD36
 P 7150 7200
 F 0 "U13" H 7150 7525 50  0000 C CNN
 F 1 "PC817" H 7150 7434 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 6950 7000 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 6950 7000 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7150 7200 50  0001 L CNN
 	1    7150 7200
 	1    0    0    -1  
@@ -5282,7 +5260,7 @@ U 1 1 5F285917
 P 7150 8700
 F 0 "U18" H 7150 9025 50  0000 C CNN
 F 1 "PC817" H 7150 8934 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 6950 8500 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 6950 8500 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7150 8700 50  0001 L CNN
 	1    7150 8700
 	1    0    0    -1  
@@ -5479,7 +5457,7 @@ U 1 1 5F28598E
 P 7125 10400
 F 0 "U21" H 7125 10725 50  0000 C CNN
 F 1 "PC817" H 7125 10634 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 6925 10200 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 6925 10200 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7125 10400 50  0001 L CNN
 	1    7125 10400
 	1    0    0    -1  
@@ -5626,17 +5604,6 @@ Text Label 6550 8800 0    50   ~ 0
 O3
 Text Label 6450 10500 0    50   ~ 0
 O4
-$Comp
-L Device:R_Network04 RN1
-U 1 1 5FC5FC0B
-P 6675 6075
-F 0 "RN1" H 6855 6121 50  0000 L CNN
-F 1 "R_Network04" H 6855 6030 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 6950 6075 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6675 6075 50  0001 C CNN
-	1    6675 6075
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6875 6275 7025 6275
 Wire Wire Line
@@ -5659,7 +5626,7 @@ $EndComp
 Wire Wire Line
 	6400 6350 6400 6275
 Wire Wire Line
-	6400 6275 6475 6275
+	6400 6275 6450 6275
 Text Label 7025 5975 2    50   ~ 0
 O1
 Text Label 7025 6075 2    50   ~ 0
@@ -5784,7 +5751,7 @@ U 1 1 60B1D41B
 P 6750 1425
 F 0 "U3" H 6750 1750 50  0000 C CNN
 F 1 "PC817" H 6750 1659 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 6550 1225 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 6550 1225 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6750 1425 50  0001 L CNN
 	1    6750 1425
 	1    0    0    -1  
@@ -6233,32 +6200,6 @@ Wire Wire Line
 	4850 1450 4850 1750
 Wire Wire Line
 	5250 1450 5250 1750
-$Comp
-L Connector_Generic:Conn_01x03 J5
-U 1 1 62CB146B
-P 7225 3925
-F 0 "J5" H 7305 3967 50  0000 L CNN
-F 1 "Conn_01x03" H 7305 3876 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7225 3925 50  0001 C CNN
-F 3 "~" H 7225 3925 50  0001 C CNN
-	1    7225 3925
-	1    0    0    -1  
-$EndComp
-$Comp
-L master-node-rescue:GND #PWR081
-U 1 1 62CB1C27
-P 6925 4075
-F 0 "#PWR081" H 6925 3825 50  0001 C CNN
-F 1 "GND" H 6925 3925 50  0000 C CNN
-F 2 "" H 6925 4075 50  0001 C CNN
-F 3 "" H 6925 4075 50  0001 C CNN
-	1    6925 4075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6925 4075 6925 4025
-Wire Wire Line
-	6925 4025 7025 4025
 Wire Wire Line
 	7025 3925 6800 3925
 Wire Wire Line
@@ -6957,7 +6898,7 @@ U 1 1 5EF16235
 P 2200 10625
 F 0 "U23" H 2200 10950 50  0000 C CNN
 F 1 "PC817" H 2200 10859 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2000 10425 50  0001 L CIN
+F 2 "VinhTho_Lib:Optocoupler_SMD" H 2000 10425 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 10625 50  0001 L CNN
 	1    2200 10625
 	1    0    0    -1  
@@ -7028,4 +6969,93 @@ F 3 "" H 15450 7000 50  0001 C CNN
 	1    15450 7000
 	1    0    0    -1  
 $EndComp
+$Comp
+L mcu_water_sample_hw-rescue:Q_NMOS_GSD Q3
+U 1 1 5DD1C111
+P 11250 3475
+F 0 "Q3" H 11456 3521 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 11456 3430 50  0000 L CNN
+F 2 "VinhTho_Lib:SOT-23" H 11450 3575 50  0001 C CNN
+F 3 "" H 11250 3475 50  0001 C CNN
+	1    11250 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0100
+U 1 1 5F38EAC7
+P 13125 5425
+F 0 "#PWR0100" H 13125 5225 50  0001 C CNN
+F 1 "GNDPWR" H 13130 5271 50  0000 C CNN
+F 2 "" H 13125 5375 50  0001 C CNN
+F 3 "" H 13125 5375 50  0001 C CNN
+	1    13125 5425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5E152F40
+P 6675 6175
+F 0 "RN1" V 6258 6175 50  0000 C CNN
+F 1 "R_Pack04" V 6349 6175 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6950 6175 50  0001 C CNN
+F 3 "~" H 6675 6175 50  0001 C CNN
+	1    6675 6175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6475 5975 6450 5975
+Wire Wire Line
+	6450 5975 6450 6075
+Wire Wire Line
+	6450 6075 6475 6075
+Wire Wire Line
+	6450 6075 6450 6175
+Wire Wire Line
+	6450 6175 6475 6175
+Connection ~ 6450 6075
+Wire Wire Line
+	6450 6175 6450 6275
+Connection ~ 6450 6175
+Connection ~ 6450 6275
+Wire Wire Line
+	6450 6275 6475 6275
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5E45B38A
+P 7225 3725
+F 0 "J5" H 7305 3717 50  0000 L CNN
+F 1 "Conn_01x04" H 7305 3626 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7225 3725 50  0001 C CNN
+F 3 "~" H 7225 3725 50  0001 C CNN
+	1    7225 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0214
+U 1 1 5E7B7C0A
+P 6970 3555
+F 0 "#PWR0214" H 6970 3405 50  0001 C CNN
+F 1 "+3V3" H 6985 3728 50  0000 C CNN
+F 2 "" H 6970 3555 50  0001 C CNN
+F 3 "" H 6970 3555 50  0001 C CNN
+	1    6970 3555
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6970 3555 6970 3625
+Wire Wire Line
+	6970 3625 7025 3625
+$Comp
+L power:GND #PWR0215
+U 1 1 5E909E41
+P 6955 3725
+F 0 "#PWR0215" H 6955 3475 50  0001 C CNN
+F 1 "GND" V 6960 3597 50  0000 R CNN
+F 2 "" H 6955 3725 50  0001 C CNN
+F 3 "" H 6955 3725 50  0001 C CNN
+	1    6955 3725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6955 3725 7025 3725
 $EndSCHEMATC
