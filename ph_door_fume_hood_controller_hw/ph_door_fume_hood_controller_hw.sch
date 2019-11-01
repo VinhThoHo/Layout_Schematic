@@ -434,28 +434,6 @@ F 3 "" H 1150 6275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L master-node-rescue:+5V #PWR0108
-U 1 1 5A52FEE6
-P 1700 5875
-F 0 "#PWR0108" H 1700 5725 50  0001 C CNN
-F 1 "+5V" H 1700 6015 50  0000 C CNN
-F 2 "" H 1700 5875 50  0001 C CNN
-F 3 "" H 1700 5875 50  0001 C CNN
-	1    1700 5875
-	1    0    0    -1  
-$EndComp
-$Comp
-L master-node-rescue:D_ALT D13
-U 1 1 5A531888
-P 1450 5925
-F 0 "D13" H 1450 6025 50  0000 C CNN
-F 1 "D_ALT" H 1450 5825 50  0000 C CNN
-F 2 "VinhTho_Lib:D_SOD-323F" H 1450 5925 50  0001 C CNN
-F 3 "" H 1450 5925 50  0001 C CNN
-	1    1450 5925
-	-1   0    0    1   
-$EndComp
-$Comp
 L master-node-rescue:R R55
 U 1 1 5A533DDA
 P 1550 6325
@@ -527,17 +505,6 @@ F 1 "100nF" H 550 6150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 563 6100 50  0001 C CNN
 F 3 "" H 525 6250 50  0001 C CNN
 	1    525  6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L master-node-rescue:+5V #PWR0116
-U 1 1 5A549BE9
-P 525 6050
-F 0 "#PWR0116" H 525 5900 50  0001 C CNN
-F 1 "+5V" H 525 6190 50  0000 C CNN
-F 2 "" H 525 6050 50  0001 C CNN
-F 3 "" H 525 6050 50  0001 C CNN
-	1    525  6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -708,8 +675,6 @@ Wire Wire Line
 	2950 4925 2600 4925
 Wire Wire Line
 	2950 5025 2600 5025
-Wire Wire Line
-	1300 5925 1300 6125
 Wire Wire Line
 	1300 6325 1350 6325
 Wire Wire Line
@@ -919,19 +884,6 @@ F 3 "~" H 2825 6575 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2525 6600 2700 6600
-$Comp
-L master-node-rescue:+5V #PWR0121
-U 1 1 5F75627A
-P 2750 6375
-F 0 "#PWR0121" H 2750 6225 50  0001 C CNN
-F 1 "+5V" H 2750 6515 50  0000 C CNN
-F 2 "" H 2750 6375 50  0001 C CNN
-F 3 "" H 2750 6375 50  0001 C CNN
-	1    2750 6375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 6375 2750 6425
 $Comp
 L ph_door_fume_hood_controller_hw-rescue:C1815-nhantt-kicad-lib Q5
 U 1 1 5F78DF98
@@ -4426,8 +4378,6 @@ F 3 "" H 1400 1725 50  0001 C CNN
 	1    1400 1725
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 1725 1400 1700
 $Comp
 L power:GND #PWR034
 U 1 1 61FBF513
@@ -4609,37 +4559,6 @@ in3
 Text Label 2600 5025 0    50   ~ 0
 in4
 $Comp
-L Device:R R25
-U 1 1 5DBE6FC7
-P 1125 1700
-F 0 "R25" H 1195 1746 50  0000 L CNN
-F 1 "0R" H 1195 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1055 1700 50  0001 C CNN
-F 3 "~" H 1125 1700 50  0001 C CNN
-	1    1125 1700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1275 1700 1400 1700
-Connection ~ 1400 1700
-Wire Wire Line
-	1400 1700 1400 1650
-$Comp
-L power:GNDPWR #PWR035
-U 1 1 5DC90838
-P 875 1750
-F 0 "#PWR035" H 875 1550 50  0001 C CNN
-F 1 "GNDPWR" H 880 1596 50  0000 C CNN
-F 2 "" H 875 1700 50  0001 C CNN
-F 3 "" H 875 1700 50  0001 C CNN
-	1    875  1750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	875  1750 875  1700
-Wire Wire Line
-	875  1700 975  1700
-$Comp
 L Device:R R4
 U 1 1 5DD3B3C6
 P 1100 900
@@ -4650,22 +4569,8 @@ F 3 "~" H 1100 900 50  0001 C CNN
 	1    1100 900 
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R R5
-U 1 1 5DD3B78D
-P 1375 900
-F 0 "R5" H 1445 946 50  0000 L CNN
-F 1 "0R" H 1445 855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1305 900 50  0001 C CNN
-F 3 "~" H 1375 900 50  0001 C CNN
-	1    1375 900 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 1050 1375 1050
 Wire Wire Line
 	975  1050 1100 1050
-Connection ~ 1100 1050
 Wire Wire Line
 	1100 700  1100 750 
 Wire Wire Line
@@ -4709,17 +4614,6 @@ Wire Wire Line
 	1525 2675 1775 2675
 Wire Wire Line
 	2125 2675 2075 2675
-$Comp
-L Device:Q_NMOS_GDS Q4
-U 1 1 5E6FB3F9
-P 8625 5400
-F 0 "Q4" H 8830 5446 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 8830 5355 50  0000 L CNN
-F 2 "VinhTho_Lib:TO-252-2" H 8825 5500 50  0001 C CNN
-F 3 "https://banlinhkien.com/30n06-fqd30n06-to252-mosfet-nch-22a-60v-p12118703.html" H 8625 5400 50  0001 C CNN
-	1    8625 5400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R50
 U 1 1 5E6FB731
@@ -4906,17 +4800,6 @@ F 3 "" H 6800 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6800 5000 6800 5050
-$Comp
-L Device:Q_NMOS_GDS Q6
-U 1 1 5EF4FCDE
-P 8600 7100
-F 0 "Q6" H 8805 7146 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 8805 7055 50  0000 L CNN
-F 2 "VinhTho_Lib:TO-252-2" H 8800 7200 50  0001 C CNN
-F 3 "https://banlinhkien.com/30n06-fqd30n06-to252-mosfet-nch-22a-60v-p12118703.html" H 8600 7100 50  0001 C CNN
-	1    8600 7100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R65
 U 1 1 5EF4FCE4
@@ -5115,17 +4998,6 @@ F 3 "" H 9800 4450 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q7
-U 1 1 5F2858BF
-P 8600 8600
-F 0 "Q7" H 8805 8646 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 8805 8555 50  0000 L CNN
-F 2 "VinhTho_Lib:TO-252-2" H 8800 8700 50  0001 C CNN
-F 3 "https://banlinhkien.com/30n06-fqd30n06-to252-mosfet-nch-22a-60v-p12118703.html" H 8600 8600 50  0001 C CNN
-	1    8600 8600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R77
 U 1 1 5F2858C5
 P 8200 8600
@@ -5311,17 +5183,6 @@ F 3 "" H 6775 8200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6775 8200 6775 8250
-$Comp
-L Device:Q_NMOS_GDS Q11
-U 1 1 5F285936
-P 8575 10300
-F 0 "Q11" H 8780 10346 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 8780 10255 50  0000 L CNN
-F 2 "VinhTho_Lib:TO-252-2" H 8775 10400 50  0001 C CNN
-F 3 "https://banlinhkien.com/30n06-fqd30n06-to252-mosfet-nch-22a-60v-p12118703.html" H 8575 10300 50  0001 C CNN
-	1    8575 10300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R93
 U 1 1 5F28593C
@@ -5861,17 +5722,6 @@ F 3 "" H 10500 9100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q9
-U 1 1 610BF886
-P 11975 9450
-F 0 "Q9" H 12180 9496 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 12180 9405 50  0000 L CNN
-F 2 "VinhTho_Lib:TO-252-2" H 12175 9550 50  0001 C CNN
-F 3 "https://banlinhkien.com/30n06-fqd30n06-to252-mosfet-nch-22a-60v-p12118703.html" H 11975 9450 50  0001 C CNN
-	1    11975 9450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDPWR #PWR0188
 U 1 1 611442E5
 P 10325 9625
@@ -6069,7 +5919,7 @@ U 1 1 624CE33D
 P 12550 9125
 F 0 "J13" H 12630 9117 50  0000 L CNN
 F 1 "Conn_01x02" H 12630 9026 50  0000 L CNN
-F 2 "VinhTho_Lib:TerminalBlock_WAGO-236_2Stift_R5mm_2pol" H 12550 9125 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_2P" H 12550 9125 50  0001 C CNN
 F 3 "~" H 12550 9125 50  0001 C CNN
 	1    12550 9125
 	1    0    0    -1  
@@ -6268,8 +6118,6 @@ F 3 "" H 1100 700 50  0001 C CNN
 	1    1100 700 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1375 700  1375 750 
 $Comp
 L Device:R_US R60
 U 1 1 6395AC22
@@ -6642,7 +6490,7 @@ U 1 1 6644731B
 P 12100 7600
 F 0 "J9" H 12180 7592 50  0000 L CNN
 F 1 "Conn_01x02" H 12180 7501 50  0000 L CNN
-F 2 "VinhTho_Lib:TerminalBlock_WAGO-236_2Stift_R5mm_2pol" H 12100 7600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 12100 7600 50  0001 C CNN
 F 3 "~" H 12100 7600 50  0001 C CNN
 	1    12100 7600
 	1    0    0    -1  
@@ -6755,7 +6603,7 @@ U 1 1 5F6308EA
 P 9450 6125
 F 0 "J7" H 9530 6117 50  0000 L CNN
 F 1 "Conn_01x06" H 9300 6450 50  0000 L CNN
-F 2 "VinhTho_Lib:TerminalBlock-WAGO-6P" H 9450 6125 50  0001 C CNN
+F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_6P" H 9450 6125 50  0001 C CNN
 F 3 "~" H 9450 6125 50  0001 C CNN
 	1    9450 6125
 	1    0    0    -1  
@@ -6937,17 +6785,6 @@ F 3 "" H 1500 10125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0213
-U 1 1 5DC75FC2
-P 1375 700
-F 0 "#PWR0213" H 1375 550 50  0001 C CNN
-F 1 "+24V" H 1390 873 50  0000 C CNN
-F 2 "" H 1375 700 50  0001 C CNN
-F 3 "" H 1375 700 50  0001 C CNN
-	1    1375 700 
-	1    0    0    -1  
-$EndComp
-$Comp
 L master-node-rescue:C C10
 U 1 1 595ADDFC
 P 5550 2400
@@ -7058,4 +6895,109 @@ F 3 "" H 6955 3725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6955 3725 7025 3725
+$Comp
+L Device:Q_NMOS_GSD Q4
+U 1 1 5DCB7A9F
+P 8625 5400
+F 0 "Q4" H 8831 5446 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8831 5355 50  0000 L CNN
+F 2 "VinhTho_Lib:SOT-23" H 8825 5500 50  0001 C CNN
+F 3 "~" H 8625 5400 50  0001 C CNN
+	1    8625 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q6
+U 1 1 5DCD479A
+P 8600 7100
+F 0 "Q6" H 8806 7146 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8806 7055 50  0000 L CNN
+F 2 "VinhTho_Lib:SOT-23" H 8800 7200 50  0001 C CNN
+F 3 "~" H 8600 7100 50  0001 C CNN
+	1    8600 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q7
+U 1 1 5DCE889D
+P 8600 8600
+F 0 "Q7" H 8806 8646 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8806 8555 50  0000 L CNN
+F 2 "VinhTho_Lib:SOT-23" H 8800 8700 50  0001 C CNN
+F 3 "~" H 8600 8600 50  0001 C CNN
+	1    8600 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q11
+U 1 1 5DCEFDC2
+P 8575 10300
+F 0 "Q11" H 8781 10346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8781 10255 50  0000 L CNN
+F 2 "VinhTho_Lib:SOT-23" H 8775 10400 50  0001 C CNN
+F 3 "~" H 8575 10300 50  0001 C CNN
+	1    8575 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q9
+U 1 1 5DCFDDF3
+P 11975 9450
+F 0 "Q9" H 12181 9496 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 12181 9405 50  0000 L CNN
+F 2 "VinhTho_Lib:SOT-23" H 12175 9550 50  0001 C CNN
+F 3 "~" H 11975 9450 50  0001 C CNN
+	1    11975 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1650 1400 1725
+$Comp
+L master-node-rescue:+3V3 #PWR0108
+U 1 1 5E2D6D01
+P 2750 6375
+F 0 "#PWR0108" H 2750 6225 50  0001 C CNN
+F 1 "+3V3" H 2750 6515 50  0000 C CNN
+F 2 "" H 2750 6375 50  0001 C CNN
+F 3 "" H 2750 6375 50  0001 C CNN
+	1    2750 6375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5925 1300 6125
+$Comp
+L master-node-rescue:D_ALT D13
+U 1 1 5A531888
+P 1450 5925
+F 0 "D13" H 1450 6025 50  0000 C CNN
+F 1 "D_ALT" H 1450 5825 50  0000 C CNN
+F 2 "VinhTho_Lib:D_SOD-323F" H 1450 5925 50  0001 C CNN
+F 3 "" H 1450 5925 50  0001 C CNN
+	1    1450 5925
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5VA #PWR0121
+U 1 1 5E3810D0
+P 1700 5875
+F 0 "#PWR0121" H 1700 5725 50  0001 C CNN
+F 1 "+5VA" H 1715 6048 50  0000 C CNN
+F 2 "" H 1700 5875 50  0001 C CNN
+F 3 "" H 1700 5875 50  0001 C CNN
+	1    1700 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6375 2750 6425
+$Comp
+L power:+5VA #PWR?
+U 1 1 5DEAC768
+P 525 6050
+F 0 "#PWR?" H 525 5900 50  0001 C CNN
+F 1 "+5VA" H 540 6223 50  0000 C CNN
+F 2 "" H 525 6050 50  0001 C CNN
+F 3 "" H 525 6050 50  0001 C CNN
+	1    525  6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
