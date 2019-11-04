@@ -508,17 +508,6 @@ F 3 "" H 525 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L master-node-rescue:+5V #PWR0116
-U 1 1 5A549BE9
-P 525 6050
-F 0 "#PWR0116" H 525 5900 50  0001 C CNN
-F 1 "+5V" H 525 6190 50  0000 C CNN
-F 2 "" H 525 6050 50  0001 C CNN
-F 3 "" H 525 6050 50  0001 C CNN
-	1    525  6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L master-node-rescue:CONN_01X04 J3
 U 1 1 5A54E099
 P 3375 2500
@@ -872,7 +861,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 4625 6325 4625
 $Comp
-L Device:Speaker LS1
+L ph_door_fume_hood_controller_hw-rescue:Speaker-Device LS1
 U 1 1 5F6AE70C
 P 2325 6600
 F 0 "LS1" H 2290 6917 50  0000 C CNN
@@ -883,7 +872,7 @@ F 3 "~" H 2315 6550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D15
+L ph_door_fume_hood_controller_hw-rescue:D-Device D15
 U 1 1 5F6AEC76
 P 2825 6575
 F 0 "D15" V 2779 6654 50  0000 L CNN
@@ -976,7 +965,7 @@ Wire Wire Line
 	2250 3025 2625 3025
 Connection ~ 2625 3025
 $Comp
-L Device:Fuse F5
+L ph_door_fume_hood_controller_hw-rescue:Fuse-Device F5
 U 1 1 5F428345
 P 14925 8375
 F 0 "F5" V 14728 8375 50  0000 C CNN
@@ -987,7 +976,7 @@ F 3 "~" H 14925 8375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R78
+L ph_door_fume_hood_controller_hw-rescue:R-Device R78
 U 1 1 5F48E9C0
 P 14525 8600
 F 0 "R78" H 14595 8646 50  0000 L CNN
@@ -1004,7 +993,7 @@ Wire Wire Line
 	14525 8375 14525 8450
 Connection ~ 14525 8375
 $Comp
-L Device:Fuse F6
+L ph_door_fume_hood_controller_hw-rescue:Fuse-Device F6
 U 1 1 5F55F96E
 P 14925 8775
 F 0 "F6" V 14728 8775 50  0000 C CNN
@@ -1023,7 +1012,7 @@ A
 Text Label 15175 8775 2    50   ~ 0
 B
 $Comp
-L Device:D_TVS D25
+L ph_door_fume_hood_controller_hw-rescue:D_TVS-Device D25
 U 1 1 5F8FFF0A
 P 14700 9000
 F 0 "D25" V 14654 9079 50  0000 L CNN
@@ -1039,7 +1028,7 @@ Connection ~ 14700 8775
 Wire Wire Line
 	14700 8775 14525 8775
 $Comp
-L Device:D_TVS D21
+L ph_door_fume_hood_controller_hw-rescue:D_TVS-Device D21
 U 1 1 5F970076
 P 14700 8150
 F 0 "D21" V 14654 8229 50  0000 L CNN
@@ -1204,7 +1193,7 @@ F 3 "" H 14675 1450 50  0001 C CNN
 $EndComp
 Connection ~ 13825 1300
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 5DCCD2DB
 P 15625 4975
 F 0 "J6" H 15705 4967 50  0000 L CNN
@@ -1224,7 +1213,7 @@ U 1 1 5DD616C3
 P 14375 2300
 F 0 "R28" V 14455 2300 50  0000 C CNN
 F 1 "0.62R" V 14375 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14305 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14305 2300 50  0001 C CNN
 F 3 "" H 14375 2300 50  0001 C CNN
 	1    14375 2300
 	-1   0    0    1   
@@ -1444,7 +1433,7 @@ Connection ~ 12500 3325
 Wire Wire Line
 	12500 3850 12500 3825
 $Comp
-L 74xx:74HC123 U1
+L ph_door_fume_hood_controller_hw-rescue:74HC123-74xx U1
 U 1 1 5E160691
 P 10500 3275
 F 0 "U1" H 10500 3742 50  0000 C CNN
@@ -1455,7 +1444,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf" H 10500 3
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC123 U1
+L ph_door_fume_hood_controller_hw-rescue:74HC123-74xx U1
 U 2 1 5E1609E6
 P 10500 2000
 F 0 "U1" H 10500 2467 50  0000 C CNN
@@ -1466,7 +1455,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf" H 10500 2
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC123 U1
+L ph_door_fume_hood_controller_hw-rescue:74HC123-74xx U1
 U 3 1 5E160CC2
 P 11175 1200
 F 0 "U1" H 11405 1246 50  0000 L CNN
@@ -1654,7 +1643,7 @@ U 1 1 5E436076
 P 14525 2300
 F 0 "R29" V 14605 2300 50  0000 C CNN
 F 1 "0.62R" V 14525 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14455 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14455 2300 50  0001 C CNN
 F 3 "" H 14525 2300 50  0001 C CNN
 	1    14525 2300
 	-1   0    0    1   
@@ -1671,7 +1660,7 @@ U 1 1 5E43614E
 P 14650 2300
 F 0 "R30" V 14730 2300 50  0000 C CNN
 F 1 "0.62R" V 14650 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14580 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14580 2300 50  0001 C CNN
 F 3 "" H 14650 2300 50  0001 C CNN
 	1    14650 2300
 	-1   0    0    1   
@@ -1685,7 +1674,7 @@ U 1 1 5E436226
 P 14325 3000
 F 0 "R39" V 14405 3000 50  0000 C CNN
 F 1 "0.62R" V 14325 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14255 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14255 3000 50  0001 C CNN
 F 3 "" H 14325 3000 50  0001 C CNN
 	1    14325 3000
 	-1   0    0    1   
@@ -1699,7 +1688,7 @@ U 1 1 5E436300
 P 14450 3000
 F 0 "R40" V 14530 3000 50  0000 C CNN
 F 1 "0.62R" V 14450 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14380 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14380 3000 50  0001 C CNN
 F 3 "" H 14450 3000 50  0001 C CNN
 	1    14450 3000
 	-1   0    0    1   
@@ -1713,7 +1702,7 @@ U 1 1 5E4363DE
 P 14575 3000
 F 0 "R41" V 14655 3000 50  0000 C CNN
 F 1 "0.62R" V 14575 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14505 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14505 3000 50  0001 C CNN
 F 3 "" H 14575 3000 50  0001 C CNN
 	1    14575 3000
 	-1   0    0    1   
@@ -2046,7 +2035,7 @@ Wire Wire Line
 Text Label 9275 1175 0    50   ~ 0
 CLK
 $Comp
-L Isolator:PC817 U4
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U4
 U 1 1 5EA22B52
 P 8925 1950
 F 0 "U4" H 8925 2275 50  0000 C CNN
@@ -2123,7 +2112,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 1850 8500 1775
 $Comp
-L Isolator:PC817 U6
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U6
 U 1 1 5EB04A53
 P 8950 2800
 F 0 "U6" H 8950 3125 50  0000 C CNN
@@ -2200,7 +2189,7 @@ Wire Wire Line
 Text Label 8000 2900 0    50   ~ 0
 CW
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x04-Connector_Generic J2
 U 1 1 5EBF3FD7
 P 15325 2300
 F 0 "J2" H 15405 2292 50  0000 L CNN
@@ -2250,7 +2239,7 @@ Wire Wire Line
 Wire Wire Line
 	15025 1325 15025 1300
 $Comp
-L Device:Fuse F1
+L ph_door_fume_hood_controller_hw-rescue:Fuse-Device F1
 U 1 1 5ECE4348
 P 15125 4975
 F 0 "F1" V 14928 4975 50  0000 C CNN
@@ -2268,7 +2257,7 @@ Wire Wire Line
 Text Notes 10850 4125 0    79   ~ 0
 STEP DRIVER 4A
 $Comp
-L Isolator:PC817 U17
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U17
 U 1 1 5ED63448
 P 2200 8425
 F 0 "U17" H 2200 8750 50  0000 C CNN
@@ -2279,7 +2268,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 8425 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D20
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D20
 U 1 1 5ED63ED3
 P 1500 8100
 F 0 "D20" V 1454 8179 50  0000 L CNN
@@ -2309,7 +2298,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 8325 1500 8250
 $Comp
-L Device:R R72
+L ph_door_fume_hood_controller_hw-rescue:R-Device R72
 U 1 1 5EE0B527
 P 2575 8075
 F 0 "R72" H 2645 8121 50  0000 L CNN
@@ -2333,7 +2322,7 @@ $EndComp
 Wire Wire Line
 	2575 7875 2575 7925
 $Comp
-L power:GND #PWR0168
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0168
 U 1 1 5EE37446
 P 2575 8575
 F 0 "#PWR0168" H 2575 8325 50  0001 C CNN
@@ -2353,7 +2342,7 @@ Wire Wire Line
 	2575 8525 2575 8575
 Connection ~ 2575 8325
 $Comp
-L Isolator:PC817 U20
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U20
 U 1 1 5EEE733C
 P 2200 9525
 F 0 "U20" H 2200 9850 50  0000 C CNN
@@ -2364,7 +2353,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 9525 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D28
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D28
 U 1 1 5EEE7348
 P 1500 9200
 F 0 "D28" V 1454 9279 50  0000 L CNN
@@ -2394,7 +2383,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 9425 1500 9350
 $Comp
-L Device:R R83
+L ph_door_fume_hood_controller_hw-rescue:R-Device R83
 U 1 1 5EEE7359
 P 2575 9175
 F 0 "R83" H 2645 9221 50  0000 L CNN
@@ -2418,7 +2407,7 @@ $EndComp
 Wire Wire Line
 	2575 8975 2575 9025
 $Comp
-L power:GND #PWR0189
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0189
 U 1 1 5EEE7366
 P 2575 9675
 F 0 "#PWR0189" H 2575 9425 50  0001 C CNN
@@ -2440,7 +2429,7 @@ Connection ~ 2575 9425
 Wire Wire Line
 	2575 9425 2850 9425
 $Comp
-L Device:D_Zener_ALT D32
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D32
 U 1 1 5EF16241
 P 1500 10300
 F 0 "D32" V 1454 10379 50  0000 L CNN
@@ -2470,7 +2459,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 10525 1500 10450
 $Comp
-L Device:R R92
+L ph_door_fume_hood_controller_hw-rescue:R-Device R92
 U 1 1 5EF16252
 P 2575 10275
 F 0 "R92" H 2645 10321 50  0000 L CNN
@@ -2494,7 +2483,7 @@ $EndComp
 Wire Wire Line
 	2575 10075 2575 10125
 $Comp
-L power:GND #PWR0205
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0205
 U 1 1 5EF1625F
 P 2575 10775
 F 0 "#PWR0205" H 2575 10525 50  0001 C CNN
@@ -2533,7 +2522,7 @@ Wire Wire Line
 Wire Wire Line
 	15350 5075 15425 5075
 $Comp
-L power:GNDPWR #PWR025
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR025
 U 1 1 5F04FA44
 P 9300 1325
 F 0 "#PWR025" H 9300 1125 50  0001 C CNN
@@ -2544,7 +2533,7 @@ F 3 "" H 9300 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR069
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR069
 U 1 1 5F04FEFC
 P 9300 2975
 F 0 "#PWR069" H 9300 2775 50  0001 C CNN
@@ -2555,7 +2544,7 @@ F 3 "" H 9300 2925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR043
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR043
 U 1 1 5F050BF2
 P 9300 2125
 F 0 "#PWR043" H 9300 1925 50  0001 C CNN
@@ -2566,7 +2555,7 @@ F 3 "" H 9300 2075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR038
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR038
 U 1 1 5F050D03
 P 9925 1800
 F 0 "#PWR038" H 9925 1600 50  0001 C CNN
@@ -2577,7 +2566,7 @@ F 3 "" H 9925 1750 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR023
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR023
 U 1 1 5F0515DB
 P 10400 1300
 F 0 "#PWR023" H 10400 1100 50  0001 C CNN
@@ -2588,7 +2577,7 @@ F 3 "" H 10400 1250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR024
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR024
 U 1 1 5F0E7D3D
 P 10700 1300
 F 0 "#PWR024" H 10700 1100 50  0001 C CNN
@@ -2599,7 +2588,7 @@ F 3 "" H 10700 1250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR036
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR036
 U 1 1 5F0E7E4E
 P 11175 1750
 F 0 "#PWR036" H 11175 1550 50  0001 C CNN
@@ -2610,7 +2599,7 @@ F 3 "" H 11175 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR054
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR054
 U 1 1 5F0E817B
 P 10500 2550
 F 0 "#PWR054" H 10500 2350 50  0001 C CNN
@@ -2621,7 +2610,7 @@ F 3 "" H 10500 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR076
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR076
 U 1 1 5F0E8732
 P 9950 3650
 F 0 "#PWR076" H 9950 3450 50  0001 C CNN
@@ -2632,7 +2621,7 @@ F 3 "" H 9950 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR078
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR078
 U 1 1 5F0E8B65
 P 11350 3775
 F 0 "#PWR078" H 11350 3575 50  0001 C CNN
@@ -2643,7 +2632,7 @@ F 3 "" H 11350 3725 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR075
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR075
 U 1 1 5F0E91A5
 P 12125 3550
 F 0 "#PWR075" H 12125 3350 50  0001 C CNN
@@ -2654,7 +2643,7 @@ F 3 "" H 12125 3500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR079
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR079
 U 1 1 5F0E92B6
 P 12500 3850
 F 0 "#PWR079" H 12500 3650 50  0001 C CNN
@@ -2665,7 +2654,7 @@ F 3 "" H 12500 3800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR067
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR067
 U 1 1 5F0E95DE
 P 12325 2750
 F 0 "#PWR067" H 12325 2550 50  0001 C CNN
@@ -2676,7 +2665,7 @@ F 3 "" H 12325 2700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR072
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR072
 U 1 1 5F0E9B22
 P 12750 3275
 F 0 "#PWR072" H 12750 3075 50  0001 C CNN
@@ -2687,7 +2676,7 @@ F 3 "" H 12750 3225 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR073
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR073
 U 1 1 5F0E9DBC
 P 13325 3300
 F 0 "#PWR073" H 13325 3100 50  0001 C CNN
@@ -2698,7 +2687,7 @@ F 3 "" H 13325 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR070
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR070
 U 1 1 5F0EA0E9
 P 14675 3175
 F 0 "#PWR070" H 14675 2975 50  0001 C CNN
@@ -2709,7 +2698,7 @@ F 3 "" H 14675 3125 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR051
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR051
 U 1 1 5F0EA728
 P 14700 2450
 F 0 "#PWR051" H 14700 2250 50  0001 C CNN
@@ -2720,7 +2709,7 @@ F 3 "" H 14700 2400 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR030
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR030
 U 1 1 5F0EAD62
 P 15025 1650
 F 0 "#PWR030" H 15025 1450 50  0001 C CNN
@@ -2731,7 +2720,7 @@ F 3 "" H 15025 1600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR029
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR029
 U 1 1 5F0EB420
 P 14675 1625
 F 0 "#PWR029" H 14675 1425 50  0001 C CNN
@@ -2742,7 +2731,7 @@ F 3 "" H 14675 1575 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR032
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR032
 U 1 1 5F0EB5B5
 P 14475 1675
 F 0 "#PWR032" H 14475 1475 50  0001 C CNN
@@ -2753,7 +2742,7 @@ F 3 "" H 14475 1625 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR031
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR031
 U 1 1 5F0EB74A
 P 14250 1675
 F 0 "#PWR031" H 14250 1475 50  0001 C CNN
@@ -2764,7 +2753,7 @@ F 3 "" H 14250 1625 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR020
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR020
 U 1 1 5F0EC336
 P 12775 1125
 F 0 "#PWR020" H 12775 925 50  0001 C CNN
@@ -2775,7 +2764,7 @@ F 3 "" H 12775 1075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR026
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR026
 U 1 1 5F11E770
 P 12775 1325
 F 0 "#PWR026" H 12775 1125 50  0001 C CNN
@@ -2786,7 +2775,7 @@ F 3 "" H 12775 1275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR039
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR039
 U 1 1 5F11E90A
 P 12075 1825
 F 0 "#PWR039" H 12075 1625 50  0001 C CNN
@@ -2862,7 +2851,7 @@ Connection ~ 14525 4975
 Wire Wire Line
 	14525 4975 14250 4975
 $Comp
-L power:GNDPWR #PWR0106
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0106
 U 1 1 5F253712
 P 14925 5650
 F 0 "#PWR0106" H 14925 5450 50  0001 C CNN
@@ -2873,7 +2862,7 @@ F 3 "" H 14925 5600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0102
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0102
 U 1 1 5F2539C0
 P 14525 5450
 F 0 "#PWR0102" H 14525 5250 50  0001 C CNN
@@ -2884,7 +2873,7 @@ F 3 "" H 14525 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0101
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0101
 U 1 1 5F253AD9
 P 14250 5450
 F 0 "#PWR0101" H 14250 5250 50  0001 C CNN
@@ -2921,7 +2910,7 @@ Wire Wire Line
 Wire Wire Line
 	13125 5425 13125 5375
 $Comp
-L Device:L_Core_Ferrite L2
+L ph_door_fume_hood_controller_hw-rescue:L_Core_Ferrite-Device L2
 U 1 1 5F3C3D7D
 P 12225 4975
 F 0 "L2" V 12450 4975 50  0000 C CNN
@@ -2949,7 +2938,7 @@ Wire Wire Line
 Wire Wire Line
 	11925 4975 12050 4975
 $Comp
-L power:GNDPWR #PWR097
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR097
 U 1 1 5F42F5D0
 P 11925 5375
 F 0 "#PWR097" H 11925 5175 50  0001 C CNN
@@ -2978,7 +2967,7 @@ Wire Wire Line
 	11650 4975 11925 4975
 Connection ~ 11925 4975
 $Comp
-L power:GNDPWR #PWR096
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR096
 U 1 1 5F49B9CD
 P 11650 5375
 F 0 "#PWR096" H 11650 5175 50  0001 C CNN
@@ -3002,7 +2991,7 @@ F 3 "" H 12525 5375 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GNDPWR #PWR0105
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0105
 U 1 1 5F4D37D0
 P 12525 5575
 F 0 "#PWR0105" H 12525 5375 50  0001 C CNN
@@ -3040,7 +3029,7 @@ Connection ~ 12525 5175
 Wire Wire Line
 	12525 5175 12625 5175
 $Comp
-L power:+12V #PWR087
+L ph_door_fume_hood_controller_hw-rescue:+12V-power #PWR087
 U 1 1 5F5B3AE5
 P 11925 4875
 F 0 "#PWR087" H 11925 4725 50  0001 C CNN
@@ -3079,7 +3068,7 @@ Wire Wire Line
 Wire Wire Line
 	11050 4975 10975 4975
 $Comp
-L power:GNDPWR #PWR098
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR098
 U 1 1 5F626CC1
 P 11050 5400
 F 0 "#PWR098" H 11050 5200 50  0001 C CNN
@@ -3092,7 +3081,7 @@ $EndComp
 Wire Wire Line
 	11050 5350 11050 5400
 $Comp
-L power:GNDPWR #PWR095
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR095
 U 1 1 5F65FEB3
 P 10575 5375
 F 0 "#PWR095" H 10575 5175 50  0001 C CNN
@@ -3105,7 +3094,7 @@ $EndComp
 Wire Wire Line
 	10575 5375 10575 5275
 $Comp
-L power:+12V #PWR090
+L ph_door_fume_hood_controller_hw-rescue:+12V-power #PWR090
 U 1 1 5F6990AF
 P 11050 4925
 F 0 "#PWR090" H 11050 4775 50  0001 C CNN
@@ -3130,7 +3119,7 @@ F 3 "" H 11300 5200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR099
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR099
 U 1 1 5F6D3986
 P 11300 5400
 F 0 "#PWR099" H 11300 5200 50  0001 C CNN
@@ -3185,7 +3174,7 @@ Wire Wire Line
 	9700 4975 9700 5125
 Connection ~ 9950 4975
 $Comp
-L power:GNDPWR #PWR0104
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0104
 U 1 1 5F7F90CA
 P 9950 5475
 F 0 "#PWR0104" H 9950 5275 50  0001 C CNN
@@ -3198,7 +3187,7 @@ $EndComp
 Wire Wire Line
 	9950 5475 9950 5425
 $Comp
-L power:GNDPWR #PWR0103
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0103
 U 1 1 5F83518C
 P 9700 5475
 F 0 "#PWR0103" H 9700 5275 50  0001 C CNN
@@ -3224,7 +3213,7 @@ $EndComp
 Wire Wire Line
 	9950 4900 9950 4975
 $Comp
-L power:+12V #PWR022
+L ph_door_fume_hood_controller_hw-rescue:+12V-power #PWR022
 U 1 1 5F8AEF08
 P 15950 1275
 F 0 "#PWR022" H 15950 1125 50  0001 C CNN
@@ -3235,7 +3224,7 @@ F 3 "" H 15950 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR094
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR094
 U 1 1 5F8B175A
 P 15350 5200
 F 0 "#PWR094" H 15350 5000 50  0001 C CNN
@@ -3261,7 +3250,7 @@ Wire Wire Line
 Wire Wire Line
 	15450 7000 15450 7075
 $Comp
-L power:GNDPWR #PWR0131
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0131
 U 1 1 5F93993E
 P 15175 6775
 F 0 "#PWR0131" H 15175 6575 50  0001 C CNN
@@ -3304,7 +3293,7 @@ Wire Wire Line
 	15850 7075 15850 7125
 Connection ~ 15575 7075
 $Comp
-L power:GNDPWR #PWR0144
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0144
 U 1 1 5F9F4A56
 P 15575 7475
 F 0 "#PWR0144" H 15575 7275 50  0001 C CNN
@@ -3317,7 +3306,7 @@ $EndComp
 Wire Wire Line
 	15575 7475 15575 7425
 $Comp
-L power:GNDPWR #PWR0145
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0145
 U 1 1 5FA336DA
 P 15850 7475
 F 0 "#PWR0145" H 15850 7275 50  0001 C CNN
@@ -3362,7 +3351,7 @@ Wire Wire Line
 	13925 6775 14100 6775
 Connection ~ 13925 6775
 $Comp
-L power:GND #PWR0140
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0140
 U 1 1 5FCEECFA
 P 13925 7175
 F 0 "#PWR0140" H 13925 6925 50  0001 C CNN
@@ -3377,7 +3366,7 @@ Wire Wire Line
 Wire Wire Line
 	13625 6775 13475 6775
 $Comp
-L power:GND #PWR0136
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0136
 U 1 1 6002A772
 P 12750 7150
 F 0 "#PWR0136" H 12750 6900 50  0001 C CNN
@@ -3447,7 +3436,7 @@ Connection ~ 14225 8400
 Wire Wire Line
 	14700 9175 14700 9150
 $Comp
-L Device:D_TVS D23
+L ph_door_fume_hood_controller_hw-rescue:D_TVS-Device D23
 U 1 1 606CBEDB
 P 14700 8575
 F 0 "D23" V 14654 8654 50  0000 L CNN
@@ -3500,7 +3489,7 @@ Wire Wire Line
 Text Label 2600 4625 0    50   ~ 0
 Buzzer
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x03-Connector_Generic J4
 U 1 1 60AED796
 P 800 2575
 F 0 "J4" H 720 2892 50  0000 C CNN
@@ -3526,7 +3515,7 @@ $EndComp
 Wire Wire Line
 	1125 2250 1125 2475
 $Comp
-L power:GND #PWR055
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR055
 U 1 1 60CC5C17
 P 1125 2575
 F 0 "#PWR055" H 1125 2325 50  0001 C CNN
@@ -3553,7 +3542,7 @@ ENA
 Text Label 6350 3725 2    50   ~ 0
 CW
 $Comp
-L Isolator:PC817 U16
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U16
 U 1 1 60E7A419
 P 4900 8350
 F 0 "U16" H 4900 8675 50  0000 C CNN
@@ -3564,7 +3553,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 8350 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D19
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D19
 U 1 1 60E7A425
 P 4200 8025
 F 0 "D19" V 4154 8104 50  0000 L CNN
@@ -3596,7 +3585,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 8450 4200 8450
 $Comp
-L Device:R R70
+L ph_door_fume_hood_controller_hw-rescue:R-Device R70
 U 1 1 60E7A436
 P 5275 8000
 F 0 "R70" H 5345 8046 50  0000 L CNN
@@ -3620,7 +3609,7 @@ $EndComp
 Wire Wire Line
 	5275 7800 5275 7850
 $Comp
-L power:GND #PWR0166
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0166
 U 1 1 60E7A443
 P 5275 8500
 F 0 "#PWR0166" H 5275 8250 50  0001 C CNN
@@ -3642,7 +3631,7 @@ Connection ~ 5275 8250
 Wire Wire Line
 	5275 8250 5550 8250
 $Comp
-L Isolator:PC817 U19
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U19
 U 1 1 60E7A44F
 P 4900 9450
 F 0 "U19" H 4900 9775 50  0000 C CNN
@@ -3653,7 +3642,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 9450 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D27
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D27
 U 1 1 60E7A45B
 P 4200 9125
 F 0 "D27" V 4154 9204 50  0000 L CNN
@@ -3685,7 +3674,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 9550 4200 9550
 $Comp
-L Device:R R81
+L ph_door_fume_hood_controller_hw-rescue:R-Device R81
 U 1 1 60E7A46C
 P 5275 9100
 F 0 "R81" H 5345 9146 50  0000 L CNN
@@ -3709,7 +3698,7 @@ $EndComp
 Wire Wire Line
 	5275 8900 5275 8950
 $Comp
-L power:GND #PWR0187
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0187
 U 1 1 60E7A479
 P 5275 9600
 F 0 "#PWR0187" H 5275 9350 50  0001 C CNN
@@ -3731,7 +3720,7 @@ Connection ~ 5275 9350
 Wire Wire Line
 	5275 9350 5550 9350
 $Comp
-L Isolator:PC817 U22
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U22
 U 1 1 60E7A485
 P 4900 10550
 F 0 "U22" H 4900 10875 50  0000 C CNN
@@ -3742,7 +3731,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 10550 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D31
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D31
 U 1 1 60E7A491
 P 4200 10225
 F 0 "D31" V 4154 10304 50  0000 L CNN
@@ -3772,7 +3761,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 10650 4200 10650
 $Comp
-L Device:R R91
+L ph_door_fume_hood_controller_hw-rescue:R-Device R91
 U 1 1 60E7A4A2
 P 5275 10200
 F 0 "R91" H 5345 10246 50  0000 L CNN
@@ -3796,7 +3785,7 @@ $EndComp
 Wire Wire Line
 	5275 10000 5275 10050
 $Comp
-L power:GND #PWR0203
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0203
 U 1 1 60E7A4AF
 P 5275 10700
 F 0 "#PWR0203" H 5275 10450 50  0001 C CNN
@@ -3818,7 +3807,7 @@ Connection ~ 5275 10450
 Wire Wire Line
 	5275 10450 5550 10450
 $Comp
-L Connector_Generic:Conn_01x03 J10
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x03-Connector_Generic J10
 U 1 1 6107640B
 P 725 8425
 F 0 "J10" H 645 8742 50  0000 C CNN
@@ -3837,7 +3826,7 @@ Wire Wire Line
 Wire Wire Line
 	925  8525 1900 8525
 $Comp
-L Connector_Generic:Conn_01x03 J14
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x03-Connector_Generic J14
 U 1 1 611F803E
 P 725 9525
 F 0 "J14" H 645 9842 50  0000 C CNN
@@ -3856,7 +3845,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 9425 1050 9325
 $Comp
-L Connector_Generic:Conn_01x03 J15
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x03-Connector_Generic J15
 U 1 1 613BC418
 P 725 10625
 F 0 "J15" H 645 10942 50  0000 C CNN
@@ -3893,7 +3882,7 @@ Wire Wire Line
 Wire Wire Line
 	3225 8325 3175 8325
 $Comp
-L power:GND #PWR0162
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0162
 U 1 1 61553D59
 P 3225 8325
 F 0 "#PWR0162" H 3225 8075 50  0001 C CNN
@@ -3917,7 +3906,7 @@ $EndComp
 Wire Wire Line
 	3200 9425 3150 9425
 $Comp
-L power:GND #PWR0184
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0184
 U 1 1 615D8F51
 P 3200 9425
 F 0 "#PWR0184" H 3200 9175 50  0001 C CNN
@@ -3941,7 +3930,7 @@ $EndComp
 Wire Wire Line
 	3200 10525 3150 10525
 $Comp
-L power:GND #PWR0201
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0201
 U 1 1 6161C0CE
 P 3200 10525
 F 0 "#PWR0201" H 3200 10275 50  0001 C CNN
@@ -3965,7 +3954,7 @@ $EndComp
 Wire Wire Line
 	5900 8250 5850 8250
 $Comp
-L power:GND #PWR0161
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0161
 U 1 1 6165F8FE
 P 5900 8250
 F 0 "#PWR0161" H 5900 8000 50  0001 C CNN
@@ -3989,7 +3978,7 @@ $EndComp
 Wire Wire Line
 	5900 9350 5850 9350
 $Comp
-L power:GND #PWR0183
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0183
 U 1 1 616A324E
 P 5900 9350
 F 0 "#PWR0183" H 5900 9100 50  0001 C CNN
@@ -4013,7 +4002,7 @@ $EndComp
 Wire Wire Line
 	5900 10450 5850 10450
 $Comp
-L power:GND #PWR0200
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0200
 U 1 1 616E72E6
 P 5900 10450
 F 0 "#PWR0200" H 5900 10200 50  0001 C CNN
@@ -4035,7 +4024,7 @@ F 3 "" H 5700 10450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR0164
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0164
 U 1 1 6172F202
 P 1025 8425
 F 0 "#PWR0164" H 1025 8225 50  0001 C CNN
@@ -4046,7 +4035,7 @@ F 3 "" H 1025 8375 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR0185
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0185
 U 1 1 6172FAD7
 P 1000 9525
 F 0 "#PWR0185" H 1000 9325 50  0001 C CNN
@@ -4057,7 +4046,7 @@ F 3 "" H 1000 9475 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR0202
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0202
 U 1 1 6172FE66
 P 1000 10625
 F 0 "#PWR0202" H 1000 10425 50  0001 C CNN
@@ -4068,7 +4057,7 @@ F 3 "" H 1000 10575 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Isolator:PC817 U14
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U14
 U 1 1 6177686E
 P 4900 7250
 F 0 "U14" H 4900 7575 50  0000 C CNN
@@ -4079,7 +4068,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4900 7250 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D17
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D17
 U 1 1 61776875
 P 4200 6925
 F 0 "D17" V 4154 7004 50  0000 L CNN
@@ -4111,7 +4100,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 7350 4200 7350
 $Comp
-L Device:R R62
+L ph_door_fume_hood_controller_hw-rescue:R-Device R62
 U 1 1 61776888
 P 5275 6900
 F 0 "R62" H 5345 6946 50  0000 L CNN
@@ -4135,7 +4124,7 @@ $EndComp
 Wire Wire Line
 	5275 6700 5275 6750
 $Comp
-L power:GND #PWR0143
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0143
 U 1 1 61776896
 P 5275 7400
 F 0 "#PWR0143" H 5275 7150 50  0001 C CNN
@@ -4159,7 +4148,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 7150 5850 7150
 $Comp
-L power:GND #PWR0135
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0135
 U 1 1 617768A3
 P 5900 7150
 F 0 "#PWR0135" H 5900 6900 50  0001 C CNN
@@ -4181,7 +4170,7 @@ F 3 "" H 5700 7150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR0142
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0142
 U 1 1 617BE9D0
 P 4200 7400
 F 0 "#PWR0142" H 4200 7200 50  0001 C CNN
@@ -4194,7 +4183,7 @@ $EndComp
 Wire Wire Line
 	4200 7400 4200 7350
 $Comp
-L power:GNDPWR #PWR0165
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0165
 U 1 1 618071A8
 P 4200 8500
 F 0 "#PWR0165" H 4200 8300 50  0001 C CNN
@@ -4207,7 +4196,7 @@ $EndComp
 Wire Wire Line
 	4200 8500 4200 8450
 $Comp
-L power:GNDPWR #PWR0186
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0186
 U 1 1 6185037F
 P 4200 9600
 F 0 "#PWR0186" H 4200 9400 50  0001 C CNN
@@ -4220,7 +4209,7 @@ $EndComp
 Wire Wire Line
 	4200 9600 4200 9550
 $Comp
-L power:GNDPWR #PWR0204
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0204
 U 1 1 61899331
 P 4200 10725
 F 0 "#PWR0204" H 4200 10525 50  0001 C CNN
@@ -4243,7 +4232,7 @@ INPUT3
 Text Label 4200 9975 0    79   ~ 0
 INPUT4
 $Comp
-L Connector_Generic:Conn_01x06 J12
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x06-Connector_Generic J12
 U 1 1 6192E0AA
 P 3400 8850
 F 0 "J12" H 3320 9267 50  0000 C CNN
@@ -4298,7 +4287,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR040
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR040
 U 1 1 61DA0017
 P 2775 1850
 F 0 "#PWR040" H 2775 1600 50  0001 C CNN
@@ -4324,7 +4313,7 @@ $EndComp
 Wire Wire Line
 	2775 925  2775 1000
 $Comp
-L Device:R R20
+L ph_door_fume_hood_controller_hw-rescue:R-Device R20
 U 1 1 61E3A2FB
 P 1400 1500
 F 0 "R20" H 1470 1546 50  0000 L CNN
@@ -4335,7 +4324,7 @@ F 3 "~" H 1400 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R18
+L ph_door_fume_hood_controller_hw-rescue:R-Device R18
 U 1 1 61E3A5AF
 P 1600 1250
 F 0 "R18" H 1670 1296 50  0000 L CNN
@@ -4346,7 +4335,7 @@ F 3 "~" H 1600 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D3
+L ph_door_fume_hood_controller_hw-rescue:1N4148-Diode D3
 U 1 1 61E3AC75
 P 1200 1250
 F 0 "D3" H 1200 1034 50  0000 C CNN
@@ -4379,7 +4368,7 @@ Wire Wire Line
 	1400 1250 1450 1250
 Connection ~ 1400 1250
 $Comp
-L power:GND #PWR033
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR033
 U 1 1 61F70DDB
 P 1400 1725
 F 0 "#PWR033" H 1400 1475 50  0001 C CNN
@@ -4390,7 +4379,7 @@ F 3 "" H 1400 1725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR034
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR034
 U 1 1 61FBF513
 P 1825 1725
 F 0 "#PWR034" H 1825 1475 50  0001 C CNN
@@ -4403,7 +4392,7 @@ $EndComp
 Wire Wire Line
 	1825 1725 1825 1650
 $Comp
-L Device:R R26
+L ph_door_fume_hood_controller_hw-rescue:R-Device R26
 U 1 1 6200EA70
 P 2175 1875
 F 0 "R26" H 2245 1921 50  0000 L CNN
@@ -4414,7 +4403,7 @@ F 3 "~" H 2175 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR042
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR042
 U 1 1 6200EBD6
 P 2175 2125
 F 0 "#PWR042" H 2175 1875 50  0001 C CNN
@@ -4427,7 +4416,7 @@ $EndComp
 Wire Wire Line
 	2175 2125 2175 2025
 $Comp
-L Device:R R6
+L ph_door_fume_hood_controller_hw-rescue:R-Device R6
 U 1 1 6205DC42
 P 2375 950
 F 0 "R6" H 2445 996 50  0000 L CNN
@@ -4438,7 +4427,7 @@ F 3 "~" H 2375 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R19
+L ph_door_fume_hood_controller_hw-rescue:R-Device R19
 U 1 1 6205EC9F
 P 3425 1400
 F 0 "R19" H 3495 1446 50  0000 L CNN
@@ -4483,7 +4472,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 1400 3575 1400
 $Comp
-L power:GND #PWR041
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR041
 U 1 1 62292108
 P 3650 1850
 F 0 "#PWR041" H 3650 1600 50  0001 C CNN
@@ -4501,7 +4490,7 @@ analog2
 Wire Wire Line
 	3650 1400 4125 1400
 $Comp
-L Connector_Generic:Conn_01x03 J1
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x03-Connector_Generic J1
 U 1 1 6238B910
 P 775 1150
 F 0 "J1" H 695 1467 50  0000 C CNN
@@ -4516,7 +4505,7 @@ Wire Wire Line
 Wire Wire Line
 	1125 2575 1000 2575
 $Comp
-L power:GND #PWR021
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR021
 U 1 1 6252C633
 P 1075 1150
 F 0 "#PWR021" H 1075 900 50  0001 C CNN
@@ -4529,7 +4518,7 @@ $EndComp
 Wire Wire Line
 	1075 1150 975  1150
 $Comp
-L Connector_Generic:Conn_01x02 J11
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x02-Connector_Generic J11
 U 1 1 625814D1
 P 15550 8525
 F 0 "J11" H 15630 8517 50  0000 L CNN
@@ -4570,7 +4559,7 @@ in3
 Text Label 2600 5025 0    50   ~ 0
 in4
 $Comp
-L Device:R R4
+L ph_door_fume_hood_controller_hw-rescue:R-Device R4
 U 1 1 5DD3B3C6
 P 1100 900
 F 0 "R4" H 1170 946 50  0000 L CNN
@@ -4587,7 +4576,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 3525 6475 3525
 $Comp
-L Device:R R33
+L ph_door_fume_hood_controller_hw-rescue:R-Device R33
 U 1 1 5E2082E0
 P 1375 2675
 F 0 "R33" H 1445 2721 50  0000 L CNN
@@ -4611,7 +4600,7 @@ F 3 "" H 1925 2675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR066
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR066
 U 1 1 5E372710
 P 2125 2675
 F 0 "#PWR066" H 2125 2425 50  0001 C CNN
@@ -4626,7 +4615,7 @@ Wire Wire Line
 Wire Wire Line
 	2125 2675 2075 2675
 $Comp
-L Device:R R50
+L ph_door_fume_hood_controller_hw-rescue:R-Device R50
 U 1 1 5E6FB731
 P 8225 5400
 F 0 "R50" V 8135 5320 50  0000 L CNN
@@ -4639,7 +4628,7 @@ $EndComp
 Wire Wire Line
 	8425 5400 8375 5400
 $Comp
-L Device:R R46
+L ph_door_fume_hood_controller_hw-rescue:R-Device R46
 U 1 1 5E7AE7F3
 P 8025 5175
 F 0 "R46" H 8095 5221 50  0000 L CNN
@@ -4654,7 +4643,7 @@ Wire Wire Line
 Wire Wire Line
 	8025 5400 8025 5325
 $Comp
-L Device:R R51
+L ph_door_fume_hood_controller_hw-rescue:R-Device R51
 U 1 1 5E8091C5
 P 7750 5675
 F 0 "R51" H 7820 5721 50  0000 L CNN
@@ -4665,7 +4654,7 @@ F 3 "~" H 7750 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D12
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D12
 U 1 1 5E80939F
 P 8025 5675
 F 0 "D12" V 7979 5754 50  0000 L CNN
@@ -4685,7 +4674,7 @@ Wire Wire Line
 Wire Wire Line
 	8025 5900 8025 5825
 $Comp
-L power:GNDPWR #PWR0112
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0112
 U 1 1 5E974F3B
 P 8025 5900
 F 0 "#PWR0112" H 8025 5700 50  0001 C CNN
@@ -4696,7 +4685,7 @@ F 3 "" H 8025 5850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0111
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0111
 U 1 1 5E975630
 P 7750 5900
 F 0 "#PWR0111" H 7750 5700 50  0001 C CNN
@@ -4709,7 +4698,7 @@ $EndComp
 Wire Wire Line
 	7750 5825 7750 5900
 $Comp
-L power:GNDPWR #PWR0113
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0113
 U 1 1 5EA2C43F
 P 8725 5900
 F 0 "#PWR0113" H 8725 5700 50  0001 C CNN
@@ -4724,7 +4713,7 @@ Wire Wire Line
 Wire Wire Line
 	8025 4975 8025 5025
 $Comp
-L Device:D_ALT D10
+L ph_door_fume_hood_controller_hw-rescue:D_ALT-Device D10
 U 1 1 5EAE4458
 P 8725 5000
 F 0 "D10" V 8679 5079 50  0000 L CNN
@@ -4739,7 +4728,7 @@ Wire Wire Line
 Wire Wire Line
 	8725 4825 8725 4850
 $Comp
-L Device:Fuse F2
+L ph_door_fume_hood_controller_hw-rescue:Fuse-Device F2
 U 1 1 5EC5955E
 P 9000 5175
 F 0 "F2" V 8803 5175 50  0000 C CNN
@@ -4755,7 +4744,7 @@ Connection ~ 8725 5175
 Wire Wire Line
 	8725 5175 8725 5200
 $Comp
-L Isolator:PC817 U10
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U10
 U 1 1 5ECB78AD
 P 7175 5500
 F 0 "U10" H 7175 5825 50  0000 C CNN
@@ -4769,7 +4758,7 @@ Connection ~ 7750 5400
 Wire Wire Line
 	7475 5400 7750 5400
 $Comp
-L power:GNDPWR #PWR0109
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0109
 U 1 1 5ED72CC8
 P 7500 5875
 F 0 "#PWR0109" H 7500 5675 50  0001 C CNN
@@ -4784,7 +4773,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 5600 7475 5600
 $Comp
-L Device:R R48
+L ph_door_fume_hood_controller_hw-rescue:R-Device R48
 U 1 1 5EDD0E9F
 P 6800 5200
 F 0 "R48" H 6870 5246 50  0000 L CNN
@@ -4812,7 +4801,7 @@ $EndComp
 Wire Wire Line
 	6800 5000 6800 5050
 $Comp
-L Device:R R65
+L ph_door_fume_hood_controller_hw-rescue:R-Device R65
 U 1 1 5EF4FCE4
 P 8200 7100
 F 0 "R65" H 8270 7146 50  0000 L CNN
@@ -4825,7 +4814,7 @@ $EndComp
 Wire Wire Line
 	8400 7100 8350 7100
 $Comp
-L Device:R R61
+L ph_door_fume_hood_controller_hw-rescue:R-Device R61
 U 1 1 5EF4FCEB
 P 8000 6875
 F 0 "R61" H 8070 6921 50  0000 L CNN
@@ -4840,7 +4829,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 7100 8000 7025
 $Comp
-L Device:R R67
+L ph_door_fume_hood_controller_hw-rescue:R-Device R67
 U 1 1 5EF4FCF3
 P 7725 7375
 F 0 "R67" H 7795 7421 50  0000 L CNN
@@ -4851,7 +4840,7 @@ F 3 "~" H 7725 7375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D18
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D18
 U 1 1 5EF4FCF9
 P 8000 7375
 F 0 "D18" V 7954 7454 50  0000 L CNN
@@ -4871,7 +4860,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 7600 8000 7525
 $Comp
-L power:GNDPWR #PWR0148
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0148
 U 1 1 5EF4FD04
 P 8000 7600
 F 0 "#PWR0148" H 8000 7400 50  0001 C CNN
@@ -4882,7 +4871,7 @@ F 3 "" H 8000 7550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0147
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0147
 U 1 1 5EF4FD0A
 P 7725 7600
 F 0 "#PWR0147" H 7725 7400 50  0001 C CNN
@@ -4895,7 +4884,7 @@ $EndComp
 Wire Wire Line
 	7725 7525 7725 7600
 $Comp
-L power:GNDPWR #PWR0149
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0149
 U 1 1 5EF4FD11
 P 8700 7600
 F 0 "#PWR0149" H 8700 7400 50  0001 C CNN
@@ -4910,7 +4899,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 6675 8000 6725
 $Comp
-L Device:D_ALT D16
+L ph_door_fume_hood_controller_hw-rescue:D_ALT-Device D16
 U 1 1 5EF4FD1F
 P 8700 6700
 F 0 "D16" V 8654 6779 50  0000 L CNN
@@ -4925,7 +4914,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 6525 8700 6550
 $Comp
-L Device:Fuse F3
+L ph_door_fume_hood_controller_hw-rescue:Fuse-Device F3
 U 1 1 5EF4FD2D
 P 8975 6875
 F 0 "F3" V 8778 6875 50  0000 C CNN
@@ -4941,7 +4930,7 @@ Connection ~ 8700 6875
 Wire Wire Line
 	8700 6875 8700 6900
 $Comp
-L Isolator:PC817 U13
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U13
 U 1 1 5EF4FD36
 P 7150 7200
 F 0 "U13" H 7150 7525 50  0000 C CNN
@@ -4955,7 +4944,7 @@ Connection ~ 7725 7100
 Wire Wire Line
 	7450 7100 7725 7100
 $Comp
-L power:GNDPWR #PWR0146
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0146
 U 1 1 5EF4FD3E
 P 7475 7575
 F 0 "#PWR0146" H 7475 7375 50  0001 C CNN
@@ -4970,7 +4959,7 @@ Wire Wire Line
 Wire Wire Line
 	7475 7300 7450 7300
 $Comp
-L Device:R R63
+L ph_door_fume_hood_controller_hw-rescue:R-Device R63
 U 1 1 5EF4FD46
 P 6775 6900
 F 0 "R63" H 6845 6946 50  0000 L CNN
@@ -4998,7 +4987,7 @@ $EndComp
 Wire Wire Line
 	6775 6700 6775 6750
 $Comp
-L power:GNDPWR #PWR085
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR085
 U 1 1 5F1B713F
 P 9800 4500
 F 0 "#PWR085" H 9800 4300 50  0001 C CNN
@@ -5009,7 +4998,7 @@ F 3 "" H 9800 4450 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R77
+L ph_door_fume_hood_controller_hw-rescue:R-Device R77
 U 1 1 5F2858C5
 P 8200 8600
 F 0 "R77" H 8270 8646 50  0000 L CNN
@@ -5022,7 +5011,7 @@ $EndComp
 Wire Wire Line
 	8400 8600 8350 8600
 $Comp
-L Device:R R75
+L ph_door_fume_hood_controller_hw-rescue:R-Device R75
 U 1 1 5F2858CC
 P 8000 8375
 F 0 "R75" H 8070 8421 50  0000 L CNN
@@ -5037,7 +5026,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 8600 8000 8525
 $Comp
-L Device:R R80
+L ph_door_fume_hood_controller_hw-rescue:R-Device R80
 U 1 1 5F2858D4
 P 7725 8875
 F 0 "R80" H 7795 8921 50  0000 L CNN
@@ -5048,7 +5037,7 @@ F 3 "~" H 7725 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D24
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D24
 U 1 1 5F2858DA
 P 8000 8875
 F 0 "D24" V 7954 8954 50  0000 L CNN
@@ -5068,7 +5057,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 9100 8000 9025
 $Comp
-L power:GNDPWR #PWR0179
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0179
 U 1 1 5F2858E5
 P 8000 9100
 F 0 "#PWR0179" H 8000 8900 50  0001 C CNN
@@ -5079,7 +5068,7 @@ F 3 "" H 8000 9050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0178
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0178
 U 1 1 5F2858EB
 P 7725 9100
 F 0 "#PWR0178" H 7725 8900 50  0001 C CNN
@@ -5092,7 +5081,7 @@ $EndComp
 Wire Wire Line
 	7725 9025 7725 9100
 $Comp
-L power:GNDPWR #PWR0180
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0180
 U 1 1 5F2858F2
 P 8700 9100
 F 0 "#PWR0180" H 8700 8900 50  0001 C CNN
@@ -5107,7 +5096,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 8175 8000 8225
 $Comp
-L Device:D_ALT D22
+L ph_door_fume_hood_controller_hw-rescue:D_ALT-Device D22
 U 1 1 5F285900
 P 8700 8200
 F 0 "D22" V 8654 8279 50  0000 L CNN
@@ -5122,7 +5111,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 8025 8700 8050
 $Comp
-L Device:Fuse F4
+L ph_door_fume_hood_controller_hw-rescue:Fuse-Device F4
 U 1 1 5F28590E
 P 8975 8375
 F 0 "F4" V 8778 8375 50  0000 C CNN
@@ -5138,7 +5127,7 @@ Connection ~ 8700 8375
 Wire Wire Line
 	8700 8375 8700 8400
 $Comp
-L Isolator:PC817 U18
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U18
 U 1 1 5F285917
 P 7150 8700
 F 0 "U18" H 7150 9025 50  0000 C CNN
@@ -5152,7 +5141,7 @@ Connection ~ 7725 8600
 Wire Wire Line
 	7450 8600 7725 8600
 $Comp
-L power:GNDPWR #PWR0176
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0176
 U 1 1 5F28591F
 P 7475 9075
 F 0 "#PWR0176" H 7475 8875 50  0001 C CNN
@@ -5167,7 +5156,7 @@ Wire Wire Line
 Wire Wire Line
 	7475 8800 7450 8800
 $Comp
-L Device:R R76
+L ph_door_fume_hood_controller_hw-rescue:R-Device R76
 U 1 1 5F285927
 P 6775 8400
 F 0 "R76" H 6845 8446 50  0000 L CNN
@@ -5195,7 +5184,7 @@ $EndComp
 Wire Wire Line
 	6775 8200 6775 8250
 $Comp
-L Device:R R93
+L ph_door_fume_hood_controller_hw-rescue:R-Device R93
 U 1 1 5F28593C
 P 8175 10300
 F 0 "R93" H 8245 10346 50  0000 L CNN
@@ -5208,7 +5197,7 @@ $EndComp
 Wire Wire Line
 	8375 10300 8325 10300
 $Comp
-L Device:R R89
+L ph_door_fume_hood_controller_hw-rescue:R-Device R89
 U 1 1 5F285943
 P 7975 10075
 F 0 "R89" H 8045 10121 50  0000 L CNN
@@ -5223,7 +5212,7 @@ Wire Wire Line
 Wire Wire Line
 	7975 10300 7975 10225
 $Comp
-L Device:R R96
+L ph_door_fume_hood_controller_hw-rescue:R-Device R96
 U 1 1 5F28594B
 P 7700 10575
 F 0 "R96" H 7770 10621 50  0000 L CNN
@@ -5234,7 +5223,7 @@ F 3 "~" H 7700 10575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D33
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D33
 U 1 1 5F285951
 P 7975 10575
 F 0 "D33" V 7929 10654 50  0000 L CNN
@@ -5254,7 +5243,7 @@ Wire Wire Line
 Wire Wire Line
 	7975 10800 7975 10725
 $Comp
-L power:GNDPWR #PWR0208
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0208
 U 1 1 5F28595C
 P 7975 10800
 F 0 "#PWR0208" H 7975 10600 50  0001 C CNN
@@ -5265,7 +5254,7 @@ F 3 "" H 7975 10750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0207
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0207
 U 1 1 5F285962
 P 7700 10800
 F 0 "#PWR0207" H 7700 10600 50  0001 C CNN
@@ -5278,7 +5267,7 @@ $EndComp
 Wire Wire Line
 	7700 10725 7700 10800
 $Comp
-L power:GNDPWR #PWR0209
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0209
 U 1 1 5F285969
 P 8675 10800
 F 0 "#PWR0209" H 8675 10600 50  0001 C CNN
@@ -5293,7 +5282,7 @@ Wire Wire Line
 Wire Wire Line
 	7975 9875 7975 9925
 $Comp
-L Device:D_ALT D30
+L ph_door_fume_hood_controller_hw-rescue:D_ALT-Device D30
 U 1 1 5F285977
 P 8675 9900
 F 0 "D30" V 8629 9979 50  0000 L CNN
@@ -5308,7 +5297,7 @@ Wire Wire Line
 Wire Wire Line
 	8675 9725 8675 9750
 $Comp
-L Device:Fuse F7
+L ph_door_fume_hood_controller_hw-rescue:Fuse-Device F7
 U 1 1 5F285985
 P 8950 10075
 F 0 "F7" V 8753 10075 50  0000 C CNN
@@ -5324,7 +5313,7 @@ Connection ~ 8675 10075
 Wire Wire Line
 	8675 10075 8675 10100
 $Comp
-L Isolator:PC817 U21
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U21
 U 1 1 5F28598E
 P 7125 10400
 F 0 "U21" H 7125 10725 50  0000 C CNN
@@ -5338,7 +5327,7 @@ Connection ~ 7700 10300
 Wire Wire Line
 	7425 10300 7700 10300
 $Comp
-L power:GNDPWR #PWR0206
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0206
 U 1 1 5F285996
 P 7450 10775
 F 0 "#PWR0206" H 7450 10575 50  0001 C CNN
@@ -5353,7 +5342,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 10500 7425 10500
 $Comp
-L Device:R R90
+L ph_door_fume_hood_controller_hw-rescue:R-Device R90
 U 1 1 5F28599E
 P 6750 10100
 F 0 "R90" H 6820 10146 50  0000 L CNN
@@ -5527,7 +5516,7 @@ NoConn ~ 10000 2200
 NoConn ~ 11000 2200
 NoConn ~ 11000 1800
 $Comp
-L Device:Q_PMOS_GDS Q2
+L ph_door_fume_hood_controller_hw-rescue:Q_PMOS_GDS-Device Q2
 U 1 1 602B9D99
 P 15625 1200
 F 0 "Q2" V 15875 1200 50  0000 C CNN
@@ -5555,7 +5544,7 @@ F 3 "" H 15350 850 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR016
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR016
 U 1 1 606A7D0A
 P 15100 950
 F 0 "#PWR016" H 15100 750 50  0001 C CNN
@@ -5586,7 +5575,7 @@ Wire Wire Line
 	15625 900  15625 950 
 Connection ~ 15625 950 
 $Comp
-L power:+12V #PWR01
+L ph_door_fume_hood_controller_hw-rescue:+12V-power #PWR01
 U 1 1 6089FAEB
 P 15625 550
 F 0 "#PWR01" H 15625 400 50  0001 C CNN
@@ -5618,7 +5607,7 @@ PWR_STEP
 Wire Wire Line
 	14650 625  15025 625 
 $Comp
-L Isolator:PC817 U3
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U3
 U 1 1 60B1D41B
 P 6750 1425
 F 0 "U3" H 6750 1750 50  0000 C CNN
@@ -5629,7 +5618,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6750 1425 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L ph_door_fume_hood_controller_hw-rescue:R-Device R12
 U 1 1 60B1D892
 P 6375 1125
 F 0 "R12" H 6445 1171 50  0000 L CNN
@@ -5661,7 +5650,7 @@ PWR_STEP
 Wire Wire Line
 	7150 1325 7100 1325
 $Comp
-L Device:R R13
+L ph_door_fume_hood_controller_hw-rescue:R-Device R13
 U 1 1 60CA00AF
 P 7100 1125
 F 0 "R13" H 7170 1171 50  0000 L CNN
@@ -5677,7 +5666,7 @@ Connection ~ 7100 1325
 Wire Wire Line
 	7100 1325 7050 1325
 $Comp
-L power:+12V #PWR012
+L ph_door_fume_hood_controller_hw-rescue:+12V-power #PWR012
 U 1 1 60D21E10
 P 7100 925
 F 0 "#PWR012" H 7100 775 50  0001 C CNN
@@ -5690,7 +5679,7 @@ $EndComp
 Wire Wire Line
 	7100 925  7100 975 
 $Comp
-L power:GNDPWR #PWR028
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR028
 U 1 1 60DA376A
 P 7125 1600
 F 0 "#PWR028" H 7125 1400 50  0001 C CNN
@@ -5733,7 +5722,7 @@ F 3 "" H 10500 9100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0188
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0188
 U 1 1 611442E5
 P 10325 9625
 F 0 "#PWR0188" H 10325 9425 50  0001 C CNN
@@ -5817,7 +5806,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 9375 11150 9450
 $Comp
-L power:GNDPWR #PWR0194
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0194
 U 1 1 61BB3C23
 P 11150 9975
 F 0 "#PWR0194" H 11150 9775 50  0001 C CNN
@@ -5859,7 +5848,7 @@ Connection ~ 11150 9450
 Wire Wire Line
 	11150 9450 11150 9525
 $Comp
-L Device:D_Zener_ALT D29
+L ph_door_fume_hood_controller_hw-rescue:D_Zener_ALT-Device D29
 U 1 1 61F6A47B
 P 11425 9725
 F 0 "D29" V 11379 9804 50  0000 L CNN
@@ -5879,7 +5868,7 @@ Connection ~ 11425 9450
 Wire Wire Line
 	11750 9450 11775 9450
 $Comp
-L power:GNDPWR #PWR0195
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0195
 U 1 1 6221691D
 P 11425 9975
 F 0 "#PWR0195" H 11425 9775 50  0001 C CNN
@@ -5892,7 +5881,7 @@ $EndComp
 Wire Wire Line
 	11425 9975 11425 9875
 $Comp
-L power:GNDPWR #PWR0191
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0191
 U 1 1 622A26B8
 P 12075 9725
 F 0 "#PWR0191" H 12075 9525 50  0001 C CNN
@@ -5905,7 +5894,7 @@ $EndComp
 Wire Wire Line
 	12075 9725 12075 9650
 $Comp
-L Device:D_Schottky D26
+L ph_door_fume_hood_controller_hw-rescue:D_Schottky-Device D26
 U 1 1 6232C8CF
 P 12075 9050
 F 0 "D26" V 12029 9129 50  0000 L CNN
@@ -5925,7 +5914,7 @@ Wire Wire Line
 Wire Wire Line
 	12075 8700 12075 8900
 $Comp
-L Connector_Generic:Conn_01x02 J13
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x02-Connector_Generic J13
 U 1 1 624CE33D
 P 12550 9125
 F 0 "J13" H 12630 9117 50  0000 L CNN
@@ -6092,7 +6081,7 @@ F 3 "" H 10650 5975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12VA #PWR0124
+L ph_door_fume_hood_controller_hw-rescue:+12VA-power #PWR0124
 U 1 1 6330368E
 P 13925 6525
 F 0 "#PWR0124" H 13925 6375 50  0001 C CNN
@@ -6105,7 +6094,7 @@ $EndComp
 Wire Wire Line
 	13925 6525 13925 6775
 $Comp
-L power:+12VA #PWR0118
+L ph_door_fume_hood_controller_hw-rescue:+12VA-power #PWR0118
 U 1 1 6342905E
 P 12475 6325
 F 0 "#PWR0118" H 12475 6175 50  0001 C CNN
@@ -6119,7 +6108,7 @@ Wire Wire Line
 	13625 6775 13925 6775
 Connection ~ 13625 6775
 $Comp
-L power:+12VA #PWR03
+L ph_door_fume_hood_controller_hw-rescue:+12VA-power #PWR03
 U 1 1 6367881D
 P 1100 700
 F 0 "#PWR03" H 1100 550 50  0001 C CNN
@@ -6130,7 +6119,7 @@ F 3 "" H 1100 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R60
+L ph_door_fume_hood_controller_hw-rescue:R_US-Device R60
 U 1 1 6395AC22
 P 13325 6775
 F 0 "R60" V 13120 6775 50  0000 C CNN
@@ -6149,7 +6138,7 @@ Wire Wire Line
 	13150 6775 13175 6775
 Connection ~ 13175 6775
 $Comp
-L Device:R_US R59
+L ph_door_fume_hood_controller_hw-rescue:R_US-Device R59
 U 1 1 64045B9C
 P 13325 6600
 F 0 "R59" V 13120 6600 50  0000 C CNN
@@ -6293,7 +6282,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 6425 11250 6425
 $Comp
-L Amplifier_Operational:LM358 U15
+L ph_door_fume_hood_controller_hw-rescue:LM358-Amplifier_Operational U15
 U 1 1 64D425CF
 P 10825 7600
 F 0 "U15" H 10825 7967 50  0000 C CNN
@@ -6304,7 +6293,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 10825 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U15
+L ph_door_fume_hood_controller_hw-rescue:LM358-Amplifier_Operational U15
 U 3 1 64D431C1
 P 9950 7625
 F 0 "U15" H 9908 7671 50  0000 L CNN
@@ -6326,7 +6315,7 @@ F 3 "" H 9850 7975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12VA #PWR0141
+L ph_door_fume_hood_controller_hw-rescue:+12VA-power #PWR0141
 U 1 1 64E79118
 P 9850 7300
 F 0 "#PWR0141" H 9850 7150 50  0001 C CNN
@@ -6496,12 +6485,12 @@ $EndComp
 Wire Wire Line
 	11050 6000 11000 6000
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x02-Connector_Generic J9
 U 1 1 6644731B
 P 12100 7600
 F 0 "J9" H 12180 7592 50  0000 L CNN
 F 1 "Conn_01x02" H 12180 7501 50  0000 L CNN
-F 2 "VinhTho_Lib:TerminalBlock_WAGO_2.54mm_2P" H 12100 7600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 12100 7600 50  0001 C CNN
 F 3 "~" H 12100 7600 50  0001 C CNN
 	1    12100 7600
 	1    0    0    -1  
@@ -6554,7 +6543,7 @@ Wire Wire Line
 	14070 7075 13925 7075
 NoConn ~ 14100 7075
 $Comp
-L power:+24V #PWR0170
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0170
 U 1 1 5E2D0E1A
 P 11150 8625
 F 0 "#PWR0170" H 11150 8475 50  0001 C CNN
@@ -6565,7 +6554,7 @@ F 3 "" H 11150 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0210
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0210
 U 1 1 5E2D6126
 P 14525 4900
 F 0 "#PWR0210" H 14525 4750 50  0001 C CNN
@@ -6576,7 +6565,7 @@ F 3 "" H 14525 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0171
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0171
 U 1 1 5E2FE88F
 P 12075 8700
 F 0 "#PWR0171" H 12075 8550 50  0001 C CNN
@@ -6587,7 +6576,7 @@ F 3 "" H 12075 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0177
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0177
 U 1 1 5E3A586E
 P 12300 9075
 F 0 "#PWR0177" H 12300 8925 50  0001 C CNN
@@ -6598,7 +6587,7 @@ F 3 "" H 12300 9075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0211
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0211
 U 1 1 5E4BC876
 P 8725 4825
 F 0 "#PWR0211" H 8725 4675 50  0001 C CNN
@@ -6609,7 +6598,7 @@ F 3 "" H 8725 4825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J7
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x06-Connector_Generic J7
 U 1 1 5F6308EA
 P 9450 6125
 F 0 "J7" H 9530 6117 50  0000 L CNN
@@ -6620,7 +6609,7 @@ F 3 "~" H 9450 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0110
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0110
 U 1 1 5E4CD1A6
 P 9125 5875
 F 0 "#PWR0110" H 9125 5725 50  0001 C CNN
@@ -6631,7 +6620,7 @@ F 3 "" H 9125 5875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0126
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0126
 U 1 1 5E60EB16
 P 8025 4975
 F 0 "#PWR0126" H 8025 4825 50  0001 C CNN
@@ -6642,7 +6631,7 @@ F 3 "" H 8025 4975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0157
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0157
 U 1 1 5E60F772
 P 8000 6675
 F 0 "#PWR0157" H 8000 6525 50  0001 C CNN
@@ -6653,7 +6642,7 @@ F 3 "" H 8000 6675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0192
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0192
 U 1 1 5E613776
 P 8000 8175
 F 0 "#PWR0192" H 8000 8025 50  0001 C CNN
@@ -6664,7 +6653,7 @@ F 3 "" H 8000 8175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0212
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0212
 U 1 1 5E61A6AC
 P 7975 9875
 F 0 "#PWR0212" H 7975 9725 50  0001 C CNN
@@ -6675,7 +6664,7 @@ F 3 "" H 7975 9875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0123
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0123
 U 1 1 5E624767
 P 8700 6525
 F 0 "#PWR0123" H 8700 6375 50  0001 C CNN
@@ -6686,7 +6675,7 @@ F 3 "" H 8700 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0155
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0155
 U 1 1 5E625543
 P 8700 8025
 F 0 "#PWR0155" H 8700 7875 50  0001 C CNN
@@ -6697,7 +6686,7 @@ F 3 "" H 8700 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0190
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0190
 U 1 1 5E62B6F7
 P 8675 9725
 F 0 "#PWR0190" H 8675 9575 50  0001 C CNN
@@ -6708,7 +6697,7 @@ F 3 "" H 8675 9725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0169
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0169
 U 1 1 5E68A10C
 P 3675 8600
 F 0 "#PWR0169" H 3675 8450 50  0001 C CNN
@@ -6719,7 +6708,7 @@ F 3 "" H 3675 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0153
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0153
 U 1 1 5E724D4F
 P 1050 8225
 F 0 "#PWR0153" H 1050 8075 50  0001 C CNN
@@ -6730,7 +6719,7 @@ F 3 "" H 1050 8225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0159
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0159
 U 1 1 5E725FB4
 P 1050 9325
 F 0 "#PWR0159" H 1050 9175 50  0001 C CNN
@@ -6741,7 +6730,7 @@ F 3 "" H 1050 9325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0175
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0175
 U 1 1 5E7283B8
 P 1050 10425
 F 0 "#PWR0175" H 1050 10275 50  0001 C CNN
@@ -6752,7 +6741,7 @@ F 3 "" H 1050 10425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolator:PC817 U23
+L ph_door_fume_hood_controller_hw-rescue:PC817-Isolator U23
 U 1 1 5EF16235
 P 2200 10625
 F 0 "U23" H 2200 10950 50  0000 C CNN
@@ -6763,7 +6752,7 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2200 10625 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0182
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0182
 U 1 1 5DBF911F
 P 1500 7925
 F 0 "#PWR0182" H 1500 7775 50  0001 C CNN
@@ -6774,7 +6763,7 @@ F 3 "" H 1500 7925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0198
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0198
 U 1 1 5DBF9B7E
 P 1500 9025
 F 0 "#PWR0198" H 1500 8875 50  0001 C CNN
@@ -6785,7 +6774,7 @@ F 3 "" H 1500 9025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0199
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0199
 U 1 1 5DBFBF1F
 P 1500 10125
 F 0 "#PWR0199" H 1500 9975 50  0001 C CNN
@@ -6807,7 +6796,7 @@ F 3 "" H 5550 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR0134
+L ph_door_fume_hood_controller_hw-rescue:+24V-power #PWR0134
 U 1 1 5DFD5347
 P 15450 7000
 F 0 "#PWR0134" H 15450 6850 50  0001 C CNN
@@ -6818,7 +6807,7 @@ F 3 "" H 15450 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcu_water_sample_hw-rescue:Q_NMOS_GSD Q3
+L ph_door_fume_hood_controller_hw-rescue:Q_NMOS_GSD-mcu_water_sample_hw-rescue Q3
 U 1 1 5DD1C111
 P 11250 3475
 F 0 "Q3" H 11456 3521 50  0000 L CNN
@@ -6829,7 +6818,7 @@ F 3 "" H 11250 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0100
+L ph_door_fume_hood_controller_hw-rescue:GNDPWR-power #PWR0100
 U 1 1 5F38EAC7
 P 13125 5425
 F 0 "#PWR0100" H 13125 5225 50  0001 C CNN
@@ -6840,7 +6829,7 @@ F 3 "" H 13125 5375 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04 RN1
+L ph_door_fume_hood_controller_hw-rescue:R_Pack04-Device RN1
 U 1 1 5E152F40
 P 6675 6175
 F 0 "RN1" V 6258 6175 50  0000 C CNN
@@ -6868,7 +6857,7 @@ Connection ~ 6450 6275
 Wire Wire Line
 	6450 6275 6475 6275
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L ph_door_fume_hood_controller_hw-rescue:Conn_01x04-Connector_Generic J5
 U 1 1 5E45B38A
 P 7225 3725
 F 0 "J5" H 7305 3717 50  0000 L CNN
@@ -6879,7 +6868,7 @@ F 3 "~" H 7225 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0214
+L ph_door_fume_hood_controller_hw-rescue:+3V3-power #PWR0214
 U 1 1 5E7B7C0A
 P 6970 3555
 F 0 "#PWR0214" H 6970 3405 50  0001 C CNN
@@ -6894,7 +6883,7 @@ Wire Wire Line
 Wire Wire Line
 	6970 3625 7025 3625
 $Comp
-L power:GND #PWR0215
+L ph_door_fume_hood_controller_hw-rescue:GND-power #PWR0215
 U 1 1 5E909E41
 P 6955 3725
 F 0 "#PWR0215" H 6955 3475 50  0001 C CNN
@@ -6907,7 +6896,7 @@ $EndComp
 Wire Wire Line
 	6955 3725 7025 3725
 $Comp
-L Device:Q_NMOS_GSD Q4
+L ph_door_fume_hood_controller_hw-rescue:Q_NMOS_GSD-Device Q4
 U 1 1 5DCB7A9F
 P 8625 5400
 F 0 "Q4" H 8831 5446 50  0000 L CNN
@@ -6918,7 +6907,7 @@ F 3 "~" H 8625 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q6
+L ph_door_fume_hood_controller_hw-rescue:Q_NMOS_GSD-Device Q6
 U 1 1 5DCD479A
 P 8600 7100
 F 0 "Q6" H 8806 7146 50  0000 L CNN
@@ -6929,7 +6918,7 @@ F 3 "~" H 8600 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q7
+L ph_door_fume_hood_controller_hw-rescue:Q_NMOS_GSD-Device Q7
 U 1 1 5DCE889D
 P 8600 8600
 F 0 "Q7" H 8806 8646 50  0000 L CNN
@@ -6940,7 +6929,7 @@ F 3 "~" H 8600 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q11
+L ph_door_fume_hood_controller_hw-rescue:Q_NMOS_GSD-Device Q11
 U 1 1 5DCEFDC2
 P 8575 10300
 F 0 "Q11" H 8781 10346 50  0000 L CNN
@@ -6951,7 +6940,7 @@ F 3 "~" H 8575 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q9
+L ph_door_fume_hood_controller_hw-rescue:Q_NMOS_GSD-Device Q9
 U 1 1 5DCFDDF3
 P 11975 9450
 F 0 "Q9" H 12181 9496 50  0000 L CNN
@@ -6988,7 +6977,7 @@ F 3 "" H 1450 5925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5VA #PWR0121
+L ph_door_fume_hood_controller_hw-rescue:+5VA-power #PWR0121
 U 1 1 5E3810D0
 P 1700 5875
 F 0 "#PWR0121" H 1700 5725 50  0001 C CNN
@@ -7000,4 +6989,15 @@ F 3 "" H 1700 5875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 6375 2750 6425
+$Comp
+L ph_door_fume_hood_controller_hw-rescue:+5VA-power #PWR0116
+U 1 1 5DEAC768
+P 525 6050
+F 0 "#PWR0116" H 525 5900 50  0001 C CNN
+F 1 "+5VA" H 540 6223 50  0000 C CNN
+F 2 "" H 525 6050 50  0001 C CNN
+F 3 "" H 525 6050 50  0001 C CNN
+	1    525  6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

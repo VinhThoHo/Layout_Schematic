@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ph_door_fume_hood_controller_hw-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1213,7 +1213,7 @@ U 1 1 5DD616C3
 P 14375 2300
 F 0 "R28" V 14455 2300 50  0000 C CNN
 F 1 "0.62R" V 14375 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14305 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14305 2300 50  0001 C CNN
 F 3 "" H 14375 2300 50  0001 C CNN
 	1    14375 2300
 	-1   0    0    1   
@@ -1643,7 +1643,7 @@ U 1 1 5E436076
 P 14525 2300
 F 0 "R29" V 14605 2300 50  0000 C CNN
 F 1 "0.62R" V 14525 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14455 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14455 2300 50  0001 C CNN
 F 3 "" H 14525 2300 50  0001 C CNN
 	1    14525 2300
 	-1   0    0    1   
@@ -1660,7 +1660,7 @@ U 1 1 5E43614E
 P 14650 2300
 F 0 "R30" V 14730 2300 50  0000 C CNN
 F 1 "0.62R" V 14650 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14580 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14580 2300 50  0001 C CNN
 F 3 "" H 14650 2300 50  0001 C CNN
 	1    14650 2300
 	-1   0    0    1   
@@ -1674,7 +1674,7 @@ U 1 1 5E436226
 P 14325 3000
 F 0 "R39" V 14405 3000 50  0000 C CNN
 F 1 "0.62R" V 14325 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14255 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14255 3000 50  0001 C CNN
 F 3 "" H 14325 3000 50  0001 C CNN
 	1    14325 3000
 	-1   0    0    1   
@@ -1688,7 +1688,7 @@ U 1 1 5E436300
 P 14450 3000
 F 0 "R40" V 14530 3000 50  0000 C CNN
 F 1 "0.62R" V 14450 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14380 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14380 3000 50  0001 C CNN
 F 3 "" H 14450 3000 50  0001 C CNN
 	1    14450 3000
 	-1   0    0    1   
@@ -1702,7 +1702,7 @@ U 1 1 5E4363DE
 P 14575 3000
 F 0 "R41" V 14655 3000 50  0000 C CNN
 F 1 "0.62R" V 14575 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14505 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 14505 3000 50  0001 C CNN
 F 3 "" H 14575 3000 50  0001 C CNN
 	1    14575 3000
 	-1   0    0    1   
@@ -1956,6 +1956,7 @@ F 0 "IC1" H 8900 1469 40  0000 C CNN
 F 1 "6N137" H 8900 1393 40  0000 C CNN
 F 2 "VinhTho_Lib:Diodes_PSOP-8" H 8735 890 29  0001 C CNN
 F 3 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 8686 1354 60  0001 C CNN
+F 4 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 8900 1125 50  0001 C CNN "Link Mua Hang"
 	1    8900 1125
 	1    0    0    -1  
 $EndComp
@@ -5707,6 +5708,7 @@ F 0 "IC2" H 9975 9744 40  0000 C CNN
 F 1 "6N137" H 9975 9668 40  0000 C CNN
 F 2 "VinhTho_Lib:Diodes_PSOP-8" H 9810 9165 29  0001 C CNN
 F 3 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 9761 9629 60  0001 C CNN
+F 4 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 9975 9400 50  0001 C CNN "Link Mua Hang"
 	1    9975 9400
 	1    0    0    -1  
 $EndComp
@@ -6990,10 +6992,10 @@ $EndComp
 Wire Wire Line
 	2750 6375 2750 6425
 $Comp
-L ph_door_fume_hood_controller_hw-rescue:+5VA-power #PWR?
+L ph_door_fume_hood_controller_hw-rescue:+5VA-power #PWR0116
 U 1 1 5DEAC768
 P 525 6050
-F 0 "#PWR?" H 525 5900 50  0001 C CNN
+F 0 "#PWR0116" H 525 5900 50  0001 C CNN
 F 1 "+5VA" H 540 6223 50  0000 C CNN
 F 2 "" H 525 6050 50  0001 C CNN
 F 3 "" H 525 6050 50  0001 C CNN
