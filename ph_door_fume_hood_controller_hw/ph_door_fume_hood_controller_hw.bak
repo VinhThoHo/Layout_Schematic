@@ -1956,6 +1956,7 @@ F 0 "IC1" H 8900 1469 40  0000 C CNN
 F 1 "6N137" H 8900 1393 40  0000 C CNN
 F 2 "VinhTho_Lib:Diodes_PSOP-8" H 8735 890 29  0001 C CNN
 F 3 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 8686 1354 60  0001 C CNN
+F 4 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 8900 1125 50  0001 C CNN "Link Mua Hang"
 	1    8900 1125
 	1    0    0    -1  
 $EndComp
@@ -5707,6 +5708,7 @@ F 0 "IC2" H 9975 9744 40  0000 C CNN
 F 1 "6N137" H 9975 9668 40  0000 C CNN
 F 2 "VinhTho_Lib:Diodes_PSOP-8" H 9810 9165 29  0001 C CNN
 F 3 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 9761 9629 60  0001 C CNN
+F 4 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 9975 9400 50  0001 C CNN "Link Mua Hang"
 	1    9975 9400
 	1    0    0    -1  
 $EndComp
