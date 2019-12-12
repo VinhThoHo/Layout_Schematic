@@ -1392,6 +1392,7 @@ F 0 "RV1" H 12055 3363 39  0000 R CNN
 F 1 "20k" H 12055 3288 39  0000 R CNN
 F 2 "VinhTho_Lib:VR-3362P" H 12125 3325 50  0001 C CNN
 F 3 "https://thegioiic.com/products/3296w-203-bien-tro-20k-ohm-tinh-chinh-top" H 12125 3325 50  0001 C CNN
+F 4 "https://thegioiic.com/products/3296w-203-bien-tro-20k-ohm-tinh-chinh-top" H 12125 3325 50  0001 C CNN "Link Mua Hang"
 	1    12125 3325
 	1    0    0    -1  
 $EndComp
@@ -3243,6 +3244,7 @@ F 0 "M1" H 14600 7468 60  0000 C CNN
 F 1 "DC-DC-24-12V-200mA" H 14600 7362 60  0000 C CNN
 F 2 "VinhTho_Lib:MORNSUN-A2412S-2W" H 14600 7256 60  0001 C CIN
 F 3 "https://banlinhkien.shop/module-nguon-cach-ly-a2412s-2w-mornsun" H 14600 6925 60  0001 C CNN
+F 4 "https://banlinhkien.shop/module-nguon-cach-ly-a2412s-2w-mornsun" H 14600 6925 50  0001 C CNN "Link Mua Hang"
 	1    14600 6925
 	-1   0    0    -1  
 $EndComp
@@ -5524,6 +5526,7 @@ F 0 "Q2" V 15875 1200 50  0000 C CNN
 F 1 "Q_PMOS_GDS" V 15966 1200 50  0000 C CNN
 F 2 "VinhTho_Lib:TO-252-2" H 15825 1300 50  0001 C CNN
 F 3 "https://banlinhkien.com/d409-to252-mosfet-pch-26a-60v-p6650593.html" H 15625 1200 50  0001 C CNN
+F 4 "https://banlinhkien.com/d409-to252-mosfet-pch-26a-60v-p6650593.html" H 15625 1200 50  0001 C CNN "Link Mua Hang"
 	1    15625 1200
 	0    -1   1    0   
 $EndComp
@@ -5706,7 +5709,7 @@ U 1 1 610BBFE8
 P 9975 9400
 F 0 "IC2" H 9975 9744 40  0000 C CNN
 F 1 "6N137" H 9975 9668 40  0000 C CNN
-F 2 "VinhTho_Lib:Diodes_PSOP-8" H 9810 9165 29  0001 C CNN
+F 2 "ph_kicad_lib:SMDIP-8_W9.53mm" H 9810 9165 29  0001 C CNN
 F 3 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 9761 9629 60  0001 C CNN
 F 4 "https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html" H 9975 9400 50  0001 C CNN "Link Mua Hang"
 	1    9975 9400

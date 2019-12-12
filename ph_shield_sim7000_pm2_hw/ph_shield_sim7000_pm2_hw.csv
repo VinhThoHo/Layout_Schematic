@@ -1,0 +1,47 @@
+Source:,D:\projects\2019\phuonghai\Layout_Schematic_Design\ph_shield_sim7000_pm2_hw\ph_shield_sim7000_pm2_hw.sch,,,,,,,
+Date:,29/11/2019 08:06:01,,,,,,,
+Tool:,Eeschema (5.1.2)-2,,,,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,,
+Component Count:,83,,,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,Frice,Good_Qnty
+"AE1, AE3, ",2,Antenna_Shield,Antenna_Shield-Device,VinhTho_Lib:Anten_GSM_IPEX,,,,
+"AE2, AE4, ",2,Antenna_Shield,Antenna_Shield-Device,VinhTho_Lib:Anten_GPS,,,,
+"C1, C6, C5, C10, C9, C8, C3, C4, C16, ",9,100nF,C-Device,Capacitors_SMD:C_0805_HandSoldering,,,,
+"C2, ",1,220uF/50V,CP1-Device,Capacitors_SMD:CP_Elec_10x10.5,,,,
+"C7, ",1,330uF/10V,CP1-Device,Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder,,https://thegioiic.com/products/tu-tantalum-330uf-10v-smd-tajd337k010rnj ,60000,5
+"C13, C12, C11, ",3,C,C-Device,Capacitors_SMD:C_0805_HandSoldering,,,,
+"C14, ",1,33pF,C-Device,Capacitors_SMD:C_0805_HandSoldering,,,,
+"C15, ",1,220nF,C-Device,Capacitors_SMD:C_0805_HandSoldering,,https://banlinhkien.com/tu-0805-220nf-50v-10-10c-p6646067.html ,40000,10
+"C17, ",1,1uF,C-Device,Capacitors_SMD:C_0805_HandSoldering,,,,
+"C20, C19, C18, ",3,100uF/16V,CP1-Device,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder,,,,
+"D2, ",1,D_ALT,D_ALT-Device,VinhTho_Lib:D_SMA_Standard,,,,
+"D3, ",1,MBR360,D_Schottky-Device,VinhTho_Lib:DO-214AA,,https://banlinhkien.com/mbrs360-sr360-do214aa-diode-schottky-3a-60v-smb-p8231862.html ,25000,10
+"D4, D12, D7, ",3,LED_ALT,LED_ALT-Device,LEDs:LED_0805_HandSoldering,,,,
+"D9, D10, D8, D6, D5, ",5,ESD,D_TVS_ALT-Device,Diode_SMD:D_SOD-323_HandSoldering,,,,
+"D13, D11, D1, ",3,D_TVS_ALT,D_TVS_ALT-Device,VinhTho_Lib:D_SMA_Standard,,,,
+"F1, ",1,Fuse,Fuse-Device,nhantt-kicad-lib:Fuse_SMD1812,,,,
+"FB1, ",1,FB101/270R/100Mhz,FB-nhantt-kicad-lib,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,,
+"FB2, ",1,FB101,FB-nhantt-kicad-lib,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,https://banlinhkien.com/cuon-cam-0805-100uh-p6650500.html ,10000,10
+"J1, ",1,Conn_01x04,Conn_01x04-Connector_Generic,VinhTho_Lib:Header-4pin-2.54,,,,
+"J2, ",1,Conn_01x07,Conn_01x07-Connector_Generic,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,,,,
+"J3, ",1,Conn_01x04,Conn_01x04-Connector_Generic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,,,
+"J4, ",1,USB_OTG,USB_OTG-Connector,VinhTho_Lib:USB_Micro-B,,,,
+"J5, ",1,I2C,Conn_01x04-Connector_Generic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,,,
+"J6, ",1,Conn_01x10,Conn_01x10-Connector_Generic,Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical,,,,
+"J7, ",1,SIM_Card,SIM_Card-PH_LIB,VinhTho_Lib:socket_sim_6p,,,,
+"L1, ",1,100uH,L-Device,VinhTho_Lib:L_,,https://banlinhkien.com/cuon-cam-100uh-4.5x5mm-cd54-p6650496.html ,30000,20
+"L2, L3, ",2,L,L-Device,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,,
+"L4, ",1,47nH,L-Device,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,https://banlinhkien.com/cuon-cam-0603-47nh-p12117469.html ,10000,10
+"Q2, Q1, Q3, Q4, ",4,C1815,C1815-nhantt-kicad-lib,nhantt-kicad-lib:SOT-23,,,,
+"R1, R2, R5, ",3,47k,R-Device,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,
+"R6, R3, R8, R19, ",4,4.7k,R-Device,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,
+"R7, R21, ",2,220R,R-Device,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,
+"R11, R10, ",2,1k,R-Device,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,
+"R13, R15, R14, ",3,0R,R-Device,Resistors_SMD:R_0805_HandSoldering,,,,
+"R16, R18, R4, R12, R17, R9, ",6,2.2k,R-Device,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,
+"R20, ",1,10R,R-Device,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,
+"R24, R23, R22, ",3,22R,R-Device,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,
+"U1, ",1,TXS0108EPW,TXS0108EPW-Logic_LevelTranslator,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,,http://www.dientuachau.com/module-txs0108e-high-speed-full-duplex-8-way ,,
+"U2, ",1,LM2596S-ADJ,LM2596S-ADJ-nhantt-kicad-lib,Package_TO_SOT_SMD:TO-263-5_TabPin3,,,,
+"U3, ",1,SIM7000E,SIM7000E-nhantt-kicad-lib,nhantt-kicad-lib:SIM7000e,,,,
+"U4, ",1,TVS_Diode_Array_SMF05C,TVS_Diode_Array_SMF05C-PH_LIB,Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering,,https://banlinhkien.com/smf05c-sot363-tvs-diode-esd-protection-p6646402.html ,20000,5

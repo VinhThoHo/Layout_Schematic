@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\projects\2019\phuonghai\Layout_Schematic_Design\ph_door_fume_hood_controller_hw\ph_door_fume_hood_controller_hw.sch)
-    (date "04/11/2019 17:07:03")
+    (date "29/11/2019 11:24:39")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -474,6 +474,8 @@
       (value 6N137)
       (footprint VinhTho_Lib:Diodes_PSOP-8)
       (datasheet https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html)
+      (fields
+        (field (name "Link Mua Hang") https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html))
       (libsource (lib ph_door_fume_hood_controller_hw-rescue) (part 6N137-nhantt-kicad-lib) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E904F77))
@@ -1326,8 +1328,10 @@
       (tstamp 60CA00AF))
     (comp (ref IC2)
       (value 6N137)
-      (footprint VinhTho_Lib:Diodes_PSOP-8)
+      (footprint ph_kicad_lib:SMDIP-8_W9.53mm)
       (datasheet https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html)
+      (fields
+        (field (name "Link Mua Hang") https://banlinhkien.com/6n137-sop8-opto-10mbits-p6650639.html))
       (libsource (lib ph_door_fume_hood_controller_hw-rescue) (part 6N137-nhantt-kicad-lib) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 610BBFE8))
